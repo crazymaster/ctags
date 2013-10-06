@@ -14,7 +14,6 @@ DIFF = if diff $(DIFF_OPTIONS) $(REF_FILE) $(TEST_FILE) > $(DIFF_FILE); then \
 		echo "Passed" ; \
 	  else \
 		echo "FAILED: differences left in $(DIFF_FILE)" ; \
-		exit 1; \
 	  fi
 
 .PHONY: test test.include test.fields test.extra test.linedir test.etags test.eiffel test.linux
