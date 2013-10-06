@@ -74,7 +74,6 @@ Testing
   First time:
 
     cd ctags
-    # Edit "testing.mak" so CTAGS_TEST = ./dctags
     make test
 
   Later:

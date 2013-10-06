@@ -5,14 +5,16 @@
 #	Development makefile for Exuberant Ctags, used to build releases.
 #	Requires GNU make.
 
-CTAGS_TEST = ./ctags
+CTAGS_TEST = ./dctags
 TEST_OPTIONS = -nu --c-kinds=+lpx
 
 DIFF_OPTIONS = -U 0 -I '^!_TAG'
 DIFF = if diff $(DIFF_OPTIONS) $(REF_FILE) $(TEST_FILE) > $(DIFF_FILE); then \
+		rm -f $(TEST_FILE) $(DIFF_FILE) ; \
 		echo "Passed" ; \
 	  else \
 		echo "FAILED: differences left in $(DIFF_FILE)" ; \
+		exit 1; \
 	  fi
 
 .PHONY: test test.include test.fields test.extra test.linedir test.etags test.eiffel test.linux

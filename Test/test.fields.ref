@@ -23,24 +23,24 @@ Counter	Test/property.cs	24;"	kind:property	line:24	language:C#	class:Employee	a
 Employee	Test/property.cs	33;"	kind:method	line:33	language:C#	class:Employee	access:public	signature:()
 MainClass	Test/property.cs	40;"	kind:class	line:40	language:C#
 Main	Test/property.cs	42;"	kind:method	line:42	language:C#	class:MainClass	access:public	signature:()
-chapter text	Test/intro.tex	4;"	kind:chapter	line:4	language:Tex
-chapter1-intro.inc	Test/intro.tex	5;"	kind:include	line:5	language:Tex
-section1 text	Test/intro.tex	6;"	kind:section	line:6	language:Tex	chapter:chapter text
-Introduction	Test/intro.tex	9;"	kind:section	line:9	language:Tex	chapter:chapter text
-Part1	Test/intro.tex	10;"	kind:part	line:10	language:Tex
-subsection2	Test/intro.tex	13;"	kind:subsection	line:13	language:Tex	part:Part1
-subsubsection3 with extra text	Test/intro.tex	16;"	kind:subsubsection	line:16	language:Tex	subsection:Part1""subsection2
-short section4	Test/intro.tex	19;"	kind:section	line:19	language:Tex	part:Part1
-short para1	Test/intro.tex	20;"	kind:paragraph	line:20	language:Tex	section:Part1""short section4
-long paragraph2	Test/intro.tex	21;"	kind:paragraph	line:21	language:Tex	section:Part1""short section4
-Part2	Test/intro.tex	24;"	kind:part	line:24	language:Tex
-shorter intro2	Test/intro.tex	25;"	kind:section	line:25	language:Tex	part:Part2
-subsec5 text	Test/intro.tex	28;"	kind:subsection	line:28	language:Tex	section:Part2""shorter intro2
-short subpara1	Test/intro.tex	29;"	kind:subparagraph	line:29	language:Tex	subsection:Part2""shorter intro2""subsec5 text
-long subparagraph2	Test/intro.tex	30;"	kind:subparagraph	line:30	language:Tex	subsection:Part2""shorter intro2""subsec5 text
-subsubsection6 with extra text	Test/intro.tex	33;"	kind:subsubsection	line:33	language:Tex	subsection:Part2""shorter intro2""subsec5 text
-chapter2	Test/intro.tex	36;"	kind:chapter	line:36	language:Tex	part:Part2
-chapter2-intro.inc	Test/intro.tex	37;"	kind:include	line:37	language:Tex
+chapter text	Test/intro.tex	5;"	kind:chapter	line:5	language:Tex
+chapter1-intro.inc	Test/intro.tex	6;"	kind:include	line:6	language:Tex
+section1 text	Test/intro.tex	7;"	kind:section	line:7	language:Tex	chapter:chapter text
+Introduction	Test/intro.tex	10;"	kind:section	line:10	language:Tex	chapter:chapter text
+Part1	Test/intro.tex	11;"	kind:part	line:11	language:Tex
+subsection2	Test/intro.tex	14;"	kind:subsection	line:14	language:Tex	part:Part1
+subsubsection3 with extra text	Test/intro.tex	17;"	kind:subsubsection	line:17	language:Tex	subsection:Part1""subsection2
+short section4	Test/intro.tex	20;"	kind:section	line:20	language:Tex	part:Part1
+short para1	Test/intro.tex	21;"	kind:paragraph	line:21	language:Tex	section:Part1""short section4
+long paragraph2	Test/intro.tex	22;"	kind:paragraph	line:22	language:Tex	section:Part1""short section4
+Part2	Test/intro.tex	25;"	kind:part	line:25	language:Tex
+shorter intro2	Test/intro.tex	26;"	kind:section	line:26	language:Tex	part:Part2
+subsec5 text	Test/intro.tex	29;"	kind:subsection	line:29	language:Tex	section:Part2""shorter intro2
+short subpara1	Test/intro.tex	30;"	kind:subparagraph	line:30	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+long subparagraph2	Test/intro.tex	31;"	kind:subparagraph	line:31	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+subsubsection6 with extra text	Test/intro.tex	34;"	kind:subsubsection	line:34	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+chapter2	Test/intro.tex	37;"	kind:chapter	line:37	language:Tex	part:Part2
+chapter2-intro.inc	Test/intro.tex	38;"	kind:include	line:38	language:Tex
 A	Test/bug3168705.py	1;"	kind:class	line:1	language:Python	inherits:
 func1	Test/bug3168705.py	2;"	kind:member	line:2	language:Python	class:A	access:public	signature:()
 func2	Test/bug3168705.py	7;"	kind:member	line:7	language:Python	class:A	access:public	signature:()
@@ -67,13 +67,13 @@ str	Test/simple.bas	7;"	kind:variable	line:7	language:Basic
 test	Test/simple.bas	9;"	kind:type	line:9	language:Basic
 f	Test/simple.bas	14;"	kind:function	line:14	language:Basic
 start	Test/simple.bas	18;"	kind:label	line:18	language:Basic
-t_c1_tname	Test/countall.sql	12;"	kind:variable	line:12	language:SQL
-t_command	Test/countall.sql	13;"	kind:variable	line:13	language:SQL
-t_cid	Test/countall.sql	14;"	kind:variable	line:14	language:SQL
-t_total_records	Test/countall.sql	15;"	kind:variable	line:15	language:SQL
-stat	Test/countall.sql	16;"	kind:variable	line:16	language:SQL
-row_count	Test/countall.sql	17;"	kind:variable	line:17	language:SQL
-t_limit	Test/countall.sql	18;"	kind:variable	line:18	language:SQL
+t_c1_tname	Test/countall.sql	13;"	kind:variable	line:13	language:SQL
+t_command	Test/countall.sql	14;"	kind:variable	line:14	language:SQL
+t_cid	Test/countall.sql	15;"	kind:variable	line:15	language:SQL
+t_total_records	Test/countall.sql	16;"	kind:variable	line:16	language:SQL
+stat	Test/countall.sql	17;"	kind:variable	line:17	language:SQL
+row_count	Test/countall.sql	18;"	kind:variable	line:18	language:SQL
+t_limit	Test/countall.sql	19;"	kind:variable	line:19	language:SQL
 c1	Test/countall.sql	20;"	kind:cursor	line:20	language:SQL
 DEFAULT_INT	Test/simple.vr	2;"	kind:macro	line:2	language:Vera	file:
 DEFAULT_BIT	Test/simple.vr	3;"	kind:macro	line:3	language:Vera	file:
@@ -123,7 +123,7 @@ day	Test/union.f	6;"	kind:component	line:6	language:Fortran	type:start
 year	Test/union.f	7;"	kind:component	line:7	language:Fortran	type:start
 date	Test/union.f	10;"	kind:component	line:10	language:Fortran	type:start
 sdate	Test/union.f	14;"	kind:variable	line:14	language:Fortran	program:writedate
-10	Test/union.f	18;"	kind:label	line:18	language:Fortran	program:writedate	file:
+10	Test/union.f	19;"	kind:label	line:19	language:Fortran	program:writedate	file:
 C	Test/bug1691412.java	1;"	kind:class	line:1	language:Java
 newInstance	Test/bug1691412.java	4;"	kind:method	line:4	language:Java	class:C	access:public	signature:()
 toString	Test/bug1691412.java	11;"	kind:method	line:11	language:Java	class:C	access:public	signature:()
@@ -229,24 +229,24 @@ y	Test/keyword_struct.cs	6;"	kind:field	line:6	language:C#	struct:Point	access:p
 Point	Test/keyword_struct.cs	8;"	kind:method	line:8	language:C#	struct:Point	access:public	signature:(int p1, int p2)
 MainClass	Test/keyword_struct.cs	15;"	kind:class	line:15	language:C#
 Main	Test/keyword_struct.cs	17;"	kind:method	line:17	language:C#	class:MainClass	access:public	signature:()
-Introduction	Test/bug2886870.tex	37;"	kind:section	line:37	language:Tex	chapter:Part2""chapter2
-Equations	Test/bug2886870.tex	57;"	kind:section	line:57	language:Tex	chapter:Part2""chapter2
-eq:ising	Test/bug2886870.tex	75;"	kind:label	line:75	language:Tex
+Introduction	Test/bug2886870.tex	39;"	kind:section	line:39	language:Tex	chapter:Part2""chapter2
+Equations	Test/bug2886870.tex	59;"	kind:section	line:59	language:Tex	chapter:Part2""chapter2
+eq:ising	Test/bug2886870.tex	76;"	kind:label	line:76	language:Tex
 eq:fine	Test/bug2886870.tex	104;"	kind:label	line:104	language:Tex
-eq:mdiv	Test/bug2886870.tex	127;"	kind:label	line:127	language:Tex
-Tables	Test/bug2886870.tex	153;"	kind:section	line:153	language:Tex	chapter:Part2""chapter2
+eq:mdiv	Test/bug2886870.tex	128;"	kind:label	line:128	language:Tex
+Tables	Test/bug2886870.tex	155;"	kind:section	line:155	language:Tex	chapter:Part2""chapter2
 tab:5  tc	Test/bug2886870.tex	178;"	kind:label	line:178	language:Tex
-Lists	Test/bug2886870.tex	183;"	kind:section	line:183	language:Tex	chapter:Part2""chapter2
-Figures	Test/bug2886870.tex	204;"	kind:section	line:204	language:Tex	chapter:Part2""chapter2
+Lists	Test/bug2886870.tex	185;"	kind:section	line:185	language:Tex	chapter:Part2""chapter2
+Figures	Test/bug2886870.tex	206;"	kind:section	line:206	language:Tex	chapter:Part2""chapter2
 fig:typical	Test/bug2886870.tex	214;"	kind:label	line:214	language:Tex
 fig:lj	Test/bug2886870.tex	221;"	kind:label	line:221	language:Tex
-Literal text	Test/bug2886870.tex	227;"	kind:section	line:227	language:Tex	chapter:Part2""chapter2
-Special Symbols	Test/bug2886870.tex	242;"	kind:section	line:242	language:Tex	chapter:Part2""chapter2
-Common Greek letters	Test/bug2886870.tex	244;"	kind:subsection	line:244	language:Tex	section:Part2""chapter2""Special Symbols
-Test for ctags	Test/bug2886870.tex	264;"	kind:subsubsection	line:264	language:Tex	subsection:Part2""chapter2""Special Symbols""Common Greek letters
-Special symbols	Test/bug2886870.tex	265;"	kind:subsection	line:265	language:Tex	section:Part2""chapter2""Special Symbols
-color  red	Test/bug2886870.tex	302;"	kind:section	line:302	language:Tex	chapter:Part2""chapter2
-label  morefig	Test/bug2886870.tex	307;"	kind:section	line:307	language:Tex	chapter:Part2""chapter2
+Literal text	Test/bug2886870.tex	229;"	kind:section	line:229	language:Tex	chapter:Part2""chapter2
+Special Symbols	Test/bug2886870.tex	244;"	kind:section	line:244	language:Tex	chapter:Part2""chapter2
+Common Greek letters	Test/bug2886870.tex	246;"	kind:subsection	line:246	language:Tex	section:Part2""chapter2""Special Symbols
+Test for ctags	Test/bug2886870.tex	265;"	kind:subsubsection	line:265	language:Tex	subsection:Part2""chapter2""Special Symbols""Common Greek letters
+Special symbols	Test/bug2886870.tex	266;"	kind:subsection	line:266	language:Tex	section:Part2""chapter2""Special Symbols
+color  red	Test/bug2886870.tex	304;"	kind:section	line:304	language:Tex	chapter:Part2""chapter2
+label  morefig	Test/bug2886870.tex	309;"	kind:section	line:309	language:Tex	chapter:Part2""chapter2
 fig:qm  complexfunctions	Test/bug2886870.tex	321;"	kind:label	line:321	language:Tex
 ScanAction	Test/complex_decl.c	2;"	kind:variable	line:2	language:C	file:
 ConstTest	Test/keyword_const.cs	4;"	kind:class	line:4	language:C#
@@ -433,145 +433,145 @@ level2	Test/structure.f	23;"	kind:component	line:23	language:Fortran	type:top
 level3a	Test/structure.f	24;"	kind:component	line:24	language:Fortran	type:nested
 level3b	Test/structure.f	24;"	kind:component	line:24	language:Fortran	type:nested
 a	Test/structure.f	25;"	kind:component	line:25	language:Fortran	type:anonymous
-Background	Test/3526726.tex	105;"	kind:section	line:105	language:Tex	chapter:Part2""chapter2
-How do you pronounce the names of some of these guys who work on Snort 	Test/3526726.tex	107;"	kind:subsection	line:107	language:Tex	section:Part2""chapter2""Background
-Is Fyodor Yarochkin the same Fyodor who wrote nmap 	Test/3526726.tex	113;"	kind:subsection	line:113	language:Tex	section:Part2""chapter2""Background
-Where do I get more help on Snort 	Test/3526726.tex	117;"	kind:subsection	line:117	language:Tex	section:Part2""chapter2""Background
-Where can I get more reading and courses about IDS  label  courses	Test/3526726.tex	123;"	kind:subsection	line:123	language:Tex	section:Part2""chapter2""Background
-Does Snort handle IP defragmentation 	Test/3526726.tex	163;"	kind:subsection	line:163	language:Tex	section:Part2""chapter2""Background
-Does Snort perform TCP stream reassembly 	Test/3526726.tex	168;"	kind:subsection	line:168	language:Tex	section:Part2""chapter2""Background
-Does Snort perform stateful protocol analysis 	Test/3526726.tex	173;"	kind:subsection	line:173	language:Tex	section:Part2""chapter2""Background
-I  m on a switched network  can I still use Snort 	Test/3526726.tex	177;"	kind:subsection	line:177	language:Tex	section:Part2""chapter2""Background
-Is Snort vulnerable to IDS noise generators like   Stick   and   Snot   	Test/3526726.tex	267;"	kind:subsection	line:267	language:Tex	section:Part2""chapter2""Background
-Can Snort be evaded by the use of polymorphic mutators on shellcode 	Test/3526726.tex	276;"	kind:subsection	line:276	language:Tex	section:Part2""chapter2""Background
-Does Snort log the full packets when it generates alerts 	Test/3526726.tex	283;"	kind:subsection	line:283	language:Tex	section:Part2""chapter2""Background
-Getting Started	Test/3526726.tex	290;"	kind:section	line:290	language:Tex	chapter:Part2""chapter2
-Where do I find binary packages for BlueHat BSD-Linux-RT 	Test/3526726.tex	292;"	kind:subsection	line:292	language:Tex	section:Part2""chapter2""Getting Started
-How do I run Snort 	Test/3526726.tex	320;"	kind:subsection	line:320	language:Tex	section:Part2""chapter2""Getting Started
-Where are my log files located  What are they named 	Test/3526726.tex	350;"	kind:subsection	line:350	language:Tex	section:Part2""chapter2""Getting Started
-Why does Snort complain about  var  log  snort 	Test/3526726.tex	363;"	kind:subsection	line:363	language:Tex	section:Part2""chapter2""Getting Started
-Where  s a good place to physically put a Snort sensor 	Test/3526726.tex	371;"	kind:subsection	line:371	language:Tex	section:Part2""chapter2""Getting Started
-Libpcap complains about permissions problems  what  s going on 	Test/3526726.tex	482;"	kind:subsection	line:482	language:Tex	section:Part2""chapter2""Getting Started
-I  ve got RedHat and ....	Test/3526726.tex	486;"	kind:subsection	line:486	language:Tex	section:Part2""chapter2""Getting Started
-Where do I get the latest version of libpcap 	Test/3526726.tex	490;"	kind:subsection	line:490	language:Tex	section:Part2""chapter2""Getting Started
-Where do I get the latest version of Winpcap 	Test/3526726.tex	500;"	kind:subsection	line:500	language:Tex	section:Part2""chapter2""Getting Started
-What version of Winpcap do I need  label  winpcap	Test/3526726.tex	504;"	kind:subsection	line:504	language:Tex	section:Part2""chapter2""Getting Started
-Why does building Snort complain about missing references 	Test/3526726.tex	510;"	kind:subsection	line:510	language:Tex	section:Part2""chapter2""Getting Started
-Why does building snort fail with errors about yylex and lex  _init 	Test/3526726.tex	515;"	kind:subsection	line:515	language:Tex	section:Part2""chapter2""Getting Started
-I want to build a Snort box. Will this $  $Insert list of hardware$  $ handle $  $this much$  $ traffic 	Test/3526726.tex	520;"	kind:subsection	line:520	language:Tex	section:Part2""chapter2""Getting Started
-What are CIDR netmasks 	Test/3526726.tex	561;"	kind:subsection	line:561	language:Tex	section:Part2""chapter2""Getting Started
-What is the use of the   -r   switch to read tcpdump files 	Test/3526726.tex	603;"	kind:subsection	line:603	language:Tex	section:Part2""chapter2""Getting Started
-Configuring Snort	Test/3526726.tex	610;"	kind:section	line:610	language:Tex	chapter:Part2""chapter2
-How do I setup snort on a  stealth  interface 	Test/3526726.tex	613;"	kind:subsection	line:613	language:Tex	section:Part2""chapter2""Configuring Snort
+Background	Test/3526726.tex	107;"	kind:section	line:107	language:Tex	chapter:Part2""chapter2
+How do you pronounce the names of some of these guys who work on Snort 	Test/3526726.tex	109;"	kind:subsection	line:109	language:Tex	section:Part2""chapter2""Background
+Is Fyodor Yarochkin the same Fyodor who wrote nmap 	Test/3526726.tex	115;"	kind:subsection	line:115	language:Tex	section:Part2""chapter2""Background
+Where do I get more help on Snort 	Test/3526726.tex	119;"	kind:subsection	line:119	language:Tex	section:Part2""chapter2""Background
+Where can I get more reading and courses about IDS  label  courses	Test/3526726.tex	125;"	kind:subsection	line:125	language:Tex	section:Part2""chapter2""Background
+Does Snort handle IP defragmentation 	Test/3526726.tex	166;"	kind:subsection	line:166	language:Tex	section:Part2""chapter2""Background
+Does Snort perform TCP stream reassembly 	Test/3526726.tex	170;"	kind:subsection	line:170	language:Tex	section:Part2""chapter2""Background
+Does Snort perform stateful protocol analysis 	Test/3526726.tex	175;"	kind:subsection	line:175	language:Tex	section:Part2""chapter2""Background
+I  m on a switched network  can I still use Snort 	Test/3526726.tex	179;"	kind:subsection	line:179	language:Tex	section:Part2""chapter2""Background
+Is Snort vulnerable to IDS noise generators like   Stick   and   Snot   	Test/3526726.tex	269;"	kind:subsection	line:269	language:Tex	section:Part2""chapter2""Background
+Can Snort be evaded by the use of polymorphic mutators on shellcode 	Test/3526726.tex	278;"	kind:subsection	line:278	language:Tex	section:Part2""chapter2""Background
+Does Snort log the full packets when it generates alerts 	Test/3526726.tex	285;"	kind:subsection	line:285	language:Tex	section:Part2""chapter2""Background
+Getting Started	Test/3526726.tex	292;"	kind:section	line:292	language:Tex	chapter:Part2""chapter2
+Where do I find binary packages for BlueHat BSD-Linux-RT 	Test/3526726.tex	294;"	kind:subsection	line:294	language:Tex	section:Part2""chapter2""Getting Started
+How do I run Snort 	Test/3526726.tex	322;"	kind:subsection	line:322	language:Tex	section:Part2""chapter2""Getting Started
+Where are my log files located  What are they named 	Test/3526726.tex	352;"	kind:subsection	line:352	language:Tex	section:Part2""chapter2""Getting Started
+Why does Snort complain about  var  log  snort 	Test/3526726.tex	365;"	kind:subsection	line:365	language:Tex	section:Part2""chapter2""Getting Started
+Where  s a good place to physically put a Snort sensor 	Test/3526726.tex	373;"	kind:subsection	line:373	language:Tex	section:Part2""chapter2""Getting Started
+Libpcap complains about permissions problems  what  s going on 	Test/3526726.tex	483;"	kind:subsection	line:483	language:Tex	section:Part2""chapter2""Getting Started
+I  ve got RedHat and ....	Test/3526726.tex	488;"	kind:subsection	line:488	language:Tex	section:Part2""chapter2""Getting Started
+Where do I get the latest version of libpcap 	Test/3526726.tex	492;"	kind:subsection	line:492	language:Tex	section:Part2""chapter2""Getting Started
+Where do I get the latest version of Winpcap 	Test/3526726.tex	502;"	kind:subsection	line:502	language:Tex	section:Part2""chapter2""Getting Started
+What version of Winpcap do I need  label  winpcap	Test/3526726.tex	506;"	kind:subsection	line:506	language:Tex	section:Part2""chapter2""Getting Started
+Why does building Snort complain about missing references 	Test/3526726.tex	512;"	kind:subsection	line:512	language:Tex	section:Part2""chapter2""Getting Started
+Why does building snort fail with errors about yylex and lex  _init 	Test/3526726.tex	517;"	kind:subsection	line:517	language:Tex	section:Part2""chapter2""Getting Started
+I want to build a Snort box. Will this $  $Insert list of hardware$  $ handle $  $this much$  $ traffic 	Test/3526726.tex	522;"	kind:subsection	line:522	language:Tex	section:Part2""chapter2""Getting Started
+What are CIDR netmasks 	Test/3526726.tex	563;"	kind:subsection	line:563	language:Tex	section:Part2""chapter2""Getting Started
+What is the use of the   -r   switch to read tcpdump files 	Test/3526726.tex	605;"	kind:subsection	line:605	language:Tex	section:Part2""chapter2""Getting Started
+Configuring Snort	Test/3526726.tex	613;"	kind:section	line:613	language:Tex	chapter:Part2""chapter2
+How do I setup snort on a  stealth  interface 	Test/3526726.tex	615;"	kind:subsection	line:615	language:Tex	section:Part2""chapter2""Configuring Snort
 stealth	Test/3526726.tex	615;"	kind:label	line:615	language:Tex
-How do I setup a receive-only ethernet cable 	Test/3526726.tex	645;"	kind:subsection	line:645	language:Tex	section:Part2""chapter2""Configuring Snort
-What are HOME  _NET and EXTERNAL  _NET 	Test/3526726.tex	732;"	kind:subsection	line:732	language:Tex	section:Part2""chapter2""Configuring Snort
-My network spans multiple subnets. How do I define HOME  _NET 	Test/3526726.tex	738;"	kind:subsection	line:738	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I set EXTERNAL  _NET 	Test/3526726.tex	756;"	kind:subsection	line:756	language:Tex	section:Part2""chapter2""Configuring Snort
-How can I run Snort on multiple interfaces simultaneously 	Test/3526726.tex	773;"	kind:subsection	line:773	language:Tex	section:Part2""chapter2""Configuring Snort
-My IP address is assigned dynamically to my interface  can I use Snort with it 	Test/3526726.tex	785;"	kind:subsection	line:785	language:Tex	section:Part2""chapter2""Configuring Snort
-I have one network card and two aliases  how can I force Snort to   listen   on both addresses 	Test/3526726.tex	794;"	kind:subsection	line:794	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I ignore traffic coming from a particular host or hosts 	Test/3526726.tex	812;"	kind:subsection	line:812	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I get Snort to log the packet payload as well as the header 	Test/3526726.tex	870;"	kind:subsection	line:870	language:Tex	section:Part2""chapter2""Configuring Snort
-Why are there no subdirectories under  var  log  snort for IP addresses 	Test/3526726.tex	877;"	kind:subsection	line:877	language:Tex	section:Part2""chapter2""Configuring Snort
-How do you get Snort to ignore some traffic 	Test/3526726.tex	882;"	kind:subsection	line:882	language:Tex	section:Part2""chapter2""Configuring Snort
-Why does the portscan plugin log   stealth   packets even though the host is in the portscan-ignorehosts list 	Test/3526726.tex	893;"	kind:subsection	line:893	language:Tex	section:Part2""chapter2""Configuring Snort
-What the heck is a   Stealth scan   	Test/3526726.tex	901;"	kind:subsection	line:901	language:Tex	section:Part2""chapter2""Configuring Snort
-What the heck is a SYNFIN scan 	Test/3526726.tex	925;"	kind:subsection	line:925	language:Tex	section:Part2""chapter2""Configuring Snort
-Which takes precedence  commandline or rule file 	Test/3526726.tex	929;"	kind:subsection	line:929	language:Tex	section:Part2""chapter2""Configuring Snort
-How does rule ordering work 	Test/3526726.tex	936;"	kind:subsection	line:936	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I configure stream4 	Test/3526726.tex	1112;"	kind:subsection	line:1112	language:Tex	section:Part2""chapter2""Configuring Snort
-stream4	Test/3526726.tex	1114;"	kind:label	line:1114	language:Tex
-Where does one obtain new  modifed rules  How do you merge them in 	Test/3526726.tex	1138;"	kind:subsection	line:1138	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I use a remote syslog machine 	Test/3526726.tex	1421;"	kind:subsection	line:1421	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I get Snort and ACID working 	Test/3526726.tex	1457;"	kind:subsection	line:1457	language:Tex	section:Part2""chapter2""Configuring Snort
-How do I build this BASE thing 	Test/3526726.tex	1461;"	kind:subsection	line:1461	language:Tex	section:Part2""chapter2""Configuring Snort
-Rules and Alerts	Test/3526726.tex	1502;"	kind:section	line:1502	language:Tex	chapter:Part2""chapter2
-Errors loading rules files	Test/3526726.tex	1504;"	kind:subsection	line:1504	language:Tex	section:Part2""chapter2""Rules and Alerts
-Snort says   Rule IP addr    1.1.1.1    didn  t x-late  WTF   	Test/3526726.tex	1526;"	kind:subsection	line:1526	language:Tex	section:Part2""chapter2""Rules and Alerts
-Snort is behind a firewall  ipf  pf  ipchains  ipfilter  and awfully quiet...	Test/3526726.tex	1530;"	kind:subsection	line:1530	language:Tex	section:Part2""chapter2""Rules and Alerts
-Does snort see packets filtered by IPTables  IPChains  IPF  PF 	Test/3526726.tex	1536;"	kind:subsection	line:1536	language:Tex	section:Part2""chapter2""Rules and Alerts
-I  m getting large amounts of $  $some alerts type$  $. What should I do  Where can I go to find out more about it 	Test/3526726.tex	1553;"	kind:subsection	line:1553	language:Tex	section:Part2""chapter2""Rules and Alerts
-What about all these false alarms 	Test/3526726.tex	1587;"	kind:subsection	line:1587	language:Tex	section:Part2""chapter2""Rules and Alerts
-What are all these ICMP files in subdirectories under  var  log  snort 	Test/3526726.tex	1594;"	kind:subsection	line:1594	language:Tex	section:Part2""chapter2""Rules and Alerts
-Why does the program generate alerts on packets that have pass rules 	Test/3526726.tex	1600;"	kind:subsection	line:1600	language:Tex	section:Part2""chapter2""Rules and Alerts
-What are all these   ICMP destination unreachable   alerts 	Test/3526726.tex	1613;"	kind:subsection	line:1613	language:Tex	section:Part2""chapter2""Rules and Alerts
-Why do many Snort rules have the flags P  TCP PuSH  and A  TCP ACK  set 	Test/3526726.tex	1692;"	kind:subsection	line:1692	language:Tex	section:Part2""chapter2""Rules and Alerts
-What are these IDS codes in the alert names 	Test/3526726.tex	1700;"	kind:subsection	line:1700	language:Tex	section:Part2""chapter2""Rules and Alerts
-Snort says BACKDOOR SIGNATURE... does my machine have a Trojan 	Test/3526726.tex	1710;"	kind:subsection	line:1710	language:Tex	section:Part2""chapter2""Rules and Alerts
-What about   CGI Null Byte attacks   	Test/3526726.tex	1717;"	kind:subsection	line:1717	language:Tex	section:Part2""chapter2""Rules and Alerts
-Why do certain alerts seem to have  unknown  IPs in BASE 	Test/3526726.tex	1730;"	kind:subsection	line:1730	language:Tex	section:Part2""chapter2""Rules and Alerts
-Can priorities be assigned to alerts using BASE 	Test/3526726.tex	1734;"	kind:subsection	line:1734	language:Tex	section:Part2""chapter2""Rules and Alerts
-What about  SMB Name Wildcard  alerts 	Test/3526726.tex	1738;"	kind:subsection	line:1738	language:Tex	section:Part2""chapter2""Rules and Alerts
-What the heck is a SYNFIN scan 	Test/3526726.tex	1757;"	kind:subsection	line:1757	language:Tex	section:Part2""chapter2""Rules and Alerts
-I am getting too many   IIS Unicode attack detected   and  or   CGI Null Byte attack detected   false positives. How can I turn this detection off 	Test/3526726.tex	1761;"	kind:subsection	line:1761	language:Tex	section:Part2""chapter2""Rules and Alerts
-How do I test Snort alerts and logging 	Test/3526726.tex	1781;"	kind:subsection	line:1781	language:Tex	section:Part2""chapter2""Rules and Alerts
-What is the difference between   Alerting   and   Logging   	Test/3526726.tex	1791;"	kind:subsection	line:1791	language:Tex	section:Part2""chapter2""Rules and Alerts
-Are rule keywords ORed or ANDed together 	Test/3526726.tex	1812;"	kind:subsection	line:1812	language:Tex	section:Part2""chapter2""Rules and Alerts
-Can Snort trigger a rule by MAC addresses 	Test/3526726.tex	1823;"	kind:subsection	line:1823	language:Tex	section:Part2""chapter2""Rules and Alerts
-How can I deactivate a rule 	Test/3526726.tex	1830;"	kind:subsection	line:1830	language:Tex	section:Part2""chapter2""Rules and Alerts
-How can I define an address to be anything except some hosts 	Test/3526726.tex	1844;"	kind:subsection	line:1844	language:Tex	section:Part2""chapter2""Rules and Alerts
-After I add new rules or comment out rules how do I make Snort reload 	Test/3526726.tex	1861;"	kind:subsection	line:1861	language:Tex	section:Part2""chapter2""Rules and Alerts
-Where do the distance and within keywords work from to modify content searches in rules 	Test/3526726.tex	1867;"	kind:subsection	line:1867	language:Tex	section:Part2""chapter2""Rules and Alerts
-How can I specify a list of ports in a rule 	Test/3526726.tex	1875;"	kind:subsection	line:1875	language:Tex	section:Part2""chapter2""Rules and Alerts
-How can I protect web servers running on ports other than 80 	Test/3526726.tex	1880;"	kind:subsection	line:1880	language:Tex	section:Part2""chapter2""Rules and Alerts
-How do I turn off   spp:possible EVASIVE RST detection   alerts 	Test/3526726.tex	1894;"	kind:subsection	line:1894	language:Tex	section:Part2""chapter2""Rules and Alerts
-Is there a private SID number range so my rules don  t conflict 	Test/3526726.tex	1899;"	kind:subsection	line:1899	language:Tex	section:Part2""chapter2""Rules and Alerts
-How long can address lists  variables  or rules be 	Test/3526726.tex	1903;"	kind:subsection	line:1903	language:Tex	section:Part2""chapter2""Rules and Alerts
-What do the numbers  ie:  116:56:1   in front of a Snort alert mean 	Test/3526726.tex	1908;"	kind:subsection	line:1908	language:Tex	section:Part2""chapter2""Rules and Alerts
-Getting Fancy	Test/3526726.tex	1928;"	kind:section	line:1928	language:Tex	chapter:Part2""chapter2
-I hear people talking about   Barnyard   . What  s that  label  barnyard	Test/3526726.tex	1931;"	kind:subsection	line:1931	language:Tex	section:Part2""chapter2""Getting Fancy
-Are there other output systems for Snort besides   Barnyard    label  spoolers	Test/3526726.tex	1940;"	kind:subsection	line:1940	language:Tex	section:Part2""chapter2""Getting Fancy
-How do I process those Snort logs into reports 	Test/3526726.tex	1958;"	kind:subsection	line:1958	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I setup a receive-only ethernet cable 	Test/3526726.tex	647;"	kind:subsection	line:647	language:Tex	section:Part2""chapter2""Configuring Snort
+What are HOME  _NET and EXTERNAL  _NET 	Test/3526726.tex	734;"	kind:subsection	line:734	language:Tex	section:Part2""chapter2""Configuring Snort
+My network spans multiple subnets. How do I define HOME  _NET 	Test/3526726.tex	740;"	kind:subsection	line:740	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I set EXTERNAL  _NET 	Test/3526726.tex	758;"	kind:subsection	line:758	language:Tex	section:Part2""chapter2""Configuring Snort
+How can I run Snort on multiple interfaces simultaneously 	Test/3526726.tex	775;"	kind:subsection	line:775	language:Tex	section:Part2""chapter2""Configuring Snort
+My IP address is assigned dynamically to my interface  can I use Snort with it 	Test/3526726.tex	787;"	kind:subsection	line:787	language:Tex	section:Part2""chapter2""Configuring Snort
+I have one network card and two aliases  how can I force Snort to   listen   on both addresses 	Test/3526726.tex	797;"	kind:subsection	line:797	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I ignore traffic coming from a particular host or hosts 	Test/3526726.tex	814;"	kind:subsection	line:814	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I get Snort to log the packet payload as well as the header 	Test/3526726.tex	872;"	kind:subsection	line:872	language:Tex	section:Part2""chapter2""Configuring Snort
+Why are there no subdirectories under  var  log  snort for IP addresses 	Test/3526726.tex	879;"	kind:subsection	line:879	language:Tex	section:Part2""chapter2""Configuring Snort
+How do you get Snort to ignore some traffic 	Test/3526726.tex	884;"	kind:subsection	line:884	language:Tex	section:Part2""chapter2""Configuring Snort
+Why does the portscan plugin log   stealth   packets even though the host is in the portscan-ignorehosts list 	Test/3526726.tex	895;"	kind:subsection	line:895	language:Tex	section:Part2""chapter2""Configuring Snort
+What the heck is a   Stealth scan   	Test/3526726.tex	903;"	kind:subsection	line:903	language:Tex	section:Part2""chapter2""Configuring Snort
+What the heck is a SYNFIN scan 	Test/3526726.tex	927;"	kind:subsection	line:927	language:Tex	section:Part2""chapter2""Configuring Snort
+Which takes precedence  commandline or rule file 	Test/3526726.tex	931;"	kind:subsection	line:931	language:Tex	section:Part2""chapter2""Configuring Snort
+How does rule ordering work 	Test/3526726.tex	938;"	kind:subsection	line:938	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I configure stream4 	Test/3526726.tex	1114;"	kind:subsection	line:1114	language:Tex	section:Part2""chapter2""Configuring Snort
+stream4	Test/3526726.tex	1115;"	kind:label	line:1115	language:Tex
+Where does one obtain new  modifed rules  How do you merge them in 	Test/3526726.tex	1141;"	kind:subsection	line:1141	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I use a remote syslog machine 	Test/3526726.tex	1423;"	kind:subsection	line:1423	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I get Snort and ACID working 	Test/3526726.tex	1459;"	kind:subsection	line:1459	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I build this BASE thing 	Test/3526726.tex	1463;"	kind:subsection	line:1463	language:Tex	section:Part2""chapter2""Configuring Snort
+Rules and Alerts	Test/3526726.tex	1504;"	kind:section	line:1504	language:Tex	chapter:Part2""chapter2
+Errors loading rules files	Test/3526726.tex	1506;"	kind:subsection	line:1506	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort says   Rule IP addr    1.1.1.1    didn  t x-late  WTF   	Test/3526726.tex	1528;"	kind:subsection	line:1528	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort is behind a firewall  ipf  pf  ipchains  ipfilter  and awfully quiet...	Test/3526726.tex	1532;"	kind:subsection	line:1532	language:Tex	section:Part2""chapter2""Rules and Alerts
+Does snort see packets filtered by IPTables  IPChains  IPF  PF 	Test/3526726.tex	1538;"	kind:subsection	line:1538	language:Tex	section:Part2""chapter2""Rules and Alerts
+I  m getting large amounts of $  $some alerts type$  $. What should I do  Where can I go to find out more about it 	Test/3526726.tex	1555;"	kind:subsection	line:1555	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about all these false alarms 	Test/3526726.tex	1589;"	kind:subsection	line:1589	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are all these ICMP files in subdirectories under  var  log  snort 	Test/3526726.tex	1597;"	kind:subsection	line:1597	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why does the program generate alerts on packets that have pass rules 	Test/3526726.tex	1603;"	kind:subsection	line:1603	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are all these   ICMP destination unreachable   alerts 	Test/3526726.tex	1615;"	kind:subsection	line:1615	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why do many Snort rules have the flags P  TCP PuSH  and A  TCP ACK  set 	Test/3526726.tex	1694;"	kind:subsection	line:1694	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are these IDS codes in the alert names 	Test/3526726.tex	1703;"	kind:subsection	line:1703	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort says BACKDOOR SIGNATURE... does my machine have a Trojan 	Test/3526726.tex	1713;"	kind:subsection	line:1713	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about   CGI Null Byte attacks   	Test/3526726.tex	1720;"	kind:subsection	line:1720	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why do certain alerts seem to have  unknown  IPs in BASE 	Test/3526726.tex	1732;"	kind:subsection	line:1732	language:Tex	section:Part2""chapter2""Rules and Alerts
+Can priorities be assigned to alerts using BASE 	Test/3526726.tex	1736;"	kind:subsection	line:1736	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about  SMB Name Wildcard  alerts 	Test/3526726.tex	1740;"	kind:subsection	line:1740	language:Tex	section:Part2""chapter2""Rules and Alerts
+What the heck is a SYNFIN scan 	Test/3526726.tex	1759;"	kind:subsection	line:1759	language:Tex	section:Part2""chapter2""Rules and Alerts
+I am getting too many   IIS Unicode attack detected   and  or   CGI Null Byte attack detected   false positives. How can I turn this detection off 	Test/3526726.tex	1763;"	kind:subsection	line:1763	language:Tex	section:Part2""chapter2""Rules and Alerts
+How do I test Snort alerts and logging 	Test/3526726.tex	1783;"	kind:subsection	line:1783	language:Tex	section:Part2""chapter2""Rules and Alerts
+What is the difference between   Alerting   and   Logging   	Test/3526726.tex	1793;"	kind:subsection	line:1793	language:Tex	section:Part2""chapter2""Rules and Alerts
+Are rule keywords ORed or ANDed together 	Test/3526726.tex	1814;"	kind:subsection	line:1814	language:Tex	section:Part2""chapter2""Rules and Alerts
+Can Snort trigger a rule by MAC addresses 	Test/3526726.tex	1824;"	kind:subsection	line:1824	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I deactivate a rule 	Test/3526726.tex	1832;"	kind:subsection	line:1832	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I define an address to be anything except some hosts 	Test/3526726.tex	1846;"	kind:subsection	line:1846	language:Tex	section:Part2""chapter2""Rules and Alerts
+After I add new rules or comment out rules how do I make Snort reload 	Test/3526726.tex	1862;"	kind:subsection	line:1862	language:Tex	section:Part2""chapter2""Rules and Alerts
+Where do the distance and within keywords work from to modify content searches in rules 	Test/3526726.tex	1869;"	kind:subsection	line:1869	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I specify a list of ports in a rule 	Test/3526726.tex	1877;"	kind:subsection	line:1877	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I protect web servers running on ports other than 80 	Test/3526726.tex	1882;"	kind:subsection	line:1882	language:Tex	section:Part2""chapter2""Rules and Alerts
+How do I turn off   spp:possible EVASIVE RST detection   alerts 	Test/3526726.tex	1896;"	kind:subsection	line:1896	language:Tex	section:Part2""chapter2""Rules and Alerts
+Is there a private SID number range so my rules don  t conflict 	Test/3526726.tex	1901;"	kind:subsection	line:1901	language:Tex	section:Part2""chapter2""Rules and Alerts
+How long can address lists  variables  or rules be 	Test/3526726.tex	1905;"	kind:subsection	line:1905	language:Tex	section:Part2""chapter2""Rules and Alerts
+What do the numbers  ie:  116:56:1   in front of a Snort alert mean 	Test/3526726.tex	1910;"	kind:subsection	line:1910	language:Tex	section:Part2""chapter2""Rules and Alerts
+Getting Fancy	Test/3526726.tex	1931;"	kind:section	line:1931	language:Tex	chapter:Part2""chapter2
+I hear people talking about   Barnyard   . What  s that  label  barnyard	Test/3526726.tex	1933;"	kind:subsection	line:1933	language:Tex	section:Part2""chapter2""Getting Fancy
+Are there other output systems for Snort besides   Barnyard    label  spoolers	Test/3526726.tex	1942;"	kind:subsection	line:1942	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I process those Snort logs into reports 	Test/3526726.tex	1960;"	kind:subsection	line:1960	language:Tex	section:Part2""chapter2""Getting Fancy
 IDSCenter	Test/3526726.tex	1986;"	kind:label	line:1986	language:Tex
-How do I log to multiple databases or output plugins 	Test/3526726.tex	2002;"	kind:subsection	line:2002	language:Tex	section:Part2""chapter2""Getting Fancy
-How can I test Snort without having an Ethernet card or a connection to other computers 	Test/3526726.tex	2025;"	kind:subsection	line:2025	language:Tex	section:Part2""chapter2""Getting Fancy
-How to start Snort as a win32 service 	Test/3526726.tex	2041;"	kind:subsection	line:2041	language:Tex	section:Part2""chapter2""Getting Fancy
-Is it possible with snort to add a ipfilter  ipfw rule to a firewall 	Test/3526726.tex	2099;"	kind:subsection	line:2099	language:Tex	section:Part2""chapter2""Getting Fancy
-What is the best way to use Snort to block attack traffic 	Test/3526726.tex	2161;"	kind:subsection	line:2161	language:Tex	section:Part2""chapter2""Getting Fancy
-Snort complains about the   react   keyword...	Test/3526726.tex	2165;"	kind:subsection	line:2165	language:Tex	section:Part2""chapter2""Getting Fancy
-How do I get Snort to e-mail me alerts 	Test/3526726.tex	2170;"	kind:subsection	line:2170	language:Tex	section:Part2""chapter2""Getting Fancy
-How do I log a specific type of traffic and send alerts to syslog 	Test/3526726.tex	2198;"	kind:subsection	line:2198	language:Tex	section:Part2""chapter2""Getting Fancy
-Is it possible to have Snort call an external program when an alert is raised 	Test/3526726.tex	2217;"	kind:subsection	line:2217	language:Tex	section:Part2""chapter2""Getting Fancy
-How can I use Snort to log HTTP URLs or SMTP traffic 	Test/3526726.tex	2244;"	kind:subsection	line:2244	language:Tex	section:Part2""chapter2""Getting Fancy
-What are some resources that I can use to understand more about source addresses logged and where they are coming from 	Test/3526726.tex	2255;"	kind:subsection	line:2255	language:Tex	section:Part2""chapter2""Getting Fancy
-How do I understand this traffic and do IDS alert analysis 	Test/3526726.tex	2271;"	kind:subsection	line:2271	language:Tex	section:Part2""chapter2""Getting Fancy
-How can I examine logged packets in more detail 	Test/3526726.tex	2312;"	kind:subsection	line:2312	language:Tex	section:Part2""chapter2""Getting Fancy
-Problems	Test/3526726.tex	2328;"	kind:section	line:2328	language:Tex	chapter:Part2""chapter2
-I think I found a bug in Snort. Now what 	Test/3526726.tex	2330;"	kind:subsection	line:2330	language:Tex	section:Part2""chapter2""Problems
-SMB alerts aren  t working  what  s wrong 	Test/3526726.tex	2366;"	kind:subsection	line:2366	language:Tex	section:Part2""chapter2""Problems
-Snort says   Garbage Packet with Null Pointer discarded    Huh 	Test/3526726.tex	2370;"	kind:subsection	line:2370	language:Tex	section:Part2""chapter2""Problems
-Snort says   Ran Out Of Space.   Huh 	Test/3526726.tex	2376;"	kind:subsection	line:2376	language:Tex	section:Part2""chapter2""Problems
-My BASE db connection times-out when performing long operations  e.g. deleting a large number of alerts  .	Test/3526726.tex	2382;"	kind:subsection	line:2382	language:Tex	section:Part2""chapter2""Problems
-Why does snort report   Packet loss statistics are unavailable under Linux   	Test/3526726.tex	2390;"	kind:subsection	line:2390	language:Tex	section:Part2""chapter2""Problems
-My  var  log  snort directory gets very large...	Test/3526726.tex	2396;"	kind:subsection	line:2396	language:Tex	section:Part2""chapter2""Problems
-Why does the  error deleting alert  message occur when attempting to delete an alert with BASE 	Test/3526726.tex	2503;"	kind:subsection	line:2503	language:Tex	section:Part2""chapter2""Problems
-BASE appears to be broken in Lynx	Test/3526726.tex	2540;"	kind:subsection	line:2540	language:Tex	section:Part2""chapter2""Problems
-I am getting  snort  pid  uses obsolete  PF  _INET  SOCK  _PACKET   warnings. What  s wrong 	Test/3526726.tex	2543;"	kind:subsection	line:2543	language:Tex	section:Part2""chapter2""Problems
-On HPUX I get device lan0 open: recv  _ack: promisc  _phys: Invalid argument	Test/3526726.tex	2550;"	kind:subsection	line:2550	language:Tex	section:Part2""chapter2""Problems
-Snort is dying with a  can not create file  error and I have plenty of diskspace. What  s wrong 	Test/3526726.tex	2556;"	kind:subsection	line:2556	language:Tex	section:Part2""chapter2""Problems
-I am using Snort on Windows and receive an   OpenPcap   error upon startup: ERROR: OpenPcap   device open: Error opening adapter   message. What  s wrong 	Test/3526726.tex	2561;"	kind:subsection	line:2561	language:Tex	section:Part2""chapter2""Problems
-Snort is not logging to my database	Test/3526726.tex	2568;"	kind:subsection	line:2568	language:Tex	section:Part2""chapter2""Problems
-Portscans are not being logged to my database	Test/3526726.tex	2579;"	kind:subsection	line:2579	language:Tex	section:Part2""chapter2""Problems
-Snort is not logging to syslog	Test/3526726.tex	2587;"	kind:subsection	line:2587	language:Tex	section:Part2""chapter2""Problems
-I am still getting bombarded with spp  _portscan messages even though the IP that I am getting the portscan from is in my  $DNS  _SERVERs var	Test/3526726.tex	2595;"	kind:subsection	line:2595	language:Tex	section:Part2""chapter2""Problems
-Why does chrooted Snort die when I send it a SIGHUP  label  chroot	Test/3526726.tex	2606;"	kind:subsection	line:2606	language:Tex	section:Part2""chapter2""Problems
-My snort crashes  how do I restart it 	Test/3526726.tex	2618;"	kind:subsection	line:2618	language:Tex	section:Part2""chapter2""Problems
-Why can  t snort see one of the 10Mbps or 100Mbps traffic on my autoswitch hub 	Test/3526726.tex	2693;"	kind:subsection	line:2693	language:Tex	section:Part2""chapter2""Problems
-Trying to install snort it says:   bad interpreter: No such file or directory  	Test/3526726.tex	2768;"	kind:subsection	line:2768	language:Tex	section:Part2""chapter2""Problems
-I  m not seeing any interfaces listed under Win32.	Test/3526726.tex	2790;"	kind:subsection	line:2790	language:Tex	section:Part2""chapter2""Problems
-It  s not working on Win32  how can I tell if my problem is Snort or WinPcap 	Test/3526726.tex	2799;"	kind:subsection	line:2799	language:Tex	section:Part2""chapter2""Problems
-I just downloaded a new ruleset and now Snort fails  complaining about the rules.	Test/3526726.tex	2805;"	kind:subsection	line:2805	language:Tex	section:Part2""chapter2""Problems
-Why am I seeing so many   SMTP RCPT TO overflow   alerts 	Test/3526726.tex	2822;"	kind:subsection	line:2822	language:Tex	section:Part2""chapter2""Problems
-I  m getting lots of  ICMP Ping Speedera   is this bad 	Test/3526726.tex	2840;"	kind:subsection	line:2840	language:Tex	section:Part2""chapter2""Problems
-Why are my unified alert times off by   - N hours 	Test/3526726.tex	2846;"	kind:subsection	line:2846	language:Tex	section:Part2""chapter2""Problems
-I try to start Snort and it gives an error like   ERROR: Unable to open rules file:  root  .snortrc or  root   root  .snortrc.   What can I do to fix this 	Test/3526726.tex	2850;"	kind:subsection	line:2850	language:Tex	section:Part2""chapter2""Problems
-Snort fails to respond to a kill signal on Linux. Why 	Test/3526726.tex	2872;"	kind:subsection	line:2872	language:Tex	section:Part2""chapter2""Problems
-A Rule with PCRE causes a failure to load snort.conf. Why 	Test/3526726.tex	2896;"	kind:subsection	line:2896	language:Tex	section:Part2""chapter2""Problems
-Development	Test/3526726.tex	2929;"	kind:section	line:2929	language:Tex	chapter:Part2""chapter2
-How do you put Snort in debug mode 	Test/3526726.tex	2931;"	kind:subsection	line:2931	language:Tex	section:Part2""chapter2""Development
-Miscellaneous	Test/3526726.tex	2969;"	kind:section	line:2969	language:Tex	chapter:Part2""chapter2
-What  s this about a Snort drinking game 	Test/3526726.tex	2971;"	kind:subsection	line:2971	language:Tex	section:Part2""chapter2""Miscellaneous
+How do I log to multiple databases or output plugins 	Test/3526726.tex	2004;"	kind:subsection	line:2004	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I test Snort without having an Ethernet card or a connection to other computers 	Test/3526726.tex	2027;"	kind:subsection	line:2027	language:Tex	section:Part2""chapter2""Getting Fancy
+How to start Snort as a win32 service 	Test/3526726.tex	2043;"	kind:subsection	line:2043	language:Tex	section:Part2""chapter2""Getting Fancy
+Is it possible with snort to add a ipfilter  ipfw rule to a firewall 	Test/3526726.tex	2101;"	kind:subsection	line:2101	language:Tex	section:Part2""chapter2""Getting Fancy
+What is the best way to use Snort to block attack traffic 	Test/3526726.tex	2163;"	kind:subsection	line:2163	language:Tex	section:Part2""chapter2""Getting Fancy
+Snort complains about the   react   keyword...	Test/3526726.tex	2168;"	kind:subsection	line:2168	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I get Snort to e-mail me alerts 	Test/3526726.tex	2172;"	kind:subsection	line:2172	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I log a specific type of traffic and send alerts to syslog 	Test/3526726.tex	2200;"	kind:subsection	line:2200	language:Tex	section:Part2""chapter2""Getting Fancy
+Is it possible to have Snort call an external program when an alert is raised 	Test/3526726.tex	2219;"	kind:subsection	line:2219	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I use Snort to log HTTP URLs or SMTP traffic 	Test/3526726.tex	2246;"	kind:subsection	line:2246	language:Tex	section:Part2""chapter2""Getting Fancy
+What are some resources that I can use to understand more about source addresses logged and where they are coming from 	Test/3526726.tex	2257;"	kind:subsection	line:2257	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I understand this traffic and do IDS alert analysis 	Test/3526726.tex	2273;"	kind:subsection	line:2273	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I examine logged packets in more detail 	Test/3526726.tex	2315;"	kind:subsection	line:2315	language:Tex	section:Part2""chapter2""Getting Fancy
+Problems	Test/3526726.tex	2330;"	kind:section	line:2330	language:Tex	chapter:Part2""chapter2
+I think I found a bug in Snort. Now what 	Test/3526726.tex	2331;"	kind:subsection	line:2331	language:Tex	section:Part2""chapter2""Problems
+SMB alerts aren  t working  what  s wrong 	Test/3526726.tex	2368;"	kind:subsection	line:2368	language:Tex	section:Part2""chapter2""Problems
+Snort says   Garbage Packet with Null Pointer discarded    Huh 	Test/3526726.tex	2372;"	kind:subsection	line:2372	language:Tex	section:Part2""chapter2""Problems
+Snort says   Ran Out Of Space.   Huh 	Test/3526726.tex	2378;"	kind:subsection	line:2378	language:Tex	section:Part2""chapter2""Problems
+My BASE db connection times-out when performing long operations  e.g. deleting a large number of alerts  .	Test/3526726.tex	2384;"	kind:subsection	line:2384	language:Tex	section:Part2""chapter2""Problems
+Why does snort report   Packet loss statistics are unavailable under Linux   	Test/3526726.tex	2392;"	kind:subsection	line:2392	language:Tex	section:Part2""chapter2""Problems
+My  var  log  snort directory gets very large...	Test/3526726.tex	2398;"	kind:subsection	line:2398	language:Tex	section:Part2""chapter2""Problems
+Why does the  error deleting alert  message occur when attempting to delete an alert with BASE 	Test/3526726.tex	2505;"	kind:subsection	line:2505	language:Tex	section:Part2""chapter2""Problems
+BASE appears to be broken in Lynx	Test/3526726.tex	2541;"	kind:subsection	line:2541	language:Tex	section:Part2""chapter2""Problems
+I am getting  snort  pid  uses obsolete  PF  _INET  SOCK  _PACKET   warnings. What  s wrong 	Test/3526726.tex	2545;"	kind:subsection	line:2545	language:Tex	section:Part2""chapter2""Problems
+On HPUX I get device lan0 open: recv  _ack: promisc  _phys: Invalid argument	Test/3526726.tex	2552;"	kind:subsection	line:2552	language:Tex	section:Part2""chapter2""Problems
+Snort is dying with a  can not create file  error and I have plenty of diskspace. What  s wrong 	Test/3526726.tex	2558;"	kind:subsection	line:2558	language:Tex	section:Part2""chapter2""Problems
+I am using Snort on Windows and receive an   OpenPcap   error upon startup: ERROR: OpenPcap   device open: Error opening adapter   message. What  s wrong 	Test/3526726.tex	2563;"	kind:subsection	line:2563	language:Tex	section:Part2""chapter2""Problems
+Snort is not logging to my database	Test/3526726.tex	2570;"	kind:subsection	line:2570	language:Tex	section:Part2""chapter2""Problems
+Portscans are not being logged to my database	Test/3526726.tex	2581;"	kind:subsection	line:2581	language:Tex	section:Part2""chapter2""Problems
+Snort is not logging to syslog	Test/3526726.tex	2589;"	kind:subsection	line:2589	language:Tex	section:Part2""chapter2""Problems
+I am still getting bombarded with spp  _portscan messages even though the IP that I am getting the portscan from is in my  $DNS  _SERVERs var	Test/3526726.tex	2598;"	kind:subsection	line:2598	language:Tex	section:Part2""chapter2""Problems
+Why does chrooted Snort die when I send it a SIGHUP  label  chroot	Test/3526726.tex	2608;"	kind:subsection	line:2608	language:Tex	section:Part2""chapter2""Problems
+My snort crashes  how do I restart it 	Test/3526726.tex	2620;"	kind:subsection	line:2620	language:Tex	section:Part2""chapter2""Problems
+Why can  t snort see one of the 10Mbps or 100Mbps traffic on my autoswitch hub 	Test/3526726.tex	2695;"	kind:subsection	line:2695	language:Tex	section:Part2""chapter2""Problems
+Trying to install snort it says:   bad interpreter: No such file or directory  	Test/3526726.tex	2770;"	kind:subsection	line:2770	language:Tex	section:Part2""chapter2""Problems
+I  m not seeing any interfaces listed under Win32.	Test/3526726.tex	2792;"	kind:subsection	line:2792	language:Tex	section:Part2""chapter2""Problems
+It  s not working on Win32  how can I tell if my problem is Snort or WinPcap 	Test/3526726.tex	2801;"	kind:subsection	line:2801	language:Tex	section:Part2""chapter2""Problems
+I just downloaded a new ruleset and now Snort fails  complaining about the rules.	Test/3526726.tex	2807;"	kind:subsection	line:2807	language:Tex	section:Part2""chapter2""Problems
+Why am I seeing so many   SMTP RCPT TO overflow   alerts 	Test/3526726.tex	2824;"	kind:subsection	line:2824	language:Tex	section:Part2""chapter2""Problems
+I  m getting lots of  ICMP Ping Speedera   is this bad 	Test/3526726.tex	2842;"	kind:subsection	line:2842	language:Tex	section:Part2""chapter2""Problems
+Why are my unified alert times off by   - N hours 	Test/3526726.tex	2848;"	kind:subsection	line:2848	language:Tex	section:Part2""chapter2""Problems
+I try to start Snort and it gives an error like   ERROR: Unable to open rules file:  root  .snortrc or  root   root  .snortrc.   What can I do to fix this 	Test/3526726.tex	2852;"	kind:subsection	line:2852	language:Tex	section:Part2""chapter2""Problems
+Snort fails to respond to a kill signal on Linux. Why 	Test/3526726.tex	2874;"	kind:subsection	line:2874	language:Tex	section:Part2""chapter2""Problems
+A Rule with PCRE causes a failure to load snort.conf. Why 	Test/3526726.tex	2898;"	kind:subsection	line:2898	language:Tex	section:Part2""chapter2""Problems
+Development	Test/3526726.tex	2931;"	kind:section	line:2931	language:Tex	chapter:Part2""chapter2
+How do you put Snort in debug mode 	Test/3526726.tex	2934;"	kind:subsection	line:2934	language:Tex	section:Part2""chapter2""Development
+Miscellaneous	Test/3526726.tex	2971;"	kind:section	line:2971	language:Tex	chapter:Part2""chapter2
+What  s this about a Snort drinking game 	Test/3526726.tex	2972;"	kind:subsection	line:2972	language:Tex	section:Part2""chapter2""Miscellaneous
 OcamlCommentInStringAllowed	Test/ocamlCommentInStringAllowed.ml	1;"	kind:module	line:1	language:OCaml
 p	Test/ocamlCommentInStringAllowed.ml	2;"	kind:var	line:2	language:OCaml
 OUT_RD5	Test/char-selector.f90	2;"	kind:module	line:2	language:Fortran
@@ -693,7 +693,7 @@ maze	Test/maze.hrl	40;"	kind:record	line:40	language:Erlang
 foo	Test/bug620288.f	52;"	kind:function	line:52	language:Fortran
 bar	Test/bug620288.f	79;"	kind:function	line:79	language:Fortran
 demo_pkg	Test/bug2961855.sql	11;"	kind:package	line:11	language:SQL
-demo_pkg.test_var	Test/bug2961855.sql	11;"	kind:variable	line:11	language:SQL
+demo_pkg.test_var	Test/bug2961855.sql	12;"	kind:variable	line:12	language:SQL
 Ocaml_onlystr	Test/ocaml_onlystr.ml	1;"	kind:module	line:1	language:OCaml
 main	Test/bug1093123.cpp	3;"	kind:function	line:3	language:C++	signature:()
 m	Test/bug1093123.cpp	6;"	kind:local	line:6	language:C++
@@ -788,9 +788,9 @@ function_full	Test/functions.e	23;"	kind:feature	line:23	language:Eiffel	class:F
 +	Test/functions.e	36;"	kind:feature	line:36	language:Eiffel	class:FUNCTIONS
 test	Test/bug858165.f90	16;"	kind:program	line:16	language:Fortran
 a	Test/bug858165.f90	18;"	kind:variable	line:18	language:Fortran	program:test
-b	Test/bug858165.f90	18;"	kind:variable	line:18	language:Fortran	program:test
-c	Test/bug858165.f90	19;"	kind:variable	line:19	language:Fortran	program:test
-d	Test/bug858165.f90	21;"	kind:variable	line:21	language:Fortran	program:test
+b	Test/bug858165.f90	19;"	kind:variable	line:19	language:Fortran	program:test
+c	Test/bug858165.f90	21;"	kind:variable	line:21	language:Fortran	program:test
+d	Test/bug858165.f90	22;"	kind:variable	line:22	language:Fortran	program:test
 PROGRAM-ID	Test/simple.cbl	2;"	kind:paragraph	line:2	language:Cobol
 Program-Name	Test/simple.cbl	2;"	kind:program	line:2	language:Cobol
 AUTHOR	Test/simple.cbl	3;"	kind:paragraph	line:3	language:Cobol
@@ -914,9 +914,9 @@ Cube	Test/keyword_override.cs	25;"	kind:method	line:25	language:C#	class:TestCla
 Area	Test/keyword_override.cs	30;"	kind:method	line:30	language:C#	class:TestClass.Cube	access:public	signature:()
 Main	Test/keyword_override.cs	36;"	kind:method	line:36	language:C#	class:TestClass	access:public	signature:()
 test	Test/continuation.f90	2;"	kind:module	line:2	language:Fortran
-para_a	Test/continuation.f90	3;"	kind:variable	line:3	language:Fortran	module:test
-para_b	Test/continuation.f90	4;"	kind:variable	line:4	language:Fortran	module:test
-para_c	Test/continuation.f90	5;"	kind:variable	line:5	language:Fortran	module:test
+para_a	Test/continuation.f90	4;"	kind:variable	line:4	language:Fortran	module:test
+para_b	Test/continuation.f90	5;"	kind:variable	line:5	language:Fortran	module:test
+para_c	Test/continuation.f90	6;"	kind:variable	line:6	language:Fortran	module:test
 Foo	Test/bug849591.cpp	21;"	kind:function	line:21	language:C++	class:MainClass	signature:()
 Foo	Test/bug849591.cpp	43;"	kind:function	line:43	language:C++	class:MainClass	signature:()
 testFunc	Test/bug1988130.py	1;"	kind:function	line:1	language:Python	access:public	signature:()
@@ -958,13 +958,13 @@ my_global_var1	Test/secondary_fcn_name.js	28;"	kind:variable	line:28	language:Ja
 D2A	Test/secondary_fcn_name.js	35;"	kind:function	line:35	language:JavaScript
 theAdd	Test/secondary_fcn_name.js	35;"	kind:function	line:35	language:JavaScript
 Global_Variables	Test/array_spec.f90	2;"	kind:module	line:2	language:Fortran
-H	Test/array_spec.f90	6;"	kind:variable	line:6	language:Fortran	module:Global_Variables
-H0	Test/array_spec.f90	7;"	kind:variable	line:7	language:Fortran	module:Global_Variables
-H1	Test/array_spec.f90	8;"	kind:variable	line:8	language:Fortran	module:Global_Variables
-H2	Test/array_spec.f90	9;"	kind:variable	line:9	language:Fortran	module:Global_Variables
-H3	Test/array_spec.f90	10;"	kind:variable	line:10	language:Fortran	module:Global_Variables
-H4	Test/array_spec.f90	11;"	kind:variable	line:11	language:Fortran	module:Global_Variables
-H5	Test/array_spec.f90	12;"	kind:variable	line:12	language:Fortran	module:Global_Variables
+H	Test/array_spec.f90	7;"	kind:variable	line:7	language:Fortran	module:Global_Variables
+H0	Test/array_spec.f90	8;"	kind:variable	line:8	language:Fortran	module:Global_Variables
+H1	Test/array_spec.f90	9;"	kind:variable	line:9	language:Fortran	module:Global_Variables
+H2	Test/array_spec.f90	10;"	kind:variable	line:10	language:Fortran	module:Global_Variables
+H3	Test/array_spec.f90	11;"	kind:variable	line:11	language:Fortran	module:Global_Variables
+H4	Test/array_spec.f90	12;"	kind:variable	line:12	language:Fortran	module:Global_Variables
+H5	Test/array_spec.f90	13;"	kind:variable	line:13	language:Fortran	module:Global_Variables
 C	Test/bug1800065.cs	2;"	kind:class	line:2	language:C#
 window	Test/bug1800065.cs	3;"	kind:field	line:3	language:C#	class:C	file:	access:private
 title	Test/bug1800065.cs	4;"	kind:field	line:4	language:C#	class:C	file:	access:private
@@ -1073,32 +1073,32 @@ Max	Test/keyword_enum.cs	23;"	kind:enumerator	line:23	language:C#	enum:EnumTest.
 Min	Test/keyword_enum.cs	23;"	kind:enumerator	line:23	language:C#	enum:EnumTest.Range	file:
 Main	Test/keyword_enum.cs	24;"	kind:method	line:24	language:C#	class:EnumTest	access:public	signature:()
 PyFunc	Test/bug1764148	2;"	kind:function	line:2	language:Python	access:public	signature:(msg)
-Introduction	Test/intro_orig.tex	35;"	kind:section	line:35	language:Tex	chapter:Part2""chapter2
-Equations	Test/intro_orig.tex	55;"	kind:section	line:55	language:Tex	chapter:Part2""chapter2
-eq:ising	Test/intro_orig.tex	73;"	kind:label	line:73	language:Tex
+Introduction	Test/intro_orig.tex	37;"	kind:section	line:37	language:Tex	chapter:Part2""chapter2
+Equations	Test/intro_orig.tex	57;"	kind:section	line:57	language:Tex	chapter:Part2""chapter2
+eq:ising	Test/intro_orig.tex	74;"	kind:label	line:74	language:Tex
 eq:fine	Test/intro_orig.tex	102;"	kind:label	line:102	language:Tex
-eq:mdiv	Test/intro_orig.tex	125;"	kind:label	line:125	language:Tex
-Tables	Test/intro_orig.tex	151;"	kind:section	line:151	language:Tex	chapter:Part2""chapter2
+eq:mdiv	Test/intro_orig.tex	126;"	kind:label	line:126	language:Tex
+Tables	Test/intro_orig.tex	153;"	kind:section	line:153	language:Tex	chapter:Part2""chapter2
 tab:5  tc	Test/intro_orig.tex	176;"	kind:label	line:176	language:Tex
-Lists	Test/intro_orig.tex	181;"	kind:section	line:181	language:Tex	chapter:Part2""chapter2
-Figures	Test/intro_orig.tex	202;"	kind:section	line:202	language:Tex	chapter:Part2""chapter2
+Lists	Test/intro_orig.tex	183;"	kind:section	line:183	language:Tex	chapter:Part2""chapter2
+Figures	Test/intro_orig.tex	204;"	kind:section	line:204	language:Tex	chapter:Part2""chapter2
 fig:typical	Test/intro_orig.tex	212;"	kind:label	line:212	language:Tex
 fig:lj	Test/intro_orig.tex	219;"	kind:label	line:219	language:Tex
-Literal text	Test/intro_orig.tex	225;"	kind:section	line:225	language:Tex	chapter:Part2""chapter2
-Special Symbols	Test/intro_orig.tex	240;"	kind:section	line:240	language:Tex	chapter:Part2""chapter2
-Common Greek letters	Test/intro_orig.tex	242;"	kind:subsection	line:242	language:Tex	section:Part2""chapter2""Special Symbols
-Special symbols	Test/intro_orig.tex	262;"	kind:subsection	line:262	language:Tex	section:Part2""chapter2""Special Symbols
-color  red	Test/intro_orig.tex	300;"	kind:section	line:300	language:Tex	chapter:Part2""chapter2
-label  morefig	Test/intro_orig.tex	305;"	kind:section	line:305	language:Tex	chapter:Part2""chapter2
+Literal text	Test/intro_orig.tex	227;"	kind:section	line:227	language:Tex	chapter:Part2""chapter2
+Special Symbols	Test/intro_orig.tex	242;"	kind:section	line:242	language:Tex	chapter:Part2""chapter2
+Common Greek letters	Test/intro_orig.tex	244;"	kind:subsection	line:244	language:Tex	section:Part2""chapter2""Special Symbols
+Special symbols	Test/intro_orig.tex	264;"	kind:subsection	line:264	language:Tex	section:Part2""chapter2""Special Symbols
+color  red	Test/intro_orig.tex	302;"	kind:section	line:302	language:Tex	chapter:Part2""chapter2
+label  morefig	Test/intro_orig.tex	307;"	kind:section	line:307	language:Tex	chapter:Part2""chapter2
 fig:qm  complexfunctions	Test/intro_orig.tex	319;"	kind:label	line:319	language:Tex
 N1	Test/bug665086.cpp	21;"	kind:namespace	line:21	language:C++	file:
 N2	Test/bug665086.cpp	23;"	kind:namespace	line:23	language:C++	namespace:N1	file:
 C12	Test/bug665086.cpp	25;"	kind:class	line:25	language:C++	namespace:N1::N2	file:
 inm_df	Test/array-spec.f90	1;"	kind:module	line:1	language:Fortran
 df_type	Test/array-spec.f90	4;"	kind:type	line:4	language:Fortran	module:inm_df
-df_mb_time	Test/array-spec.f90	5;"	kind:component	line:5	language:Fortran	type:df_type
+df_mb_time	Test/array-spec.f90	6;"	kind:component	line:6	language:Fortran	type:df_type
 df_wb_time	Test/array-spec.f90	6;"	kind:component	line:6	language:Fortran	type:df_type
-df_mb_data	Test/array-spec.f90	7;"	kind:component	line:7	language:Fortran	type:df_type
+df_mb_data	Test/array-spec.f90	8;"	kind:component	line:8	language:Fortran	type:df_type
 df_wb_data	Test/array-spec.f90	8;"	kind:component	line:8	language:Fortran	type:df_type
 objLiteralProperty	Test/1850914.js	18;"	kind:property	line:18	language:JavaScript	class:objectLiteral
 objLiteralMethod	Test/1850914.js	22;"	kind:method	line:22	language:JavaScript	class:objectLiteral
@@ -1169,9 +1169,9 @@ object	Test/bug3036476.js	17;"	kind:function	line:17	language:JavaScript	functio
 method1	Test/bug3036476.js	18;"	kind:function	line:18	language:JavaScript	function:container.object
 method2	Test/bug3036476.js	19;"	kind:function	line:19	language:JavaScript	function:container.object
 db0001	Test/ingres_procedures.sql	1;"	kind:procedure	line:1	language:SQL
-x	Test/ingres_procedures.sql	6;"	kind:variable	line:6	language:SQL
-n	Test/ingres_procedures.sql	7;"	kind:variable	line:7	language:SQL
-err	Test/ingres_procedures.sql	8;"	kind:variable	line:8	language:SQL
+x	Test/ingres_procedures.sql	7;"	kind:variable	line:7	language:SQL
+n	Test/ingres_procedures.sql	8;"	kind:variable	line:8	language:SQL
+err	Test/ingres_procedures.sql	9;"	kind:variable	line:9	language:SQL
 db0002	Test/ingres_procedures.sql	5;"	kind:procedure	line:5	language:SQL
 db0003	Test/ingres_procedures.sql	35;"	kind:procedure	line:35	language:SQL
 traffic	Test/traffic_signal.v	5;"	kind:module	line:5	language:Verilog
@@ -1247,9 +1247,9 @@ b	Test/bug1770479.cpp	8;"	kind:local	line:8	language:C++
 foo	Test/bug1770479.cpp	14;"	kind:function	line:14	language:C++	signature:(int i)
 random	Test/random.sql	13;"	kind:package	line:13	language:SQL
 random	Test/random.sql	30;"	kind:package	line:30	language:SQL
-random.multiplier	Test/random.sql	31;"	kind:variable	line:31	language:SQL
-random.increment	Test/random.sql	32;"	kind:variable	line:32	language:SQL
-random.Seed	Test/random.sql	36;"	kind:variable	line:36	language:SQL
+random.multiplier	Test/random.sql	32;"	kind:variable	line:32	language:SQL
+random.increment	Test/random.sql	33;"	kind:variable	line:33	language:SQL
+random.Seed	Test/random.sql	37;"	kind:variable	line:37	language:SQL
 random.smaller	Test/random.sql	39;"	kind:function	line:39	language:SQL
 random.rand_string	Test/random.sql	48;"	kind:function	line:48	language:SQL
 random.srand	Test/random.sql	62;"	kind:procedure	line:62	language:SQL
@@ -1386,16 +1386,16 @@ Y	Test/stdcall.f	17;"	kind:variable	line:17	language:Fortran
 D02CJW	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
 G	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
 X01AAF	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
-20	Test/stdcall.f	51;"	kind:label	line:51	language:Fortran	file:
-40	Test/stdcall.f	70;"	kind:label	line:70	language:Fortran	file:
-60	Test/stdcall.f	89;"	kind:label	line:89	language:Fortran	file:
-80	Test/stdcall.f	112;"	kind:label	line:112	language:Fortran	file:
-99999	Test/stdcall.f	114;"	kind:label	line:114	language:Fortran	file:
-99998	Test/stdcall.f	116;"	kind:label	line:116	language:Fortran	file:
-99997	Test/stdcall.f	117;"	kind:label	line:117	language:Fortran	file:
-99996	Test/stdcall.f	118;"	kind:label	line:118	language:Fortran	file:
+20	Test/stdcall.f	52;"	kind:label	line:52	language:Fortran	file:
+40	Test/stdcall.f	71;"	kind:label	line:71	language:Fortran	file:
+60	Test/stdcall.f	91;"	kind:label	line:91	language:Fortran	file:
+80	Test/stdcall.f	113;"	kind:label	line:113	language:Fortran	file:
+99999	Test/stdcall.f	116;"	kind:label	line:116	language:Fortran	file:
+99998	Test/stdcall.f	117;"	kind:label	line:117	language:Fortran	file:
+99997	Test/stdcall.f	118;"	kind:label	line:118	language:Fortran	file:
+99996	Test/stdcall.f	119;"	kind:label	line:119	language:Fortran	file:
 OUT	Test/stdcall.f	122;"	kind:subroutine	line:122	language:Fortran
-99999	Test/stdcall.f	145;"	kind:label	line:145	language:Fortran	subroutine:OUT	file:
+99999	Test/stdcall.f	147;"	kind:label	line:147	language:Fortran	subroutine:OUT	file:
 FCN	Test/stdcall.f	150;"	kind:subroutine	line:150	language:Fortran
 G	Test/stdcall.f	167;"	kind:function	line:167	language:Fortran
 maze	Test/maze.erl	1;"	kind:module	line:1	language:Erlang
@@ -1577,9 +1577,9 @@ DFF	Test/test.vhd	1924;"	kind:entity	line:1924	language:VHDL
 struct_dffe	Test/test.vhd	1950;"	kind:entity	line:1950	language:VHDL
 dffTri	Test/test.vhd	1977;"	kind:entity	line:1977	language:VHDL
 tribufType	Test/test.vhd	1990;"	kind:type	line:1990	language:VHDL
-ip	Test/test.vhd	1990;"	kind:record	line:1990	language:VHDL
-oe	Test/test.vhd	1991;"	kind:record	line:1991	language:VHDL
-op	Test/test.vhd	1992;"	kind:record	line:1992	language:VHDL
+ip	Test/test.vhd	1991;"	kind:record	line:1991	language:VHDL
+oe	Test/test.vhd	1992;"	kind:record	line:1992	language:VHDL
+op	Test/test.vhd	1993;"	kind:record	line:1993	language:VHDL
 tribufArrayType	Test/test.vhd	1996;"	kind:type	line:1996	language:VHDL
 DFF	Test/test.vhd	2016;"	kind:entity	line:2016	language:VHDL
 TRIBUF	Test/test.vhd	2039;"	kind:entity	line:2039	language:VHDL
@@ -1658,10 +1658,10 @@ asyncLdCnt	Test/test.vhd	4051;"	kind:entity	line:4051	language:VHDL
 LoadCnt	Test/test.vhd	4079;"	kind:entity	line:4079	language:VHDL
 loadCntTB	Test/test.vhd	4118;"	kind:entity	line:4118	language:VHDL
 vectorType	Test/test.vhd	4133;"	kind:type	line:4133	language:VHDL
-data	Test/test.vhd	4133;"	kind:record	line:4133	language:VHDL
-load	Test/test.vhd	4134;"	kind:record	line:4134	language:VHDL
-rst	Test/test.vhd	4135;"	kind:record	line:4135	language:VHDL
-q	Test/test.vhd	4136;"	kind:record	line:4136	language:VHDL
+data	Test/test.vhd	4134;"	kind:record	line:4134	language:VHDL
+load	Test/test.vhd	4135;"	kind:record	line:4135	language:VHDL
+rst	Test/test.vhd	4136;"	kind:record	line:4136	language:VHDL
+q	Test/test.vhd	4137;"	kind:record	line:4137	language:VHDL
 ClkPeriod	Test/test.vhd	4144;"	kind:constant	line:4144	language:VHDL
 loadCnt	Test/test.vhd	4218;"	kind:entity	line:4218	language:VHDL
 multiplier	Test/test.vhd	4252;"	kind:entity	line:4252	language:VHDL
@@ -1732,8 +1732,8 @@ scaleDFF	Test/test.vhd	5855;"	kind:entity	line:5855	language:VHDL
 sevenSegment	Test/test.vhd	5878;"	kind:entity	line:5878	language:VHDL
 sevenSegmentTB	Test/test.vhd	5968;"	kind:entity	line:5968	language:VHDL
 vector	Test/test.vhd	5980;"	kind:type	line:5980	language:VHDL
-bcdStimulus	Test/test.vhd	5980;"	kind:record	line:5980	language:VHDL
-sevSegOut	Test/test.vhd	5981;"	kind:record	line:5981	language:VHDL
+bcdStimulus	Test/test.vhd	5981;"	kind:record	line:5981	language:VHDL
+sevSegOut	Test/test.vhd	5982;"	kind:record	line:5982	language:VHDL
 NumVectors	Test/test.vhd	5985;"	kind:constant	line:5985	language:VHDL
 PropDelay	Test/test.vhd	5986;"	kind:constant	line:5986	language:VHDL
 SimLoopDelay	Test/test.vhd	5987;"	kind:constant	line:5987	language:VHDL
@@ -1873,12 +1873,12 @@ H	Test/simple.mak	15;"	kind:macro	line:15	language:Make
 I	Test/simple.mak	16;"	kind:macro	line:16	language:Make
 longtable	Test/readlong.sql	13;"	kind:table	line:13	language:SQL
 longtable.longcol	Test/readlong.sql	13;"	kind:field	line:13	language:SQL
-cur1	Test/readlong.sql	16;"	kind:variable	line:16	language:SQL
-rc	Test/readlong.sql	17;"	kind:variable	line:17	language:SQL
-long_piece	Test/readlong.sql	18;"	kind:variable	line:18	language:SQL
-piece_len	Test/readlong.sql	19;"	kind:variable	line:19	language:SQL
-long_tab	Test/readlong.sql	20;"	kind:variable	line:20	language:SQL
-long_len	Test/readlong.sql	21;"	kind:variable	line:21	language:SQL
+cur1	Test/readlong.sql	17;"	kind:variable	line:17	language:SQL
+rc	Test/readlong.sql	18;"	kind:variable	line:18	language:SQL
+long_piece	Test/readlong.sql	19;"	kind:variable	line:19	language:SQL
+piece_len	Test/readlong.sql	20;"	kind:variable	line:20	language:SQL
+long_tab	Test/readlong.sql	21;"	kind:variable	line:21	language:SQL
+long_len	Test/readlong.sql	22;"	kind:variable	line:22	language:SQL
 bug1777340	Test/bug1777340.java	1;"	kind:interface	line:1	language:Java
 Ó	Test/bug1777340.java	2;"	kind:field	line:2	language:Java	interface:bug1777340	access:public
 m	Test/bug1777340.java	3;"	kind:method	line:3	language:Java	interface:bug1777340	access:public	signature:()
@@ -2055,9 +2055,9 @@ Gozilla	Test/3548393.vim	490;"	kind:command	line:490	language:Vim
 GtagsUpdate	Test/3548393.vim	491;"	kind:command	line:491	language:Vim
 loaded_gtags	Test/3548393.vim	507;"	kind:variable	line:507	language:Vim
 employees	Test/bug1570779.sql	8;"	kind:table	line:8	language:SQL
-employees.id	Test/bug1570779.sql	8;"	kind:field	line:8	language:SQL
-employees.name	Test/bug1570779.sql	9;"	kind:field	line:9	language:SQL
-employees.address	Test/bug1570779.sql	10;"	kind:field	line:10	language:SQL
+employees.id	Test/bug1570779.sql	9;"	kind:field	line:9	language:SQL
+employees.name	Test/bug1570779.sql	10;"	kind:field	line:10	language:SQL
+employees.address	Test/bug1570779.sql	11;"	kind:field	line:11	language:SQL
 MyCollections	Test/events.cs	3;"	kind:namespace	line:3	language:C#
 ChangedEventHandler	Test/events.cs	8;"	kind:method	line:8	language:C#	namespace:MyCollections	access:public	signature:(object sender, EventArgs e)
 ListWithChangedEvent	Test/events.cs	12;"	kind:class	line:12	language:C#	namespace:MyCollections	inherits:ArrayList	access:public
@@ -2148,14 +2148,14 @@ REM010	Test/lanus.for	37;"	kind:variable	line:37	language:Fortran
 FAC010	Test/lanus.for	38;"	kind:variable	line:38	language:Fortran
 PER010	Test/lanus.for	40;"	kind:variable	line:40	language:Fortran
 lob_table	Test/readlob.sql	12;"	kind:table	line:12	language:SQL
-lob_table.id	Test/readlob.sql	12;"	kind:field	line:12	language:SQL
-lob_table.b_lob	Test/readlob.sql	13;"	kind:field	line:13	language:SQL
-lob_table.c_lob	Test/readlob.sql	14;"	kind:field	line:14	language:SQL
-lob_table.b_file	Test/readlob.sql	15;"	kind:field	line:15	language:SQL
-clob_locator	Test/readlob.sql	21;"	kind:variable	line:21	language:SQL
-charbuf	Test/readlob.sql	22;"	kind:variable	line:22	language:SQL
-read_offset	Test/readlob.sql	23;"	kind:variable	line:23	language:SQL
-read_amount	Test/readlob.sql	24;"	kind:variable	line:24	language:SQL
+lob_table.id	Test/readlob.sql	13;"	kind:field	line:13	language:SQL
+lob_table.b_lob	Test/readlob.sql	14;"	kind:field	line:14	language:SQL
+lob_table.c_lob	Test/readlob.sql	15;"	kind:field	line:15	language:SQL
+lob_table.b_file	Test/readlob.sql	16;"	kind:field	line:16	language:SQL
+clob_locator	Test/readlob.sql	22;"	kind:variable	line:22	language:SQL
+charbuf	Test/readlob.sql	23;"	kind:variable	line:23	language:SQL
+read_offset	Test/readlob.sql	24;"	kind:variable	line:24	language:SQL
+read_amount	Test/readlob.sql	25;"	kind:variable	line:25	language:SQL
 TemplClass	Test/bug872494.cpp	29;"	kind:class	line:29	language:C++	file:
 i	Test/bug872494.cpp	29;"	kind:member	line:29	language:C++	class:TemplClass	file:	access:private
 TemplClass	Test/bug872494.cpp	31;"	kind:class	line:31	language:C++	file:
@@ -2184,8 +2184,8 @@ version	Test/attributes.cs	14;"	kind:field	line:14	language:C#	class:Author	acce
 name	Test/attributes.cs	15;"	kind:field	line:15	language:C#	class:Author	file:	access:private
 Author	Test/attributes.cs	20;"	kind:class	line:20	language:C#	inherits:Attribute
 funcon	Test/initialization.f90	2;"	kind:module	line:2	language:Fortran
-imat	Test/initialization.f90	4;"	kind:variable	line:4	language:Fortran	module:funcon
-imat6	Test/initialization.f90	8;"	kind:variable	line:8	language:Fortran	module:funcon
+imat	Test/initialization.f90	5;"	kind:variable	line:5	language:Fortran	module:funcon
+imat6	Test/initialization.f90	9;"	kind:variable	line:9	language:Fortran	module:funcon
 HEADER_TEMPLATE	Test/bug699171.py	4;"	kind:variable	line:4	language:Python
 Quit	Test/bug699171.py	8;"	kind:function	line:8	language:Python	access:public	signature:(msg, exitcode=0)
 x	Test/bug1491666.c	3;"	kind:member	line:3	language:C	struct:__anon9	file:	access:public
