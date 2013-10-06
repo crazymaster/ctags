@@ -1,0 +1,2202 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+INTERRUPTS	Test/68hc11.asm	1;"	kind:label	line:1	language:Asm
+PORTD	Test/68hc11.asm	3;"	kind:define	line:3	language:Asm
+SP	Test/68hc11.asm	5;"	kind:define	line:5	language:Asm
+TRAPP	Test/68hc11.asm	7;"	kind:label	line:7	language:Asm
+PROMPT	Test/68hc11.asm	12;"	kind:label	line:12	language:Asm
+COLD	Test/68hc11.asm	16;"	kind:label	line:16	language:Asm
+sym1	Test/68hc11.asm	20;"	kind:define	line:20	language:Asm
+sym2	Test/68hc11.asm	21;"	kind:define	line:21	language:Asm
+sym3	Test/68hc11.asm	22;"	kind:label	line:22	language:Asm
+sym4	Test/68hc11.asm	23;"	kind:label	line:23	language:Asm
+Employee	Test/property.cs	4;"	kind:class	line:4	language:C#
+numberOfEmployees	Test/property.cs	6;"	kind:field	line:6	language:C#	class:Employee	access:public
+counter	Test/property.cs	7;"	kind:field	line:7	language:C#	class:Employee	file:	access:private
+name	Test/property.cs	8;"	kind:field	line:8	language:C#	class:Employee	file:	access:private
+Name	Test/property.cs	11;"	kind:property	line:11	language:C#	class:Employee	access:public
+Counter	Test/property.cs	24;"	kind:property	line:24	language:C#	class:Employee	access:public
+Employee	Test/property.cs	33;"	kind:method	line:33	language:C#	class:Employee	access:public	signature:()
+MainClass	Test/property.cs	40;"	kind:class	line:40	language:C#
+Main	Test/property.cs	42;"	kind:method	line:42	language:C#	class:MainClass	access:public	signature:()
+chapter text	Test/intro.tex	4;"	kind:chapter	line:4	language:Tex
+chapter1-intro.inc	Test/intro.tex	5;"	kind:include	line:5	language:Tex
+section1 text	Test/intro.tex	6;"	kind:section	line:6	language:Tex	chapter:chapter text
+Introduction	Test/intro.tex	9;"	kind:section	line:9	language:Tex	chapter:chapter text
+Part1	Test/intro.tex	10;"	kind:part	line:10	language:Tex
+subsection2	Test/intro.tex	13;"	kind:subsection	line:13	language:Tex	part:Part1
+subsubsection3 with extra text	Test/intro.tex	16;"	kind:subsubsection	line:16	language:Tex	subsection:Part1""subsection2
+short section4	Test/intro.tex	19;"	kind:section	line:19	language:Tex	part:Part1
+short para1	Test/intro.tex	20;"	kind:paragraph	line:20	language:Tex	section:Part1""short section4
+long paragraph2	Test/intro.tex	21;"	kind:paragraph	line:21	language:Tex	section:Part1""short section4
+Part2	Test/intro.tex	24;"	kind:part	line:24	language:Tex
+shorter intro2	Test/intro.tex	25;"	kind:section	line:25	language:Tex	part:Part2
+subsec5 text	Test/intro.tex	28;"	kind:subsection	line:28	language:Tex	section:Part2""shorter intro2
+short subpara1	Test/intro.tex	29;"	kind:subparagraph	line:29	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+long subparagraph2	Test/intro.tex	30;"	kind:subparagraph	line:30	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+subsubsection6 with extra text	Test/intro.tex	33;"	kind:subsubsection	line:33	language:Tex	subsection:Part2""shorter intro2""subsec5 text
+chapter2	Test/intro.tex	36;"	kind:chapter	line:36	language:Tex	part:Part2
+chapter2-intro.inc	Test/intro.tex	37;"	kind:include	line:37	language:Tex
+A	Test/bug3168705.py	1;"	kind:class	line:1	language:Python	inherits:
+func1	Test/bug3168705.py	2;"	kind:member	line:2	language:Python	class:A	access:public	signature:()
+func2	Test/bug3168705.py	7;"	kind:member	line:7	language:Python	class:A	access:public	signature:()
+main	Test/common.f	1;"	kind:program	line:1	language:Fortran
+common1	Test/common.f	2;"	kind:common	line:2	language:Fortran	program:main
+common2	Test/common.f	3;"	kind:common	line:3	language:Fortran	program:main
+common3	Test/common.f	3;"	kind:common	line:3	language:Fortran	program:main
+f	Test/bug816636.sml	21;"	kind:function	line:21	language:SML
+g	Test/bug816636.sml	23;"	kind:function	line:23	language:SML
+bug2049723	Test/bug2049723.java	3;"	kind:class	line:3	language:Java
+m1	Test/bug2049723.java	4;"	kind:method	line:4	language:Java	class:bug2049723	access:public	signature:(String arg)
+m2	Test/bug2049723.java	5;"	kind:method	line:5	language:Java	class:bug2049723	access:public	signature:(@onnull String arg)
+f1	Test/simple.sh	3;"	kind:function	line:3	language:Sh
+f2	Test/simple.sh	6;"	kind:function	line:6	language:Sh
+_a_b	Test/simple.sh	9;"	kind:function	line:9	language:Sh
+Test1	Test/bug612019.pas	26;"	kind:procedure	line:26	language:Pascal
+Test2	Test/bug612019.pas	27;"	kind:procedure	line:27	language:Pascal
+Test3	Test/bug612019.pas	28;"	kind:procedure	line:28	language:Pascal
+detach	Test/bug1809024.py	1;"	kind:function	line:1	language:Python	access:public	signature:(self)
+one	Test/simple.bas	3;"	kind:constant	line:3	language:Basic
+a	Test/simple.bas	5;"	kind:variable	line:5	language:Basic
+b	Test/simple.bas	6;"	kind:variable	line:6	language:Basic
+str	Test/simple.bas	7;"	kind:variable	line:7	language:Basic
+test	Test/simple.bas	9;"	kind:type	line:9	language:Basic
+f	Test/simple.bas	14;"	kind:function	line:14	language:Basic
+start	Test/simple.bas	18;"	kind:label	line:18	language:Basic
+t_c1_tname	Test/countall.sql	12;"	kind:variable	line:12	language:SQL
+t_command	Test/countall.sql	13;"	kind:variable	line:13	language:SQL
+t_cid	Test/countall.sql	14;"	kind:variable	line:14	language:SQL
+t_total_records	Test/countall.sql	15;"	kind:variable	line:15	language:SQL
+stat	Test/countall.sql	16;"	kind:variable	line:16	language:SQL
+row_count	Test/countall.sql	17;"	kind:variable	line:17	language:SQL
+t_limit	Test/countall.sql	18;"	kind:variable	line:18	language:SQL
+c1	Test/countall.sql	20;"	kind:cursor	line:20	language:SQL
+DEFAULT_INT	Test/simple.vr	2;"	kind:macro	line:2	language:Vera	file:
+DEFAULT_BIT	Test/simple.vr	3;"	kind:macro	line:3	language:Vera	file:
+main	Test/simple.vr	7;"	kind:program	line:7	language:Vera
+ExampleClass	Test/simple.vr	39;"	kind:class	line:39	language:Vera
+m_int	Test/simple.vr	40;"	kind:member	line:40	language:Vera	class:ExampleClass	file:	access:local
+m_bit	Test/simple.vr	41;"	kind:member	line:41	language:Vera	class:ExampleClass	file:	access:local
+m_data	Test/simple.vr	42;"	kind:member	line:42	language:Vera	class:ExampleClass	file:	access:local
+m_sName	Test/simple.vr	43;"	kind:member	line:43	language:Vera	class:ExampleClass	file:	access:local
+m_eTrigger	Test/simple.vr	44;"	kind:member	line:44	language:Vera	class:ExampleClass	file:	access:local
+new	Test/simple.vr	46;"	kind:task	line:46	language:Vera	class:ExampleClass	access:public
+setInt	Test/simple.vr	51;"	kind:task	line:51	language:Vera	class:ExampleClass	access:public
+getInt	Test/simple.vr	55;"	kind:function	line:55	language:Vera	class:ExampleClass	access:public	signature:()
+setBit	Test/simple.vr	59;"	kind:task	line:59	language:Vera	class:ExampleClass	access:public
+getBit	Test/simple.vr	63;"	kind:function	line:63	language:Vera	class:ExampleClass	access:public	signature:()
+setData	Test/simple.vr	67;"	kind:task	line:67	language:Vera	class:ExampleClass	access:public
+getData	Test/simple.vr	71;"	kind:function	line:71	language:Vera	class:ExampleClass	access:public	signature:()
+setName	Test/simple.vr	75;"	kind:task	line:75	language:Vera	class:ExampleClass	access:public
+getName	Test/simple.vr	79;"	kind:function	line:79	language:Vera	class:ExampleClass	access:public	signature:()
+wait	Test/simple.vr	83;"	kind:task	line:83	language:Vera	class:ExampleClass	access:public
+trigger	Test/simple.vr	87;"	kind:task	line:87	language:Vera	class:ExampleClass	access:public
+setTrigger	Test/simple.vr	95;"	kind:task	line:95	language:Vera	class:ExampleClass
+getTrigger	Test/simple.vr	99;"	kind:function	line:99	language:Vera	class:ExampleClass	signature:()
+omap1_arch_reset	Test/bug1764143.h	1;"	kind:function	line:1	language:C++	signature:(char mode)
+arch_reset	Test/bug1764143.h	19;"	kind:function	line:19	language:C++	signature:(char mode)
+AUTO_TEST	Test/auto.f	2;"	kind:program	line:2	language:Fortran
+P	Test/auto.f	4;"	kind:variable	line:4	language:Fortran	program:AUTO_TEST
+D	Test/auto.f	4;"	kind:variable	line:4	language:Fortran	program:AUTO_TEST
+Q	Test/auto.f	4;"	kind:variable	line:4	language:Fortran	program:AUTO_TEST
+g	Test/bug1563476.cpp	1;"	kind:function	line:1	language:C++	signature:()
+IntroduceBitDef	Test/bug1563476.cpp	5;"	kind:externvar	line:5	language:C++	file:
+Digit	Test/keyword_explicit.cs	3;"	kind:struct	line:3	language:C#
+value	Test/keyword_explicit.cs	5;"	kind:field	line:5	language:C#	struct:Digit	access:public
+Digit	Test/keyword_explicit.cs	6;"	kind:method	line:6	language:C#	struct:Digit	access:public	signature:(byte value)
+operator Digit	Test/keyword_explicit.cs	13;"	kind:method	line:13	language:C#	struct:Digit	access:public	signature:(byte b)
+Test	Test/keyword_explicit.cs	20;"	kind:class	line:20	language:C#
+Main	Test/keyword_explicit.cs	22;"	kind:method	line:22	language:C#	class:Test	access:public	signature:()
+TEST	Test/bug823000.sql	26;"	kind:package	line:26	language:SQL
+TEST.TestFunc1	Test/bug823000.sql	28;"	kind:procedure	line:28	language:SQL
+TEST.TestFunc2	Test/bug823000.sql	38;"	kind:procedure	line:38	language:SQL
+x	Test/bug1458930.c	2;"	kind:prototype	line:2	language:C	file:
+y	Test/bug1458930.c	3;"	kind:prototype	line:3	language:C	file:
+writedate	Test/union.f	1;"	kind:program	line:1	language:Fortran
+start	Test/union.f	2;"	kind:type	line:2	language:Fortran	program:writedate
+month	Test/union.f	5;"	kind:component	line:5	language:Fortran	type:start
+day	Test/union.f	6;"	kind:component	line:6	language:Fortran	type:start
+year	Test/union.f	7;"	kind:component	line:7	language:Fortran	type:start
+date	Test/union.f	10;"	kind:component	line:10	language:Fortran	type:start
+sdate	Test/union.f	14;"	kind:variable	line:14	language:Fortran	program:writedate
+10	Test/union.f	18;"	kind:label	line:18	language:Fortran	program:writedate	file:
+C	Test/bug1691412.java	1;"	kind:class	line:1	language:Java
+newInstance	Test/bug1691412.java	4;"	kind:method	line:4	language:Java	class:C	access:public	signature:()
+toString	Test/bug1691412.java	11;"	kind:method	line:11	language:Java	class:C	access:public	signature:()
+CustomAnnotation	Test/bug1691412.java	16;"	kind:interface	line:16	language:Java
+MyGenericClass1	Test/bug1515910.cs	2;"	kind:class	line:2	language:C#
+Enum1	Test/bug1515910.cs	5;"	kind:enum	line:5	language:C#
+Value1	Test/bug1515910.cs	6;"	kind:enumerator	line:6	language:C#	enum:Enum1	file:
+Values	Test/bug1515910.cs	6;"	kind:enumerator	line:6	language:C#	enum:Enum1	file:
+C	Test/bug1515910.cs	10;"	kind:class	line:10	language:C#
+str1	Test/bug1515910.cs	11;"	kind:field	line:11	language:C#	class:C	file:	access:private
+int1	Test/bug1515910.cs	12;"	kind:field	line:12	language:C#	class:C	file:	access:private
+str2	Test/bug1515910.cs	13;"	kind:field	line:13	language:C#	class:C	file:	access:private
+str3	Test/bug1515910.cs	14;"	kind:field	line:14	language:C#	class:C	file:	access:private
+FooBar	Test/rojas.h	11;"	kind:typedef	line:11	language:C++
+afunc	Test/rojas.h	12;"	kind:prototype	line:12	language:C++	signature:(const char * aparam)
+astruct	Test/rojas.h	13;"	kind:struct	line:13	language:C++
+m_member	Test/rojas.h	15;"	kind:member	line:15	language:C++	struct:astruct	access:public
+astruct	Test/rojas.h	17;"	kind:typedef	line:17	language:C++	typeref:struct:astruct
+FFunc	Test/rojas.h	18;"	kind:typedef	line:18	language:C++
+Ocaml_empty	Test/ocaml_empty.ml	1;"	kind:module	line:1	language:OCaml
+approx	Test/recursive.f95	2;"	kind:module	line:2	language:Fortran
+y	Test/recursive.f95	31;"	kind:variable	line:31	language:Fortran	module:approx
+parts	Test/recursive.f95	32;"	kind:variable	line:32	language:Fortran	module:approx
+approx2	Test/recursive.f95	36;"	kind:module	line:36	language:Fortran
+z	Test/recursive.f95	65;"	kind:variable	line:65	language:Fortran	module:approx2
+parts2	Test/recursive.f95	66;"	kind:variable	line:66	language:Fortran	module:approx2
+MDCOMPONENTS	Test/bug734933.f90	1;"	kind:module	line:1	language:Fortran
+LIM_COMPONENTS	Test/bug734933.f90	10;"	kind:variable	line:10	language:Fortran	module:MDCOMPONENTS
+NUM_COMPONENTS	Test/bug734933.f90	11;"	kind:variable	line:11	language:Fortran	module:MDCOMPONENTS
+NCOMP	Test/bug734933.f90	11;"	kind:variable	line:11	language:Fortran	module:MDCOMPONENTS
+COMPONENT	Test/bug734933.f90	12;"	kind:type	line:12	language:Fortran	module:MDCOMPONENTS
+NAME	Test/bug734933.f90	13;"	kind:component	line:13	language:Fortran	type:COMPONENT
+NUM_PART	Test/bug734933.f90	14;"	kind:component	line:14	language:Fortran	type:COMPONENT
+PART_LIST	Test/bug734933.f90	15;"	kind:component	line:15	language:Fortran	type:COMPONENT
+COMPONENT_POINTER	Test/bug734933.f90	18;"	kind:type	line:18	language:Fortran	module:MDCOMPONENTS
+P	Test/bug734933.f90	19;"	kind:component	line:19	language:Fortran	type:COMPONENT_POINTER
+COMP	Test/bug734933.f90	22;"	kind:variable	line:22	language:Fortran	module:MDCOMPONENTS
+COMP_TMP	Test/bug734933.f90	23;"	kind:variable	line:23	language:Fortran	module:MDCOMPONENTS
+COMPONENTS	Test/bug734933.f90	24;"	kind:variable	line:24	language:Fortran	module:MDCOMPONENTS
+COMPONENTS_TMP	Test/bug734933.f90	24;"	kind:variable	line:24	language:Fortran	module:MDCOMPONENTS
+ADD_COMPONENTS	Test/bug734933.f90	32;"	kind:subroutine	line:32	language:Fortran	module:MDCOMPONENTS
+~Class1	Test/bug1585745.cpp	2;"	kind:function	line:2	language:C++	class:Class1	signature:()
+~Class2	Test/bug1585745.cpp	3;"	kind:function	line:3	language:C++	class:Class2	signature:()
+~Class3	Test/bug1585745.cpp	4;"	kind:function	line:4	language:C++	class:Class3	signature:()
+~Class4	Test/bug1585745.cpp	5;"	kind:function	line:5	language:C++	class:Class4	signature:()
+Class5	Test/bug1585745.cpp	6;"	kind:class	line:6	language:C++	file:
+~Class5	Test/bug1585745.cpp	7;"	kind:function	line:7	language:C++	class:Class5	access:public	signature:()
+constDecl	Test/simple.asp	4;"	kind:constant	line:4	language:Asp
+lang_start	Test/simple.asp	6;"	kind:variable	line:6	language:Asp
+lang_length	Test/simple.asp	7;"	kind:variable	line:7	language:Asp
+HtmlCutout	Test/simple.asp	8;"	kind:function	line:8	language:Asp
+lang_swe	Test/simple.asp	10;"	kind:variable	line:10	language:Asp
+f_translate_9data	Test/simple.asp	11;"	kind:function	line:11	language:Asp
+js_erroralert	Test/simple.asp	13;"	kind:subroutine	line:13	language:Asp
+bug814263	Test/bug814263.java	3;"	kind:class	line:3	language:Java
+map1	Test/bug814263.java	4;"	kind:field	line:4	language:Java	class:bug814263	access:protected
+map2	Test/bug814263.java	5;"	kind:field	line:5	language:Java	class:bug814263	access:protected
+main	Test/bug1856363.py	3;"	kind:function	line:3	language:Python	access:public	signature:()
+C	Test/bug1611054.cs	1;"	kind:class	line:1	language:C#
+a	Test/bug1611054.cs	2;"	kind:method	line:2	language:C#	class:C	access:public	signature:()
+b	Test/bug1611054.cs	6;"	kind:method	line:6	language:C#	class:C	access:public	signature:()
+db_query	Test/bug681824.php	17;"	kind:function	line:17	language:PHP
+var	Test/simple.php	5;"	kind:variable	line:5	language:PHP
+Var	Test/simple.php	6;"	kind:variable	line:6	language:PHP
+_4site	Test/simple.php	10;"	kind:variable	line:10	language:PHP
+täyte	Test/simple.php	11;"	kind:variable	line:11	language:PHP
+CONSTANT	Test/simple.php	15;"	kind:define	line:15	language:PHP
+foo	Test/simple.php	20;"	kind:function	line:20	language:PHP
+Cart	Test/simple.php	26;"	kind:class	line:26	language:PHP
+items	Test/simple.php	28;"	kind:variable	line:28	language:PHP
+add_item	Test/simple.php	32;"	kind:function	line:32	language:PHP
+remove_item	Test/simple.php	39;"	kind:function	line:39	language:PHP
+m_name	Test/objectivec_property.h	4;"	kind:variable	line:4	language:C++
+m_age	Test/objectivec_property.h	6;"	kind:variable	line:6	language:C++
+personName	Test/objectivec_property.h	9;"	kind:variable	line:9	language:C++
+personAge	Test/objectivec_property.h	10;"	kind:variable	line:10	language:C++
+testalloc	Test/misc_types.f90	2;"	kind:program	line:2	language:Fortran
+base_type	Test/misc_types.f90	3;"	kind:variable	line:3	language:Fortran	program:testalloc
+i2	Test/misc_types.f90	5;"	kind:variable	line:5	language:Fortran	program:testalloc
+i3	Test/misc_types.f90	7;"	kind:variable	line:7	language:Fortran	program:testalloc
+i4	Test/misc_types.f90	9;"	kind:variable	line:9	language:Fortran	program:testalloc
+i5	Test/misc_types.f90	14;"	kind:variable	line:14	language:Fortran	program:testalloc
+i6	Test/misc_types.f90	16;"	kind:variable	line:16	language:Fortran	program:testalloc
+my_struct	Test/misc_types.f90	18;"	kind:type	line:18	language:Fortran	program:testalloc
+first_byte	Test/misc_types.f90	19;"	kind:component	line:19	language:Fortran	type:my_struct
+align_second_16	Test/misc_types.f90	21;"	kind:component	line:21	language:Fortran	type:my_struct
+i7	Test/misc_types.f90	24;"	kind:variable	line:24	language:Fortran	program:testalloc
+the_struct	Test/misc_types.f90	26;"	kind:variable	line:26	language:Fortran	program:testalloc
+i8	Test/misc_types.f90	27;"	kind:variable	line:27	language:Fortran	program:testalloc
+list	Test/misc_types.f90	29;"	kind:variable	line:29	language:Fortran	program:testalloc
+i	Test/misc_types.f90	30;"	kind:variable	line:30	language:Fortran	program:testalloc
+status	Test/misc_types.f90	30;"	kind:variable	line:30	language:Fortran	program:testalloc
+wahoo	Test/bug1111214.v	15;"	kind:module	line:15	language:Verilog
+one#	Test/simple.bb	3;"	kind:constant	line:3	language:Basic
+a	Test/simple.bb	5;"	kind:variable	line:5	language:Basic
+b	Test/simple.bb	6;"	kind:variable	line:6	language:Basic
+test	Test/simple.bb	8;"	kind:type	line:8	language:Basic
+f	Test/simple.bb	13;"	kind:function	line:13	language:Basic
+start	Test/simple.bb	17;"	kind:label	line:17	language:Basic
+Point	Test/keyword_struct.cs	4;"	kind:struct	line:4	language:C#
+x	Test/keyword_struct.cs	6;"	kind:field	line:6	language:C#	struct:Point	access:public
+y	Test/keyword_struct.cs	6;"	kind:field	line:6	language:C#	struct:Point	access:public
+Point	Test/keyword_struct.cs	8;"	kind:method	line:8	language:C#	struct:Point	access:public	signature:(int p1, int p2)
+MainClass	Test/keyword_struct.cs	15;"	kind:class	line:15	language:C#
+Main	Test/keyword_struct.cs	17;"	kind:method	line:17	language:C#	class:MainClass	access:public	signature:()
+Introduction	Test/bug2886870.tex	37;"	kind:section	line:37	language:Tex	chapter:Part2""chapter2
+Equations	Test/bug2886870.tex	57;"	kind:section	line:57	language:Tex	chapter:Part2""chapter2
+eq:ising	Test/bug2886870.tex	75;"	kind:label	line:75	language:Tex
+eq:fine	Test/bug2886870.tex	104;"	kind:label	line:104	language:Tex
+eq:mdiv	Test/bug2886870.tex	127;"	kind:label	line:127	language:Tex
+Tables	Test/bug2886870.tex	153;"	kind:section	line:153	language:Tex	chapter:Part2""chapter2
+tab:5  tc	Test/bug2886870.tex	178;"	kind:label	line:178	language:Tex
+Lists	Test/bug2886870.tex	183;"	kind:section	line:183	language:Tex	chapter:Part2""chapter2
+Figures	Test/bug2886870.tex	204;"	kind:section	line:204	language:Tex	chapter:Part2""chapter2
+fig:typical	Test/bug2886870.tex	214;"	kind:label	line:214	language:Tex
+fig:lj	Test/bug2886870.tex	221;"	kind:label	line:221	language:Tex
+Literal text	Test/bug2886870.tex	227;"	kind:section	line:227	language:Tex	chapter:Part2""chapter2
+Special Symbols	Test/bug2886870.tex	242;"	kind:section	line:242	language:Tex	chapter:Part2""chapter2
+Common Greek letters	Test/bug2886870.tex	244;"	kind:subsection	line:244	language:Tex	section:Part2""chapter2""Special Symbols
+Test for ctags	Test/bug2886870.tex	264;"	kind:subsubsection	line:264	language:Tex	subsection:Part2""chapter2""Special Symbols""Common Greek letters
+Special symbols	Test/bug2886870.tex	265;"	kind:subsection	line:265	language:Tex	section:Part2""chapter2""Special Symbols
+color  red	Test/bug2886870.tex	302;"	kind:section	line:302	language:Tex	chapter:Part2""chapter2
+label  morefig	Test/bug2886870.tex	307;"	kind:section	line:307	language:Tex	chapter:Part2""chapter2
+fig:qm  complexfunctions	Test/bug2886870.tex	321;"	kind:label	line:321	language:Tex
+ScanAction	Test/complex_decl.c	2;"	kind:variable	line:2	language:C	file:
+ConstTest	Test/keyword_const.cs	4;"	kind:class	line:4	language:C#
+MyClass	Test/keyword_const.cs	6;"	kind:class	line:6	language:C#	class:ConstTest	access:private
+x	Test/keyword_const.cs	8;"	kind:field	line:8	language:C#	class:ConstTest.MyClass	access:public
+y	Test/keyword_const.cs	9;"	kind:field	line:9	language:C#	class:ConstTest.MyClass	access:public
+c1	Test/keyword_const.cs	10;"	kind:field	line:10	language:C#	class:ConstTest.MyClass	access:public
+c2	Test/keyword_const.cs	11;"	kind:field	line:11	language:C#	class:ConstTest.MyClass	access:public
+MyClass	Test/keyword_const.cs	13;"	kind:method	line:13	language:C#	class:ConstTest.MyClass	access:public	signature:(int p1, int p2)
+Main	Test/keyword_const.cs	20;"	kind:method	line:20	language:C#	class:ConstTest	access:public	signature:()
+validFunctionOne	Test/simple.js	33;"	kind:function	line:33	language:JavaScript
+validFunctionTwo	Test/simple.js	35;"	kind:function	line:35	language:JavaScript
+innerThree	Test/simple.js	38;"	kind:function	line:38	language:JavaScript	function:validFunctionThree
+validFunctionThree	Test/simple.js	37;"	kind:function	line:37	language:JavaScript
+my_global_var1	Test/simple.js	41;"	kind:variable	line:41	language:JavaScript
+validFunctionFour	Test/simple.js	43;"	kind:function	line:43	language:JavaScript	function:extra
+my_global_var2	Test/simple.js	50;"	kind:variable	line:50	language:JavaScript
+validFunctionFive	Test/simple.js	52;"	kind:function	line:52	language:JavaScript	function:testlib
+invalidInnerFunction	Test/simple.js	54;"	kind:function	line:54	language:JavaScript
+validFunctionSix	Test/simple.js	56;"	kind:function	line:56	language:JavaScript	function:testlib.core
+ValidClassOne	Test/simple.js	58;"	kind:class	line:58	language:JavaScript	class:testlib.extras
+validMethodOne	Test/simple.js	63;"	kind:method	line:63	language:JavaScript	class:testlib.extras.ValidClassOne
+validMethodTwo	Test/simple.js	64;"	kind:method	line:64	language:JavaScript	class:testlib.extras.ValidClassOne
+validMethodThree	Test/simple.js	69;"	kind:method	line:69	language:JavaScript	class:ValidClassTwo
+validMethodFour	Test/simple.js	72;"	kind:method	line:72	language:JavaScript	class:ValidClassTwo
+ValidClassTwo	Test/simple.js	67;"	kind:class	line:67	language:JavaScript
+my_global_var4	Test/simple.js	75;"	kind:variable	line:75	language:JavaScript
+my_global_var4	Test/simple.js	78;"	kind:function	line:78	language:JavaScript
+calculate	Test/simple.js	85;"	kind:function	line:85	language:JavaScript	function:getHalfOf
+getHalfOf	Test/simple.js	83;"	kind:function	line:83	language:JavaScript
+my_global_var3	Test/simple.js	96;"	kind:variable	line:96	language:JavaScript
+Database	Test/simple.js	98;"	kind:class	line:98	language:JavaScript
+getTodaysDate	Test/simple.js	98;"	kind:method	line:98	language:JavaScript	class:Database
+executeQueryString	Test/simple.js	99;"	kind:method	line:99	language:JavaScript	class:Database
+g:var_global_scope	Test/simple.vim	3;"	kind:variable	line:3	language:Vim
+s:var_script_scope	Test/simple.vim	4;"	kind:variable	line:4	language:Vim
+var_script_default_scope	Test/simple.vim	5;"	kind:variable	line:5	language:Vim
+forms#FT_TEXTFIELD	Test/simple.vim	6;"	kind:variable	line:6	language:Vim
+forms#form	Test/simple.vim	7;"	kind:variable	line:7	language:Vim
+$env_var	Test/simple.vim	14;"	kind:variable	line:14	language:Vim
+uncompress	Test/simple.vim	28;"	kind:augroup	line:28	language:Vim
+SelectCmd	Test/simple.vim	40;"	kind:command	line:40	language:Vim
+DBSetOption	Test/simple.vim	41;"	kind:command	line:41	language:Vim
+NoSpaceBeforeContinue	Test/simple.vim	43;"	kind:command	line:43	language:Vim
+SpaceBeforeContinue	Test/simple.vim	45;"	kind:command	line:45	language:Vim
+ExtraLines	Test/simple.vim	49;"	kind:command	line:49	language:Vim
+Bar	Test/simple.vim	52;"	kind:function	line:52	language:Vim
+Foo	Test/simple.vim	59;"	kind:function	line:59	language:Vim
+IndentedFunction	Test/simple.vim	62;"	kind:function	line:62	language:Vim
+Foo_SID	Test/simple.vim	65;"	kind:function	line:65	language:Vim
+Foo_scolon	Test/simple.vim	68;"	kind:function	line:68	language:Vim
+validFuncLowerCaseInitialLetter	Test/simple.vim	71;"	kind:function	line:71	language:Vim
+mydict	Test/simple.vim	75;"	kind:variable	line:75	language:Vim
+mydict.len	Test/simple.vim	76;"	kind:function	line:76	language:Vim
+autoloadFunc#subdirname#Funcname	Test/simple.vim	83;"	kind:function	line:83	language:Vim
+forms#form.addTextField	Test/simple.vim	87;"	kind:function	line:87	language:Vim
+E	Test/simple.vim	98;"	kind:function	line:98	language:Vim
+<F8>	Test/simple.vim	110;"	kind:map	line:110	language:Vim
+<Leader>scdt	Test/simple.vim	111;"	kind:map	line:111	language:Vim
+,,,	Test/simple.vim	112;"	kind:map	line:112	language:Vim
+(	Test/simple.vim	113;"	kind:map	line:113	language:Vim
+A::B	Test/simple.pl	6;"	kind:package	line:6	language:Perl
+MySub	Test/simple.pl	7;"	kind:subroutine	line:7	language:Perl
+A	Test/simple.pl	8;"	kind:constant	line:8	language:Perl
+LABEL	Test/simple.pl	9;"	kind:label	line:9	language:Perl
+Kid	Test/keyword_class.cs	4;"	kind:class	line:4	language:C#
+age	Test/keyword_class.cs	6;"	kind:field	line:6	language:C#	class:Kid	file:	access:private
+name	Test/keyword_class.cs	7;"	kind:field	line:7	language:C#	class:Kid	file:	access:private
+Kid	Test/keyword_class.cs	10;"	kind:method	line:10	language:C#	class:Kid	access:public	signature:()
+Kid	Test/keyword_class.cs	16;"	kind:method	line:16	language:C#	class:Kid	access:public	signature:(string name, int age)
+PrintKid	Test/keyword_class.cs	23;"	kind:method	line:23	language:C#	class:Kid	access:public	signature:()
+MainClass	Test/keyword_class.cs	29;"	kind:class	line:29	language:C#
+Main	Test/keyword_class.cs	31;"	kind:method	line:31	language:C#	class:MainClass	access:public	signature:()
+python_var	Test/cython_sample.pyx	4;"	kind:variable	line:4	language:Python
+int_identity	Test/cython_sample.pyx	11;"	kind:function	line:11	language:Python	access:public	signature:(int i)
+int2string	Test/cython_sample.pyx	14;"	kind:function	line:14	language:Python	access:public	signature:(int i)
+CDefClass	Test/cython_sample.pyx	18;"	kind:class	line:18	language:Python	inherits:
+__init__	Test/cython_sample.pyx	19;"	kind:member	line:19	language:Python	class:CDefClass	access:public	signature:(self)
+standard_method	Test/cython_sample.pyx	21;"	kind:member	line:21	language:Python	class:CDefClass	access:public	signature:(self,i)
+c_method	Test/cython_sample.pyx	23;"	kind:member	line:23	language:Python	class:CDefClass	access:public	signature:(self,int i)
+identity	Test/cython_sample.pyx	27;"	kind:function	line:27	language:Python	access:public	signature:(x)
+StdClass	Test/cython_sample.pyx	31;"	kind:class	line:31	language:Python	inherits:
+return_me	Test/cython_sample.pyx	32;"	kind:member	line:32	language:Python	class:StdClass	access:public	signature:(self)
+stdObj	Test/cython_sample.pyx	36;"	kind:variable	line:36	language:Python
+Pow2	Test/bug2374109.vhd	1;"	kind:function	line:1	language:VHDL
+ERROR_HAPPENED	Test/bug1773926.cpp	3;"	kind:macro	line:3	language:C++	file:
+OK	Test/bug1773926.cpp	4;"	kind:macro	line:4	language:C++	file:
+NEXT_DEFINE	Test/bug1773926.cpp	5;"	kind:macro	line:5	language:C++	file:
+main	Test/bug1773926.cpp	7;"	kind:function	line:7	language:C++	signature:(int argc, char* argv[])
+test.me_12a	Test/simple.lua	5;"	kind:function	line:5	language:Lua
+test.i_123 	Test/simple.lua	10;"	kind:function	line:10	language:Lua
+D1	Test/jsFunc_tutorial.js	64;"	kind:function	line:64	language:JavaScript
+my_global_var1	Test/jsFunc_tutorial.js	70;"	kind:variable	line:70	language:JavaScript
+D2	Test/jsFunc_tutorial.js	74;"	kind:function	line:74	language:JavaScript
+D2A	Test/jsFunc_tutorial.js	83;"	kind:function	line:83	language:JavaScript
+theAdd	Test/jsFunc_tutorial.js	83;"	kind:function	line:83	language:JavaScript
+add	Test/jsFunc_tutorial.js	91;"	kind:function	line:91	language:JavaScript	function:myObject
+D3	Test/jsFunc_tutorial.js	99;"	kind:function	line:99	language:JavaScript
+D4	Test/jsFunc_tutorial.js	105;"	kind:function	line:105	language:JavaScript
+D5	Test/jsFunc_tutorial.js	114;"	kind:function	line:114	language:JavaScript
+Ball1	Test/jsFunc_tutorial.js	132;"	kind:function	line:132	language:JavaScript
+Ball3	Test/jsFunc_tutorial.js	141;"	kind:function	line:141	language:JavaScript
+myFunction4	Test/jsFunc_tutorial.js	150;"	kind:function	line:150	language:JavaScript
+sayName4A	Test/jsFunc_tutorial.js	160;"	kind:function	line:160	language:JavaScript
+myFunction5	Test/jsFunc_tutorial.js	179;"	kind:function	line:179	language:JavaScript
+myFunction6	Test/jsFunc_tutorial.js	198;"	kind:function	line:198	language:JavaScript
+myFunction6E	Test/jsFunc_tutorial.js	204;"	kind:function	line:204	language:JavaScript
+myFunction6A	Test/jsFunc_tutorial.js	213;"	kind:function	line:213	language:JavaScript
+myFunction6AE	Test/jsFunc_tutorial.js	219;"	kind:function	line:219	language:JavaScript
+myFunction6B	Test/jsFunc_tutorial.js	228;"	kind:function	line:228	language:JavaScript
+savedFunc6B	Test/jsFunc_tutorial.js	233;"	kind:function	line:233	language:JavaScript
+calculate	Test/jsFunc_tutorial.js	244;"	kind:function	line:244	language:JavaScript	function:getHalfOf7
+getHalfOf7	Test/jsFunc_tutorial.js	242;"	kind:function	line:242	language:JavaScript
+calculate8	Test/jsFunc_tutorial.js	259;"	kind:function	line:259	language:JavaScript
+calculate	Test/jsFunc_tutorial.js	266;"	kind:function	line:266	language:JavaScript	function:getHalfOf8
+getHalfOf8	Test/jsFunc_tutorial.js	264;"	kind:function	line:264	language:JavaScript
+DT1	Test/jsFunc_tutorial.js	280;"	kind:function	line:280	language:JavaScript
+DT2	Test/jsFunc_tutorial.js	290;"	kind:function	line:290	language:JavaScript
+DT2A	Test/jsFunc_tutorial.js	302;"	kind:function	line:302	language:JavaScript
+DT3	Test/jsFunc_tutorial.js	315;"	kind:function	line:315	language:JavaScript
+DT4	Test/jsFunc_tutorial.js	333;"	kind:class	line:333	language:JavaScript
+DT5	Test/jsFunc_tutorial.js	344;"	kind:class	line:344	language:JavaScript
+DT6	Test/jsFunc_tutorial.js	363;"	kind:class	line:363	language:JavaScript
+getSalary	Test/jsFunc_tutorial.js	387;"	kind:method	line:387	language:JavaScript	class:DT7
+DT7	Test/jsFunc_tutorial.js	380;"	kind:class	line:380	language:JavaScript
+addSalaryFunction	Test/jsFunc_tutorial.js	393;"	kind:class	line:393	language:JavaScript
+getSalary	Test/jsFunc_tutorial.js	411;"	kind:method	line:411	language:JavaScript	class:DT7A
+DT7A	Test/jsFunc_tutorial.js	404;"	kind:class	line:404	language:JavaScript
+getSalary	Test/jsFunc_tutorial.js	435;"	kind:method	line:435	language:JavaScript	class:DT8
+DT8	Test/jsFunc_tutorial.js	429;"	kind:class	line:429	language:JavaScript
+DT9	Test/jsFunc_tutorial.js	469;"	kind:class	line:469	language:JavaScript
+getSalaryFunctionDT9	Test/jsFunc_tutorial.js	478;"	kind:function	line:478	language:JavaScript
+addSalaryFunctionDT9	Test/jsFunc_tutorial.js	483;"	kind:class	line:483	language:JavaScript
+PT1	Test/jsFunc_tutorial.js	491;"	kind:function	line:491	language:JavaScript
+PT2	Test/jsFunc_tutorial.js	499;"	kind:class	line:499	language:JavaScript
+livesIn	Test/jsFunc_tutorial.js	504;"	kind:method	line:504	language:JavaScript	class:PT2
+price	Test/jsFunc_tutorial.js	505;"	kind:method	line:505	language:JavaScript	class:PT2
+PT3	Test/jsFunc_tutorial.js	510;"	kind:class	line:510	language:JavaScript
+getSalary	Test/jsFunc_tutorial.js	516;"	kind:method	line:516	language:JavaScript	class:PT3
+addSalary	Test/jsFunc_tutorial.js	521;"	kind:method	line:521	language:JavaScript	class:PT3
+PRTSTR	Test/moniker.x68	12;"	kind:define	line:12	language:Asm
+READSTR	Test/moniker.x68	13;"	kind:define	line:13	language:Asm
+START	Test/moniker.x68	19;"	kind:label	line:19	language:Asm
+SURNAME	Test/moniker.x68	47;"	kind:label	line:47	language:Asm
+INITIAL	Test/moniker.x68	74;"	kind:label	line:74	language:Asm
+PRNSURNAME	Test/moniker.x68	79;"	kind:label	line:79	language:Asm
+QUIT	Test/moniker.x68	84;"	kind:label	line:84	language:Asm
+CHECK2	Test/moniker.x68	92;"	kind:label	line:92	language:Asm
+RETURNTRUE	Test/moniker.x68	99;"	kind:label	line:99	language:Asm
+RETURNFALSE	Test/moniker.x68	102;"	kind:label	line:102	language:Asm
+PROMPT1	Test/moniker.x68	110;"	kind:define	line:110	language:Asm
+PROMPT2	Test/moniker.x68	111;"	kind:define	line:111	language:Asm
+F_NAME	Test/moniker.x68	112;"	kind:define	line:112	language:Asm
+S_NAME	Test/moniker.x68	113;"	kind:define	line:113	language:Asm
+DUMMY	Test/moniker.x68	114;"	kind:define	line:114	language:Asm
+symlist_t	Test/func_typedef.h	1;"	kind:typedef	line:1	language:C++
+commented_function2	Test/simple.html	9;"	kind:function	line:9	language:HTML
+message	Test/simple.html	12;"	kind:function	line:12	language:HTML
+simple_anchor	Test/simple.html	20;"	kind:anchor	line:20	language:HTML
+unquoted_anchor	Test/simple.html	21;"	kind:anchor	line:21	language:HTML
+prefixed_anchor	Test/simple.html	22;"	kind:anchor	line:22	language:HTML
+postfixed_anchor	Test/simple.html	23;"	kind:anchor	line:23	language:HTML
+commented_anchor	Test/simple.html	24;"	kind:anchor	line:24	language:HTML
+uninitialized_structure	Test/structure.f	1;"	kind:program	line:1	language:Fortran
+weather	Test/structure.f	2;"	kind:type	line:2	language:Fortran	program:uninitialized_structure
+month	Test/structure.f	3;"	kind:component	line:3	language:Fortran	type:weather
+day	Test/structure.f	3;"	kind:component	line:3	language:Fortran	type:weather
+year	Test/structure.f	3;"	kind:component	line:3	language:Fortran	type:weather
+clouds	Test/structure.f	4;"	kind:component	line:4	language:Fortran	type:weather
+rainfall	Test/structure.f	5;"	kind:component	line:5	language:Fortran	type:weather
+latest	Test/structure.f	7;"	kind:variable	line:7	language:Fortran	program:uninitialized_structure
+initialized_structure	Test/structure.f	10;"	kind:program	line:10	language:Fortran
+weather	Test/structure.f	11;"	kind:type	line:11	language:Fortran	program:initialized_structure
+month	Test/structure.f	12;"	kind:component	line:12	language:Fortran	type:weather
+day	Test/structure.f	12;"	kind:component	line:12	language:Fortran	type:weather
+year	Test/structure.f	12;"	kind:component	line:12	language:Fortran	type:weather
+clouds	Test/structure.f	13;"	kind:component	line:13	language:Fortran	type:weather
+rainfall	Test/structure.f	14;"	kind:component	line:14	language:Fortran	type:weather
+latest	Test/structure.f	16;"	kind:variable	line:16	language:Fortran	program:initialized_structure
+nested_structure	Test/structure.f	21;"	kind:program	line:21	language:Fortran
+top	Test/structure.f	22;"	kind:type	line:22	language:Fortran	program:nested_structure
+nested	Test/structure.f	23;"	kind:type	line:23	language:Fortran	type:top
+level2	Test/structure.f	23;"	kind:component	line:23	language:Fortran	type:top
+level3a	Test/structure.f	24;"	kind:component	line:24	language:Fortran	type:nested
+level3b	Test/structure.f	24;"	kind:component	line:24	language:Fortran	type:nested
+a	Test/structure.f	25;"	kind:component	line:25	language:Fortran	type:anonymous
+Background	Test/3526726.tex	105;"	kind:section	line:105	language:Tex	chapter:Part2""chapter2
+How do you pronounce the names of some of these guys who work on Snort 	Test/3526726.tex	107;"	kind:subsection	line:107	language:Tex	section:Part2""chapter2""Background
+Is Fyodor Yarochkin the same Fyodor who wrote nmap 	Test/3526726.tex	113;"	kind:subsection	line:113	language:Tex	section:Part2""chapter2""Background
+Where do I get more help on Snort 	Test/3526726.tex	117;"	kind:subsection	line:117	language:Tex	section:Part2""chapter2""Background
+Where can I get more reading and courses about IDS  label  courses	Test/3526726.tex	123;"	kind:subsection	line:123	language:Tex	section:Part2""chapter2""Background
+Does Snort handle IP defragmentation 	Test/3526726.tex	163;"	kind:subsection	line:163	language:Tex	section:Part2""chapter2""Background
+Does Snort perform TCP stream reassembly 	Test/3526726.tex	168;"	kind:subsection	line:168	language:Tex	section:Part2""chapter2""Background
+Does Snort perform stateful protocol analysis 	Test/3526726.tex	173;"	kind:subsection	line:173	language:Tex	section:Part2""chapter2""Background
+I  m on a switched network  can I still use Snort 	Test/3526726.tex	177;"	kind:subsection	line:177	language:Tex	section:Part2""chapter2""Background
+Is Snort vulnerable to IDS noise generators like   Stick   and   Snot   	Test/3526726.tex	267;"	kind:subsection	line:267	language:Tex	section:Part2""chapter2""Background
+Can Snort be evaded by the use of polymorphic mutators on shellcode 	Test/3526726.tex	276;"	kind:subsection	line:276	language:Tex	section:Part2""chapter2""Background
+Does Snort log the full packets when it generates alerts 	Test/3526726.tex	283;"	kind:subsection	line:283	language:Tex	section:Part2""chapter2""Background
+Getting Started	Test/3526726.tex	290;"	kind:section	line:290	language:Tex	chapter:Part2""chapter2
+Where do I find binary packages for BlueHat BSD-Linux-RT 	Test/3526726.tex	292;"	kind:subsection	line:292	language:Tex	section:Part2""chapter2""Getting Started
+How do I run Snort 	Test/3526726.tex	320;"	kind:subsection	line:320	language:Tex	section:Part2""chapter2""Getting Started
+Where are my log files located  What are they named 	Test/3526726.tex	350;"	kind:subsection	line:350	language:Tex	section:Part2""chapter2""Getting Started
+Why does Snort complain about  var  log  snort 	Test/3526726.tex	363;"	kind:subsection	line:363	language:Tex	section:Part2""chapter2""Getting Started
+Where  s a good place to physically put a Snort sensor 	Test/3526726.tex	371;"	kind:subsection	line:371	language:Tex	section:Part2""chapter2""Getting Started
+Libpcap complains about permissions problems  what  s going on 	Test/3526726.tex	482;"	kind:subsection	line:482	language:Tex	section:Part2""chapter2""Getting Started
+I  ve got RedHat and ....	Test/3526726.tex	486;"	kind:subsection	line:486	language:Tex	section:Part2""chapter2""Getting Started
+Where do I get the latest version of libpcap 	Test/3526726.tex	490;"	kind:subsection	line:490	language:Tex	section:Part2""chapter2""Getting Started
+Where do I get the latest version of Winpcap 	Test/3526726.tex	500;"	kind:subsection	line:500	language:Tex	section:Part2""chapter2""Getting Started
+What version of Winpcap do I need  label  winpcap	Test/3526726.tex	504;"	kind:subsection	line:504	language:Tex	section:Part2""chapter2""Getting Started
+Why does building Snort complain about missing references 	Test/3526726.tex	510;"	kind:subsection	line:510	language:Tex	section:Part2""chapter2""Getting Started
+Why does building snort fail with errors about yylex and lex  _init 	Test/3526726.tex	515;"	kind:subsection	line:515	language:Tex	section:Part2""chapter2""Getting Started
+I want to build a Snort box. Will this $  $Insert list of hardware$  $ handle $  $this much$  $ traffic 	Test/3526726.tex	520;"	kind:subsection	line:520	language:Tex	section:Part2""chapter2""Getting Started
+What are CIDR netmasks 	Test/3526726.tex	561;"	kind:subsection	line:561	language:Tex	section:Part2""chapter2""Getting Started
+What is the use of the   -r   switch to read tcpdump files 	Test/3526726.tex	603;"	kind:subsection	line:603	language:Tex	section:Part2""chapter2""Getting Started
+Configuring Snort	Test/3526726.tex	610;"	kind:section	line:610	language:Tex	chapter:Part2""chapter2
+How do I setup snort on a  stealth  interface 	Test/3526726.tex	613;"	kind:subsection	line:613	language:Tex	section:Part2""chapter2""Configuring Snort
+stealth	Test/3526726.tex	615;"	kind:label	line:615	language:Tex
+How do I setup a receive-only ethernet cable 	Test/3526726.tex	645;"	kind:subsection	line:645	language:Tex	section:Part2""chapter2""Configuring Snort
+What are HOME  _NET and EXTERNAL  _NET 	Test/3526726.tex	732;"	kind:subsection	line:732	language:Tex	section:Part2""chapter2""Configuring Snort
+My network spans multiple subnets. How do I define HOME  _NET 	Test/3526726.tex	738;"	kind:subsection	line:738	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I set EXTERNAL  _NET 	Test/3526726.tex	756;"	kind:subsection	line:756	language:Tex	section:Part2""chapter2""Configuring Snort
+How can I run Snort on multiple interfaces simultaneously 	Test/3526726.tex	773;"	kind:subsection	line:773	language:Tex	section:Part2""chapter2""Configuring Snort
+My IP address is assigned dynamically to my interface  can I use Snort with it 	Test/3526726.tex	785;"	kind:subsection	line:785	language:Tex	section:Part2""chapter2""Configuring Snort
+I have one network card and two aliases  how can I force Snort to   listen   on both addresses 	Test/3526726.tex	794;"	kind:subsection	line:794	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I ignore traffic coming from a particular host or hosts 	Test/3526726.tex	812;"	kind:subsection	line:812	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I get Snort to log the packet payload as well as the header 	Test/3526726.tex	870;"	kind:subsection	line:870	language:Tex	section:Part2""chapter2""Configuring Snort
+Why are there no subdirectories under  var  log  snort for IP addresses 	Test/3526726.tex	877;"	kind:subsection	line:877	language:Tex	section:Part2""chapter2""Configuring Snort
+How do you get Snort to ignore some traffic 	Test/3526726.tex	882;"	kind:subsection	line:882	language:Tex	section:Part2""chapter2""Configuring Snort
+Why does the portscan plugin log   stealth   packets even though the host is in the portscan-ignorehosts list 	Test/3526726.tex	893;"	kind:subsection	line:893	language:Tex	section:Part2""chapter2""Configuring Snort
+What the heck is a   Stealth scan   	Test/3526726.tex	901;"	kind:subsection	line:901	language:Tex	section:Part2""chapter2""Configuring Snort
+What the heck is a SYNFIN scan 	Test/3526726.tex	925;"	kind:subsection	line:925	language:Tex	section:Part2""chapter2""Configuring Snort
+Which takes precedence  commandline or rule file 	Test/3526726.tex	929;"	kind:subsection	line:929	language:Tex	section:Part2""chapter2""Configuring Snort
+How does rule ordering work 	Test/3526726.tex	936;"	kind:subsection	line:936	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I configure stream4 	Test/3526726.tex	1112;"	kind:subsection	line:1112	language:Tex	section:Part2""chapter2""Configuring Snort
+stream4	Test/3526726.tex	1114;"	kind:label	line:1114	language:Tex
+Where does one obtain new  modifed rules  How do you merge them in 	Test/3526726.tex	1138;"	kind:subsection	line:1138	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I use a remote syslog machine 	Test/3526726.tex	1421;"	kind:subsection	line:1421	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I get Snort and ACID working 	Test/3526726.tex	1457;"	kind:subsection	line:1457	language:Tex	section:Part2""chapter2""Configuring Snort
+How do I build this BASE thing 	Test/3526726.tex	1461;"	kind:subsection	line:1461	language:Tex	section:Part2""chapter2""Configuring Snort
+Rules and Alerts	Test/3526726.tex	1502;"	kind:section	line:1502	language:Tex	chapter:Part2""chapter2
+Errors loading rules files	Test/3526726.tex	1504;"	kind:subsection	line:1504	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort says   Rule IP addr    1.1.1.1    didn  t x-late  WTF   	Test/3526726.tex	1526;"	kind:subsection	line:1526	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort is behind a firewall  ipf  pf  ipchains  ipfilter  and awfully quiet...	Test/3526726.tex	1530;"	kind:subsection	line:1530	language:Tex	section:Part2""chapter2""Rules and Alerts
+Does snort see packets filtered by IPTables  IPChains  IPF  PF 	Test/3526726.tex	1536;"	kind:subsection	line:1536	language:Tex	section:Part2""chapter2""Rules and Alerts
+I  m getting large amounts of $  $some alerts type$  $. What should I do  Where can I go to find out more about it 	Test/3526726.tex	1553;"	kind:subsection	line:1553	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about all these false alarms 	Test/3526726.tex	1587;"	kind:subsection	line:1587	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are all these ICMP files in subdirectories under  var  log  snort 	Test/3526726.tex	1594;"	kind:subsection	line:1594	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why does the program generate alerts on packets that have pass rules 	Test/3526726.tex	1600;"	kind:subsection	line:1600	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are all these   ICMP destination unreachable   alerts 	Test/3526726.tex	1613;"	kind:subsection	line:1613	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why do many Snort rules have the flags P  TCP PuSH  and A  TCP ACK  set 	Test/3526726.tex	1692;"	kind:subsection	line:1692	language:Tex	section:Part2""chapter2""Rules and Alerts
+What are these IDS codes in the alert names 	Test/3526726.tex	1700;"	kind:subsection	line:1700	language:Tex	section:Part2""chapter2""Rules and Alerts
+Snort says BACKDOOR SIGNATURE... does my machine have a Trojan 	Test/3526726.tex	1710;"	kind:subsection	line:1710	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about   CGI Null Byte attacks   	Test/3526726.tex	1717;"	kind:subsection	line:1717	language:Tex	section:Part2""chapter2""Rules and Alerts
+Why do certain alerts seem to have  unknown  IPs in BASE 	Test/3526726.tex	1730;"	kind:subsection	line:1730	language:Tex	section:Part2""chapter2""Rules and Alerts
+Can priorities be assigned to alerts using BASE 	Test/3526726.tex	1734;"	kind:subsection	line:1734	language:Tex	section:Part2""chapter2""Rules and Alerts
+What about  SMB Name Wildcard  alerts 	Test/3526726.tex	1738;"	kind:subsection	line:1738	language:Tex	section:Part2""chapter2""Rules and Alerts
+What the heck is a SYNFIN scan 	Test/3526726.tex	1757;"	kind:subsection	line:1757	language:Tex	section:Part2""chapter2""Rules and Alerts
+I am getting too many   IIS Unicode attack detected   and  or   CGI Null Byte attack detected   false positives. How can I turn this detection off 	Test/3526726.tex	1761;"	kind:subsection	line:1761	language:Tex	section:Part2""chapter2""Rules and Alerts
+How do I test Snort alerts and logging 	Test/3526726.tex	1781;"	kind:subsection	line:1781	language:Tex	section:Part2""chapter2""Rules and Alerts
+What is the difference between   Alerting   and   Logging   	Test/3526726.tex	1791;"	kind:subsection	line:1791	language:Tex	section:Part2""chapter2""Rules and Alerts
+Are rule keywords ORed or ANDed together 	Test/3526726.tex	1812;"	kind:subsection	line:1812	language:Tex	section:Part2""chapter2""Rules and Alerts
+Can Snort trigger a rule by MAC addresses 	Test/3526726.tex	1823;"	kind:subsection	line:1823	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I deactivate a rule 	Test/3526726.tex	1830;"	kind:subsection	line:1830	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I define an address to be anything except some hosts 	Test/3526726.tex	1844;"	kind:subsection	line:1844	language:Tex	section:Part2""chapter2""Rules and Alerts
+After I add new rules or comment out rules how do I make Snort reload 	Test/3526726.tex	1861;"	kind:subsection	line:1861	language:Tex	section:Part2""chapter2""Rules and Alerts
+Where do the distance and within keywords work from to modify content searches in rules 	Test/3526726.tex	1867;"	kind:subsection	line:1867	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I specify a list of ports in a rule 	Test/3526726.tex	1875;"	kind:subsection	line:1875	language:Tex	section:Part2""chapter2""Rules and Alerts
+How can I protect web servers running on ports other than 80 	Test/3526726.tex	1880;"	kind:subsection	line:1880	language:Tex	section:Part2""chapter2""Rules and Alerts
+How do I turn off   spp:possible EVASIVE RST detection   alerts 	Test/3526726.tex	1894;"	kind:subsection	line:1894	language:Tex	section:Part2""chapter2""Rules and Alerts
+Is there a private SID number range so my rules don  t conflict 	Test/3526726.tex	1899;"	kind:subsection	line:1899	language:Tex	section:Part2""chapter2""Rules and Alerts
+How long can address lists  variables  or rules be 	Test/3526726.tex	1903;"	kind:subsection	line:1903	language:Tex	section:Part2""chapter2""Rules and Alerts
+What do the numbers  ie:  116:56:1   in front of a Snort alert mean 	Test/3526726.tex	1908;"	kind:subsection	line:1908	language:Tex	section:Part2""chapter2""Rules and Alerts
+Getting Fancy	Test/3526726.tex	1928;"	kind:section	line:1928	language:Tex	chapter:Part2""chapter2
+I hear people talking about   Barnyard   . What  s that  label  barnyard	Test/3526726.tex	1931;"	kind:subsection	line:1931	language:Tex	section:Part2""chapter2""Getting Fancy
+Are there other output systems for Snort besides   Barnyard    label  spoolers	Test/3526726.tex	1940;"	kind:subsection	line:1940	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I process those Snort logs into reports 	Test/3526726.tex	1958;"	kind:subsection	line:1958	language:Tex	section:Part2""chapter2""Getting Fancy
+IDSCenter	Test/3526726.tex	1986;"	kind:label	line:1986	language:Tex
+How do I log to multiple databases or output plugins 	Test/3526726.tex	2002;"	kind:subsection	line:2002	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I test Snort without having an Ethernet card or a connection to other computers 	Test/3526726.tex	2025;"	kind:subsection	line:2025	language:Tex	section:Part2""chapter2""Getting Fancy
+How to start Snort as a win32 service 	Test/3526726.tex	2041;"	kind:subsection	line:2041	language:Tex	section:Part2""chapter2""Getting Fancy
+Is it possible with snort to add a ipfilter  ipfw rule to a firewall 	Test/3526726.tex	2099;"	kind:subsection	line:2099	language:Tex	section:Part2""chapter2""Getting Fancy
+What is the best way to use Snort to block attack traffic 	Test/3526726.tex	2161;"	kind:subsection	line:2161	language:Tex	section:Part2""chapter2""Getting Fancy
+Snort complains about the   react   keyword...	Test/3526726.tex	2165;"	kind:subsection	line:2165	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I get Snort to e-mail me alerts 	Test/3526726.tex	2170;"	kind:subsection	line:2170	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I log a specific type of traffic and send alerts to syslog 	Test/3526726.tex	2198;"	kind:subsection	line:2198	language:Tex	section:Part2""chapter2""Getting Fancy
+Is it possible to have Snort call an external program when an alert is raised 	Test/3526726.tex	2217;"	kind:subsection	line:2217	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I use Snort to log HTTP URLs or SMTP traffic 	Test/3526726.tex	2244;"	kind:subsection	line:2244	language:Tex	section:Part2""chapter2""Getting Fancy
+What are some resources that I can use to understand more about source addresses logged and where they are coming from 	Test/3526726.tex	2255;"	kind:subsection	line:2255	language:Tex	section:Part2""chapter2""Getting Fancy
+How do I understand this traffic and do IDS alert analysis 	Test/3526726.tex	2271;"	kind:subsection	line:2271	language:Tex	section:Part2""chapter2""Getting Fancy
+How can I examine logged packets in more detail 	Test/3526726.tex	2312;"	kind:subsection	line:2312	language:Tex	section:Part2""chapter2""Getting Fancy
+Problems	Test/3526726.tex	2328;"	kind:section	line:2328	language:Tex	chapter:Part2""chapter2
+I think I found a bug in Snort. Now what 	Test/3526726.tex	2330;"	kind:subsection	line:2330	language:Tex	section:Part2""chapter2""Problems
+SMB alerts aren  t working  what  s wrong 	Test/3526726.tex	2366;"	kind:subsection	line:2366	language:Tex	section:Part2""chapter2""Problems
+Snort says   Garbage Packet with Null Pointer discarded    Huh 	Test/3526726.tex	2370;"	kind:subsection	line:2370	language:Tex	section:Part2""chapter2""Problems
+Snort says   Ran Out Of Space.   Huh 	Test/3526726.tex	2376;"	kind:subsection	line:2376	language:Tex	section:Part2""chapter2""Problems
+My BASE db connection times-out when performing long operations  e.g. deleting a large number of alerts  .	Test/3526726.tex	2382;"	kind:subsection	line:2382	language:Tex	section:Part2""chapter2""Problems
+Why does snort report   Packet loss statistics are unavailable under Linux   	Test/3526726.tex	2390;"	kind:subsection	line:2390	language:Tex	section:Part2""chapter2""Problems
+My  var  log  snort directory gets very large...	Test/3526726.tex	2396;"	kind:subsection	line:2396	language:Tex	section:Part2""chapter2""Problems
+Why does the  error deleting alert  message occur when attempting to delete an alert with BASE 	Test/3526726.tex	2503;"	kind:subsection	line:2503	language:Tex	section:Part2""chapter2""Problems
+BASE appears to be broken in Lynx	Test/3526726.tex	2540;"	kind:subsection	line:2540	language:Tex	section:Part2""chapter2""Problems
+I am getting  snort  pid  uses obsolete  PF  _INET  SOCK  _PACKET   warnings. What  s wrong 	Test/3526726.tex	2543;"	kind:subsection	line:2543	language:Tex	section:Part2""chapter2""Problems
+On HPUX I get device lan0 open: recv  _ack: promisc  _phys: Invalid argument	Test/3526726.tex	2550;"	kind:subsection	line:2550	language:Tex	section:Part2""chapter2""Problems
+Snort is dying with a  can not create file  error and I have plenty of diskspace. What  s wrong 	Test/3526726.tex	2556;"	kind:subsection	line:2556	language:Tex	section:Part2""chapter2""Problems
+I am using Snort on Windows and receive an   OpenPcap   error upon startup: ERROR: OpenPcap   device open: Error opening adapter   message. What  s wrong 	Test/3526726.tex	2561;"	kind:subsection	line:2561	language:Tex	section:Part2""chapter2""Problems
+Snort is not logging to my database	Test/3526726.tex	2568;"	kind:subsection	line:2568	language:Tex	section:Part2""chapter2""Problems
+Portscans are not being logged to my database	Test/3526726.tex	2579;"	kind:subsection	line:2579	language:Tex	section:Part2""chapter2""Problems
+Snort is not logging to syslog	Test/3526726.tex	2587;"	kind:subsection	line:2587	language:Tex	section:Part2""chapter2""Problems
+I am still getting bombarded with spp  _portscan messages even though the IP that I am getting the portscan from is in my  $DNS  _SERVERs var	Test/3526726.tex	2595;"	kind:subsection	line:2595	language:Tex	section:Part2""chapter2""Problems
+Why does chrooted Snort die when I send it a SIGHUP  label  chroot	Test/3526726.tex	2606;"	kind:subsection	line:2606	language:Tex	section:Part2""chapter2""Problems
+My snort crashes  how do I restart it 	Test/3526726.tex	2618;"	kind:subsection	line:2618	language:Tex	section:Part2""chapter2""Problems
+Why can  t snort see one of the 10Mbps or 100Mbps traffic on my autoswitch hub 	Test/3526726.tex	2693;"	kind:subsection	line:2693	language:Tex	section:Part2""chapter2""Problems
+Trying to install snort it says:   bad interpreter: No such file or directory  	Test/3526726.tex	2768;"	kind:subsection	line:2768	language:Tex	section:Part2""chapter2""Problems
+I  m not seeing any interfaces listed under Win32.	Test/3526726.tex	2790;"	kind:subsection	line:2790	language:Tex	section:Part2""chapter2""Problems
+It  s not working on Win32  how can I tell if my problem is Snort or WinPcap 	Test/3526726.tex	2799;"	kind:subsection	line:2799	language:Tex	section:Part2""chapter2""Problems
+I just downloaded a new ruleset and now Snort fails  complaining about the rules.	Test/3526726.tex	2805;"	kind:subsection	line:2805	language:Tex	section:Part2""chapter2""Problems
+Why am I seeing so many   SMTP RCPT TO overflow   alerts 	Test/3526726.tex	2822;"	kind:subsection	line:2822	language:Tex	section:Part2""chapter2""Problems
+I  m getting lots of  ICMP Ping Speedera   is this bad 	Test/3526726.tex	2840;"	kind:subsection	line:2840	language:Tex	section:Part2""chapter2""Problems
+Why are my unified alert times off by   - N hours 	Test/3526726.tex	2846;"	kind:subsection	line:2846	language:Tex	section:Part2""chapter2""Problems
+I try to start Snort and it gives an error like   ERROR: Unable to open rules file:  root  .snortrc or  root   root  .snortrc.   What can I do to fix this 	Test/3526726.tex	2850;"	kind:subsection	line:2850	language:Tex	section:Part2""chapter2""Problems
+Snort fails to respond to a kill signal on Linux. Why 	Test/3526726.tex	2872;"	kind:subsection	line:2872	language:Tex	section:Part2""chapter2""Problems
+A Rule with PCRE causes a failure to load snort.conf. Why 	Test/3526726.tex	2896;"	kind:subsection	line:2896	language:Tex	section:Part2""chapter2""Problems
+Development	Test/3526726.tex	2929;"	kind:section	line:2929	language:Tex	chapter:Part2""chapter2
+How do you put Snort in debug mode 	Test/3526726.tex	2931;"	kind:subsection	line:2931	language:Tex	section:Part2""chapter2""Development
+Miscellaneous	Test/3526726.tex	2969;"	kind:section	line:2969	language:Tex	chapter:Part2""chapter2
+What  s this about a Snort drinking game 	Test/3526726.tex	2971;"	kind:subsection	line:2971	language:Tex	section:Part2""chapter2""Miscellaneous
+OcamlCommentInStringAllowed	Test/ocamlCommentInStringAllowed.ml	1;"	kind:module	line:1	language:OCaml
+p	Test/ocamlCommentInStringAllowed.ml	2;"	kind:var	line:2	language:OCaml
+OUT_RD5	Test/char-selector.f90	2;"	kind:module	line:2	language:Fortran
+temp	Test/char-selector.f90	7;"	kind:variable	line:7	language:Fortran	module:OUT_RD5
+MXDDI	Test/char-selector.f90	9;"	kind:variable	line:9	language:Fortran	module:OUT_RD5
+titles	Test/char-selector.f90	10;"	kind:variable	line:10	language:Fortran	module:OUT_RD5
+units	Test/char-selector.f90	12;"	kind:variable	line:12	language:Fortran	module:OUT_RD5
+list	Test/char-selector.f90	14;"	kind:variable	line:14	language:Fortran	module:OUT_RD5
+fpshape	Test/char-selector.f90	15;"	kind:variable	line:15	language:Fortran	module:OUT_RD5
+nout	Test/char-selector.f90	16;"	kind:variable	line:16	language:Fortran	module:OUT_RD5
+fpshape2	Test/char-selector.f90	17;"	kind:variable	line:17	language:Fortran	module:OUT_RD5
+last	Test/char-selector.f90	18;"	kind:variable	line:18	language:Fortran	module:OUT_RD5
+FOO	Test/debian_432872.f90	3;"	kind:module	line:3	language:Fortran
+FOO	Test/debian_432872.f90	5;"	kind:subroutine	line:5	language:Fortran	module:FOO
+find_heading	Test/tabindent.py	2;"	kind:function	line:2	language:Python	access:public	signature:(self, position=0, direction=Direction.FORWARD,  heading=Heading, connect_with_document=True)
+IEmployee	Test/interface_properties.cs	4;"	kind:interface	line:4	language:C#
+Name	Test/interface_properties.cs	6;"	kind:property	line:6	language:C#	interface:IEmployee	access:public
+Counter	Test/interface_properties.cs	12;"	kind:property	line:12	language:C#	interface:IEmployee	access:public
+Employee	Test/interface_properties.cs	18;"	kind:class	line:18	language:C#	inherits:IEmployee
+numberOfEmployees	Test/interface_properties.cs	20;"	kind:field	line:20	language:C#	class:Employee	access:public
+counter	Test/interface_properties.cs	21;"	kind:field	line:21	language:C#	class:Employee	file:	access:private
+name	Test/interface_properties.cs	22;"	kind:field	line:22	language:C#	class:Employee	file:	access:private
+Name	Test/interface_properties.cs	24;"	kind:property	line:24	language:C#	class:Employee	access:public
+Counter	Test/interface_properties.cs	36;"	kind:property	line:36	language:C#	class:Employee	access:public
+Employee	Test/interface_properties.cs	44;"	kind:method	line:44	language:C#	class:Employee	access:public	signature:()
+MainClass	Test/interface_properties.cs	50;"	kind:class	line:50	language:C#
+Main	Test/interface_properties.cs	52;"	kind:method	line:52	language:C#	class:MainClass	access:public	signature:()
+types	Test/refcurs.sql	14;"	kind:package	line:14	language:SQL
+types.cursortyp	Test/refcurs.sql	15;"	kind:cursor	line:15	language:SQL
+test_ref_cursor	Test/refcurs.sql	20;"	kind:package	line:20	language:SQL
+test_ref_cursor	Test/refcurs.sql	29;"	kind:package	line:29	language:SQL
+test_ref_cursor.main	Test/refcurs.sql	32;"	kind:procedure	line:32	language:SQL
+test_ref_cursor.get_cursor_ref	Test/refcurs.sql	39;"	kind:function	line:39	language:SQL
+test_ref_cursor.process_cursor	Test/refcurs.sql	51;"	kind:procedure	line:51	language:SQL
+Employee	Test/keyword_private.cs	3;"	kind:class	line:3	language:C#
+name	Test/keyword_private.cs	5;"	kind:field	line:5	language:C#	class:Employee	access:public
+salary	Test/keyword_private.cs	6;"	kind:field	line:6	language:C#	class:Employee	file:	access:private
+not_visible	Test/keyword_private.cs	7;"	kind:field	line:7	language:C#	class:Employee	file:	access:private
+AccessSalary	Test/keyword_private.cs	8;"	kind:method	line:8	language:C#	class:Employee	access:public	signature:()
+MainClass	Test/keyword_private.cs	13;"	kind:class	line:13	language:C#
+Main	Test/keyword_private.cs	15;"	kind:method	line:15	language:C#	class:MainClass	access:public	signature:()
+Ocaml_stringTsts	Test/ocaml_stringTsts.ml	1;"	kind:module	line:1	language:OCaml
+valueStr	Test/ocaml_stringTsts.ml	2;"	kind:var	line:2	language:OCaml
+MYMACRO	Test/bug538629.asm	1;"	kind:define	line:1	language:Asm
+LayoutTree	Test/objectivec_interface.h	12;"	kind:externvar	line:12	language:C++
+FolderTree	Test/objectivec_interface.h	13;"	kind:externvar	line:13	language:C++
+A_MACRO_TEST	Test/objectivec_interface.h	15;"	kind:macro	line:15	language:C++
+SampleTypedefObjC	Test/objectivec_interface.h	17;"	kind:typedef	line:17	language:C++
+ANOTHER_MACRO	Test/objectivec_interface.h	21;"	kind:macro	line:21	language:C++
+aStruct	Test/objectivec_interface.h	25;"	kind:struct	line:25	language:C++
+aStructMember	Test/objectivec_interface.h	27;"	kind:member	line:27	language:C++	struct:aStruct	access:public
+anotherStructMember	Test/objectivec_interface.h	28;"	kind:member	line:28	language:C++	struct:aStruct	access:public
+name	Test/objectivec_interface.h	34;"	kind:variable	line:34	language:C++
+representation	Test/objectivec_interface.h	35;"	kind:variable	line:35	language:C++
+parent	Test/objectivec_interface.h	36;"	kind:variable	line:36	language:C++
+diskSize	Test/objectivec_interface.h	37;"	kind:variable	line:37	language:C++
+children	Test/objectivec_interface.h	53;"	kind:variable	line:53	language:C++
+MyBaseC	Test/keyword_abstract.cs	4;"	kind:class	line:4	language:C#	implementation:abstract
+x	Test/keyword_abstract.cs	6;"	kind:field	line:6	language:C#	class:MyBaseC	access:protected
+y	Test/keyword_abstract.cs	7;"	kind:field	line:7	language:C#	class:MyBaseC	access:protected
+MyMethod	Test/keyword_abstract.cs	8;"	kind:method	line:8	language:C#	class:MyBaseC	access:public	implementation:abstract	signature:()
+GetX	Test/keyword_abstract.cs	10;"	kind:property	line:10	language:C#	class:MyBaseC	access:public	implementation:abstract
+GetY	Test/keyword_abstract.cs	15;"	kind:property	line:15	language:C#	class:MyBaseC	access:public	implementation:abstract
+MyDerivedC	Test/keyword_abstract.cs	21;"	kind:class	line:21	language:C#	inherits:MyBaseC
+MyMethod	Test/keyword_abstract.cs	23;"	kind:method	line:23	language:C#	class:MyDerivedC	access:public	signature:()
+GetX	Test/keyword_abstract.cs	29;"	kind:property	line:29	language:C#	class:MyDerivedC	access:public
+GetY	Test/keyword_abstract.cs	37;"	kind:property	line:37	language:C#	class:MyDerivedC	access:public
+Main	Test/keyword_abstract.cs	45;"	kind:method	line:45	language:C#	class:MyDerivedC	access:public	signature:()
+S0	Test/state_machine.v	5;"	kind:constant	line:5	language:Verilog
+S1	Test/state_machine.v	6;"	kind:constant	line:6	language:Verilog
+S2	Test/state_machine.v	7;"	kind:constant	line:7	language:Verilog
+S3	Test/state_machine.v	8;"	kind:constant	line:8	language:Verilog
+state	Test/state_machine.v	11;"	kind:register	line:11	language:Verilog
+next_state	Test/state_machine.v	12;"	kind:register	line:12	language:Verilog
+tagstest_ctrl	Test/bug726712.f90	39;"	kind:subroutine	line:39	language:Fortran
+sub1	Test/bug726712.f90	46;"	kind:subroutine	line:46	language:Fortran
+sub2	Test/bug726712.f90	51;"	kind:subroutine	line:51	language:Fortran
+MyMethod	Test/array_ref_and_out.cs	2;"	kind:method	line:2	language:C#	signature:(out int[] arr)
+MyMethod	Test/array_ref_and_out.cs	7;"	kind:method	line:7	language:C#	signature:(ref int[] arr)
+TestOut	Test/array_ref_and_out.cs	13;"	kind:class	line:13	language:C#
+FillArray	Test/array_ref_and_out.cs	15;"	kind:method	line:15	language:C#	class:TestOut	access:public	signature:(out int[] myArray)
+Main	Test/array_ref_and_out.cs	21;"	kind:method	line:21	language:C#	class:TestOut	access:public	signature:()
+Test	Test/keyword_volatile.cs	2;"	kind:class	line:2	language:C#
+i	Test/keyword_volatile.cs	4;"	kind:field	line:4	language:C#	class:Test	access:public
+Test	Test/keyword_volatile.cs	6;"	kind:method	line:6	language:C#	class:Test	file:	access:private	signature:(int _i)
+Main	Test/keyword_volatile.cs	10;"	kind:method	line:10	language:C#	class:Test	access:public	signature:()
+pass_task_1	Test/bug960316.v	6;"	kind:task	line:6	language:Verilog
+fail_task_2	Test/bug960316.v	16;"	kind:task	line:16	language:Verilog
+pass_func_1	Test/bug960316.v	26;"	kind:function	line:26	language:Verilog
+fail_func_2	Test/bug960316.v	36;"	kind:function	line:36	language:Verilog
+pass_define_1	Test/bug960316.v	46;"	kind:constant	line:46	language:Verilog
+fail_define_2	Test/bug960316.v	53;"	kind:constant	line:53	language:Verilog
+simple1	Test/simple.tcl	2;"	kind:procedure	line:2	language:Tcl
+tcl_class	Test/simple.tcl	4;"	kind:class	line:4	language:Tcl
+itcl_class	Test/simple.tcl	6;"	kind:class	line:6	language:Tcl
+method1	Test/simple.tcl	8;"	kind:method	line:8	language:Tcl
+method2	Test/simple.tcl	9;"	kind:method	line:9	language:Tcl
+method3	Test/simple.tcl	10;"	kind:method	line:10	language:Tcl
+PROCEDURES	Test/procedures.e	1;"	kind:class	line:1	language:Eiffel
+procedure0	Test/procedures.e	5;"	kind:feature	line:5	language:Eiffel	class:PROCEDURES
+procedure1	Test/procedures.e	11;"	kind:feature	line:11	language:Eiffel	class:PROCEDURES
+procedure2	Test/procedures.e	15;"	kind:feature	line:15	language:Eiffel	class:PROCEDURES
+procedure_full	Test/procedures.e	19;"	kind:feature	line:19	language:Eiffel	class:PROCEDURES
+MyClass	Test/keyword_catch_try.cs	3;"	kind:class	line:3	language:C#
+Main	Test/keyword_catch_try.cs	5;"	kind:method	line:5	language:C#	class:MyClass	access:public	signature:()
+MyFn	Test/keyword_catch_try.cs	28;"	kind:method	line:28	language:C#	class:MyClass	access:public	signature:(string s)
+N_84	Test/bug762027.v	19;"	kind:net	line:19	language:Verilog
+N_83	Test/bug762027.v	19;"	kind:net	line:19	language:Verilog
+N_84	Test/bug762027.v	21;"	kind:net	line:21	language:Verilog
+N_83	Test/bug762027.v	22;"	kind:net	line:22	language:Verilog
+dateToYYYYMMDD	Test/flex_with_actionscript.mxml	5;"	kind:function	line:5	language:Flex
+HTTPService.ajaxData	Test/flex_with_actionscript.mxml	12;"	kind:mxtag	line:12	language:Flex
+A	Test/bug1742588.rb	1;"	kind:class	line:1	language:Ruby
+a	Test/bug1742588.rb	2;"	kind:method	line:2	language:Ruby	class:A
+b	Test/bug1742588.rb	5;"	kind:method	line:5	language:Ruby	class:A
+SPACE	Test/maze.hrl	37;"	kind:macro	line:37	language:Erlang
+WALL	Test/maze.hrl	38;"	kind:macro	line:38	language:Erlang
+maze	Test/maze.hrl	40;"	kind:record	line:40	language:Erlang
+foo	Test/bug620288.f	52;"	kind:function	line:52	language:Fortran
+bar	Test/bug620288.f	79;"	kind:function	line:79	language:Fortran
+demo_pkg	Test/bug2961855.sql	11;"	kind:package	line:11	language:SQL
+demo_pkg.test_var	Test/bug2961855.sql	11;"	kind:variable	line:11	language:SQL
+Ocaml_onlystr	Test/ocaml_onlystr.ml	1;"	kind:module	line:1	language:OCaml
+main	Test/bug1093123.cpp	3;"	kind:function	line:3	language:C++	signature:()
+m	Test/bug1093123.cpp	6;"	kind:local	line:6	language:C++
+ATTRIBUTES	Test/attributes.e	1;"	kind:class	line:1	language:Eiffel
+one	Test/attributes.e	5;"	kind:feature	line:5	language:Eiffel	class:ATTRIBUTES
+two	Test/attributes.e	8;"	kind:feature	line:8	language:Eiffel	class:ATTRIBUTES
+three	Test/attributes.e	11;"	kind:feature	line:11	language:Eiffel	class:ATTRIBUTES
+four	Test/attributes.e	14;"	kind:feature	line:14	language:Eiffel	class:ATTRIBUTES
+five	Test/attributes.e	17;"	kind:feature	line:17	language:Eiffel	class:ATTRIBUTES
+six	Test/attributes.e	17;"	kind:feature	line:17	language:Eiffel	class:ATTRIBUTES
+seven	Test/attributes.e	20;"	kind:feature	line:20	language:Eiffel	class:ATTRIBUTES
+eight	Test/attributes.e	23;"	kind:feature	line:23	language:Eiffel	class:ATTRIBUTES
+nine	Test/attributes.e	26;"	kind:feature	line:26	language:Eiffel	class:ATTRIBUTES
+anchored	Test/attributes.e	29;"	kind:feature	line:29	language:Eiffel	class:ATTRIBUTES
+IMyInterface	Test/interface_indexers.cs	4;"	kind:interface	line:4	language:C#
+IndexerClass	Test/interface_indexers.cs	15;"	kind:class	line:15	language:C#	inherits:IMyInterface
+myArray	Test/interface_indexers.cs	17;"	kind:field	line:17	language:C#	class:IndexerClass	file:	access:private
+MainClass	Test/interface_indexers.cs	36;"	kind:class	line:36	language:C#
+Main	Test/interface_indexers.cs	38;"	kind:method	line:38	language:C#	class:MainClass	access:public	signature:()
+a	Test/extern_variable.h	1;"	kind:externvar	line:1	language:C++
+b	Test/extern_variable.h	2;"	kind:externvar	line:2	language:C++
+S	Test/extern_variable.h	3;"	kind:externvar	line:3	language:C++
+C	Test/extern_variable.h	4;"	kind:externvar	line:4	language:C++
+f	Test/bug1020715.cpp	1;"	kind:function	line:1	language:C++	signature:()
+hex2dec	Test/hex2dec.sql	8;"	kind:function	line:8	language:SQL
+num2hex	Test/hex2dec.sql	30;"	kind:function	line:30	language:SQL
+btopen	Test/simple.py	5;"	kind:namespace	line:5	language:Python
+VERSION	Test/simple.py	9;"	kind:variable	line:9	language:Python
+ALL	Test/simple.py	12;"	kind:variable	line:12	language:Python
+KEY	Test/simple.py	13;"	kind:variable	line:13	language:Python
+TREEID	Test/simple.py	14;"	kind:variable	line:14	language:Python
+INDENT	Test/simple.py	15;"	kind:variable	line:15	language:Python
+DATA	Test/simple.py	16;"	kind:variable	line:16	language:Python
+one	Test/simple.py	18;"	kind:class	line:18	language:Python	inherits:
+x	Test/simple.py	20;"	kind:member	line:20	language:Python	class:one	access:public	signature:(x)
+y	Test/simple.py	21;"	kind:variable	line:21	language:Python	class:one
+__init__	Test/simple.py	23;"	kind:member	line:23	language:Python	class:one	access:public	signature:(self, filename, pathsep='', treegap=64)
+__private_function__	Test/simple.py	27;"	kind:member	line:27	language:Python	class:one	file:	access:private	signature:(self, key, data)
+public_function	Test/simple.py	29;"	kind:member	line:29	language:Python	class:one	access:public	signature:(self, key)
+this_is_ignored	Test/simple.py	30;"	kind:class	line:30	language:Python	function:one.public_function	inherits:
+so_is_this	Test/simple.py	37;"	kind:class	line:37	language:Python	class:one	inherits:
+_test	Test/simple.py	39;"	kind:function	line:39	language:Python	access:public	signature:(test, code, outcome, exception)
+ignored_function	Test/simple.py	40;"	kind:function	line:40	language:Python	function:_test	access:public	signature:()
+more_nesting	Test/simple.py	41;"	kind:function	line:41	language:Python	function:_test.ignored_function	access:public	signature:()
+deeply_nested	Test/simple.py	42;"	kind:class	line:42	language:Python	function:_test.ignored_function.more_nesting	inherits:
+even_more	Test/simple.py	43;"	kind:member	line:43	language:Python	class:_test.ignored_function.more_nesting.deeply_nested	access:public	signature:()
+this	Test/simple.py	44;"	kind:class	line:44	language:Python	function:_test.ignored_function.more_nesting.deeply_nested.even_more	inherits:
+this	Test/simple.py	45;"	kind:member	line:45	language:Python	class:_test.ignored_function.more_nesting.deeply_nested.even_more.this	access:public
+two	Test/simple.py	49;"	kind:class	line:49	language:Python	inherits:one
+only	Test/simple.py	51;"	kind:member	line:51	language:Python	class:two	access:public	signature:(arg)
+three	Test/simple.py	57;"	kind:class	line:57	language:Python	inherits:A, B, C
+foo	Test/simple.py	60;"	kind:function	line:60	language:Python	access:public	signature:(
+obsolete_attribute	Test/obsolete.e	5;"	kind:feature	line:5	language:Eiffel	class:
+obsolete_function	Test/obsolete.e	7;"	kind:feature	line:7	language:Eiffel	class:
+obsolete_procedure	Test/obsolete.e	11;"	kind:feature	line:11	language:Eiffel	class:
+PATH	Test/dosbatch_test.cmd	21;"	kind:variable	line:21	language:DosBatch
+OPTIONS	Test/dosbatch_test.cmd	23;"	kind:variable	line:23	language:DosBatch
+UPDATE	Test/dosbatch_test.cmd	29;"	kind:label	line:29	language:DosBatch
+SAMPLE_DATA	Test/dosbatch_test.cmd	34;"	kind:label	line:34	language:DosBatch
+DONE	Test/dosbatch_test.cmd	46;"	kind:label	line:46	language:DosBatch
+ERROR	Test/dosbatch_test.cmd	56;"	kind:label	line:56	language:DosBatch
+ERROR_OPTIONS	Test/dosbatch_test.cmd	71;"	kind:label	line:71	language:DosBatch
+END	Test/dosbatch_test.cmd	84;"	kind:label	line:84	language:DosBatch
+MyClass	Test/keyword_out.cs	3;"	kind:class	line:3	language:C#
+TestOut	Test/keyword_out.cs	5;"	kind:method	line:5	language:C#	class:MyClass	access:public	signature:(out char i)
+Main	Test/keyword_out.cs	11;"	kind:method	line:11	language:C#	class:MyClass	access:public	signature:()
+~A	Test/cpp_destructor.cpp	1;"	kind:function	line:1	language:C++	class:A	signature:()
+~B	Test/cpp_destructor.cpp	3;"	kind:function	line:3	language:C++	class:B	signature:()
+~C	Test/cpp_destructor.cpp	6;"	kind:function	line:6	language:C++	class:C	signature:()
+foo	Test/signature.cpp	3;"	kind:function	line:3	language:C++	signature:(int a, char b)
+a	Test/signature.cpp	5;"	kind:variable	line:5	language:C++
+b	Test/signature.cpp	5;"	kind:variable	line:5	language:C++
+bar	Test/signature.cpp	7;"	kind:function	line:7	language:C++	class:BAR	signature:(char *c, double d[]) const
+foobar	Test/signature.cpp	9;"	kind:prototype	line:9	language:C++	file:	signature:(int a, char b)
+byte_test	Test/byte.f	2;"	kind:program	line:2	language:Fortran
+A	Test/byte.f	3;"	kind:variable	line:3	language:Fortran	program:byte_test
+B	Test/byte.f	3;"	kind:variable	line:3	language:Fortran	program:byte_test
+C	Test/byte.f	3;"	kind:variable	line:3	language:Fortran	program:byte_test
+A1	Test/byte.f	4;"	kind:variable	line:4	language:Fortran	program:byte_test
+B1	Test/byte.f	4;"	kind:variable	line:4	language:Fortran	program:byte_test
+C1	Test/byte.f	4;"	kind:variable	line:4	language:Fortran	program:byte_test
+A2	Test/byte.f	5;"	kind:variable	line:5	language:Fortran	program:byte_test
+B2	Test/byte.f	5;"	kind:variable	line:5	language:Fortran	program:byte_test
+C2	Test/byte.f	5;"	kind:variable	line:5	language:Fortran	program:byte_test
+FUNCTIONS	Test/functions.e	1;"	kind:class	line:1	language:Eiffel
+function0	Test/functions.e	5;"	kind:feature	line:5	language:Eiffel	class:FUNCTIONS
+function1	Test/functions.e	11;"	kind:feature	line:11	language:Eiffel	class:FUNCTIONS
+function2	Test/functions.e	15;"	kind:feature	line:15	language:Eiffel	class:FUNCTIONS
+function_anchored	Test/functions.e	19;"	kind:feature	line:19	language:Eiffel	class:FUNCTIONS
+function_full	Test/functions.e	23;"	kind:feature	line:23	language:Eiffel	class:FUNCTIONS
+<	Test/functions.e	32;"	kind:feature	line:32	language:Eiffel	class:FUNCTIONS
++	Test/functions.e	36;"	kind:feature	line:36	language:Eiffel	class:FUNCTIONS
+test	Test/bug858165.f90	16;"	kind:program	line:16	language:Fortran
+a	Test/bug858165.f90	18;"	kind:variable	line:18	language:Fortran	program:test
+b	Test/bug858165.f90	18;"	kind:variable	line:18	language:Fortran	program:test
+c	Test/bug858165.f90	19;"	kind:variable	line:19	language:Fortran	program:test
+d	Test/bug858165.f90	21;"	kind:variable	line:21	language:Fortran	program:test
+PROGRAM-ID	Test/simple.cbl	2;"	kind:paragraph	line:2	language:Cobol
+Program-Name	Test/simple.cbl	2;"	kind:program	line:2	language:Cobol
+AUTHOR	Test/simple.cbl	3;"	kind:paragraph	line:3	language:Cobol
+INPUT-OUPUT	Test/simple.cbl	6;"	kind:section	line:6	language:Cobol
+FILE-CONTROL	Test/simple.cbl	7;"	kind:paragraph	line:7	language:Cobol
+FILE	Test/simple.cbl	12;"	kind:section	line:12	language:Cobol
+File-Name	Test/simple.cbl	13;"	kind:file	line:13	language:Cobol
+File-Group-Name	Test/simple.cbl	14;"	kind:group	line:14	language:Cobol
+File-Data-Item	Test/simple.cbl	15;"	kind:data	line:15	language:Cobol
+WORKING-STORAGE	Test/simple.cbl	17;"	kind:section	line:17	language:Cobol
+Group-Name	Test/simple.cbl	18;"	kind:group	line:18	language:Cobol
+Data-Item1	Test/simple.cbl	19;"	kind:data	line:19	language:Cobol
+SH-WORK-MMDDYYYY	Test/simple.cbl	20;"	kind:data	line:20	language:Cobol
+SH-WORK-MMDDYYYY-2	Test/simple.cbl	21;"	kind:data	line:21	language:Cobol
+DW-DAYS-IN-MONTHS	Test/simple.cbl	22;"	kind:data	line:22	language:Cobol
+DW-DAYS-IN-MONTH	Test/simple.cbl	23;"	kind:data	line:23	language:Cobol
+Begin	Test/simple.cbl	27;"	kind:paragraph	line:27	language:Cobol
+Subprogram-Name	Test/simple.cbl	30;"	kind:paragraph	line:30	language:Cobol
+C	Test/bug2411878.cs	1;"	kind:class	line:1	language:C#
+m_name	Test/bug2411878.cs	2;"	kind:field	line:2	language:C#	class:C	file:	access:private
+string	Test/3470609.js	29;"	kind:property	line:29	language:JavaScript	class:root
+method	Test/3470609.js	30;"	kind:method	line:30	language:JavaScript	class:root
+id	Test/3470609.js	33;"	kind:property	line:33	language:JavaScript	class:root
+neg	Test/3470609.js	34;"	kind:property	line:34	language:JavaScript	class:root
+decimal	Test/3470609.js	35;"	kind:property	line:35	language:JavaScript	class:root
+subProperty	Test/3470609.js	37;"	kind:property	line:37	language:JavaScript	class:root.subObject
+subFunction	Test/3470609.js	38;"	kind:method	line:38	language:JavaScript	class:root.subObject
+subObject	Test/3470609.js	36;"	kind:class	line:36	language:JavaScript	class:root
+array	Test/3470609.js	42;"	kind:property	line:42	language:JavaScript	class:root
+parentheses	Test/3470609.js	43;"	kind:property	line:43	language:JavaScript	class:root
+root	Test/3470609.js	28;"	kind:class	line:28	language:JavaScript
+f	Test/3470609.js	46;"	kind:function	line:46	language:JavaScript
+bar	Test/bug612621.pl	25;"	kind:subroutine	line:25	language:Perl
+foo	Test/bug612621.pl	39;"	kind:subroutine	line:39	language:Perl
+TabChrome	Test/bug1950327.js	14;"	kind:class	line:14	language:JavaScript
+init	Test/bug1950327.js	15;"	kind:method	line:15	language:JavaScript	class:TabChrome
+createTabTile	Test/bug1950327.js	19;"	kind:method	line:19	language:JavaScript	class:TabChrome
+destroyTabTile	Test/bug1950327.js	24;"	kind:method	line:24	language:JavaScript	class:TabChrome
+Different	Test/bug1950327.js	28;"	kind:class	line:28	language:JavaScript
+init	Test/bug1950327.js	29;"	kind:method	line:29	language:JavaScript	class:Different
+createTabTile	Test/bug1950327.js	33;"	kind:method	line:33	language:JavaScript	class:Different
+url	Test/bug1950327.js	35;"	kind:property	line:35	language:JavaScript	class:container.dirtyTab
+title	Test/bug1950327.js	35;"	kind:property	line:35	language:JavaScript	class:container.dirtyTab
+snapshot	Test/bug1950327.js	35;"	kind:property	line:35	language:JavaScript	class:container.dirtyTab
+*	Test/bug1950327.js	35;"	kind:property	line:35	language:JavaScript	class:container.dirtyTab
+dirtyTab	Test/bug1950327.js	35;"	kind:class	line:35	language:JavaScript	class:container
+destroyTabTile	Test/bug1950327.js	38;"	kind:method	line:38	language:JavaScript	class:Different
+prototype_a	Test/prototype.h	1;"	kind:prototype	line:1	language:C++	signature:(int a, char *b)
+prototype_b	Test/prototype.h	2;"	kind:prototype	line:2	language:C++	signature:(void)
+Employee	Test/keyword_static.cs	4;"	kind:class	line:4	language:C#
+id	Test/keyword_static.cs	6;"	kind:field	line:6	language:C#	class:Employee	access:public
+name	Test/keyword_static.cs	7;"	kind:field	line:7	language:C#	class:Employee	access:public
+Employee	Test/keyword_static.cs	9;"	kind:method	line:9	language:C#	class:Employee	access:public	signature:()
+Employee	Test/keyword_static.cs	13;"	kind:method	line:13	language:C#	class:Employee	access:public	signature:(string name, string id)
+employeeCounter	Test/keyword_static.cs	19;"	kind:field	line:19	language:C#	class:Employee	access:public
+AddEmployee	Test/keyword_static.cs	21;"	kind:method	line:21	language:C#	class:Employee	access:public	signature:()
+MainClass	Test/keyword_static.cs	27;"	kind:class	line:27	language:C#	inherits:Employee
+Main	Test/keyword_static.cs	29;"	kind:method	line:29	language:C#	class:MainClass	access:public	signature:()
+p1	Test/sql_single_quote.sql	1;"	kind:procedure	line:1	language:SQL
+p2	Test/sql_single_quote.sql	7;"	kind:procedure	line:7	language:SQL
+p3	Test/sql_single_quote.sql	13;"	kind:procedure	line:13	language:SQL
+abstype_name	Test/simple.sml	3;"	kind:type	line:3	language:SML
+suit	Test/simple.sml	5;"	kind:type	line:5	language:SML
+Change	Test/simple.sml	7;"	kind:exception	line:7	language:SML
+dist	Test/simple.sml	9;"	kind:function	line:9	language:SML
+checked_factorial	Test/simple.sml	11;"	kind:function	line:11	language:SML
+Factorial	Test/simple.sml	19;"	kind:exception	line:19	language:SML
+fact	Test/simple.sml	22;"	kind:function	line:22	language:SML
+checked_factorial	Test/simple.sml	25;"	kind:function	line:25	language:SML
+Matcher	Test/simple.sml	32;"	kind:functor	line:32	language:SML
+RegExp	Test/simple.sml	32;"	kind:structure	line:32	language:SML
+RegExp	Test/simple.sml	34;"	kind:structure	line:34	language:SML
+match_is	Test/simple.sml	38;"	kind:function	line:38	language:SML
+match	Test/simple.sml	49;"	kind:function	line:49	language:SML
+SUSP	Test/simple.sml	55;"	kind:signature	line:55	language:SML
+'a	Test/simple.sml	56;"	kind:type	line:56	language:SML
+force	Test/simple.sml	57;"	kind:value	line:57	language:SML
+delay	Test/simple.sml	58;"	kind:value	line:58	language:SML
+Susp	Test/simple.sml	61;"	kind:structure	line:61	language:SML
+'a	Test/simple.sml	62;"	kind:type	line:62	language:SML
+force	Test/simple.sml	63;"	kind:function	line:63	language:SML
+delay	Test/simple.sml	64;"	kind:function	line:64	language:SML
+Impossible	Test/simple.sml	66;"	kind:exception	line:66	language:SML
+memo	Test/simple.sml	67;"	kind:value	line:67	language:SML
+t'	Test/simple.sml	68;"	kind:function	line:68	language:SML
+r	Test/simple.sml	69;"	kind:value	line:69	language:SML
+loopback	Test/simple.sml	74;"	kind:function	line:74	language:SML
+Circular	Test/simple.sml	76;"	kind:exception	line:76	language:SML
+r	Test/simple.sml	77;"	kind:value	line:77	language:SML
+t	Test/simple.sml	78;"	kind:function	line:78	language:SML
+hyperlink	Test/simple.sml	84;"	kind:type	line:84	language:SML
+dist	Test/simple.sml	86;"	kind:value	line:86	language:SML
+VARIABLE_LIKE	Test/macros.c	1;"	kind:macro	line:1	language:C	file:
+FUNCTION_LIKE	Test/macros.c	2;"	kind:macro	line:2	language:C	file:
+WeakSymbol	Test/macros.c	3;"	kind:macro	line:3	language:C	file:
+foo	Test/macros.c	6;"	kind:variable	line:6	language:C
+prototype	Test/macros.c	7;"	kind:prototype	line:7	language:C	file:	signature:(int arg1, void *arg2)
+OcamlAllKinds	Test/ocamlAllKinds.ml	1;"	kind:module	line:1	language:OCaml
+ModuleFoo	Test/ocamlAllKinds.ml	1;"	kind:module	line:1	language:OCaml
+foobar	Test/ocamlAllKinds.ml	2;"	kind:type	line:2	language:OCaml	Module:ModuleFoo
+ConstructorFoo	Test/ocamlAllKinds.ml	3;"	kind:Constructor	line:3	language:OCaml	type:ModuleFoo/foobar
+ConstructorBar	Test/ocamlAllKinds.ml	4;"	kind:Constructor	line:4	language:OCaml	type:ModuleFoo/foobar
+foorecord	Test/ocamlAllKinds.ml	7;"	kind:type	line:7	language:OCaml
+foofield	Test/ocamlAllKinds.ml	8;"	kind:Record field	line:8	language:OCaml	type:foorecord
+barfield	Test/ocamlAllKinds.ml	9;"	kind:Record field	line:9	language:OCaml	type:foorecord
+foobarfield	Test/ocamlAllKinds.ml	10;"	kind:Record field	line:10	language:OCaml	type:foorecord
++-	Test/ocamlAllKinds.ml	13;"	kind:function	line:13	language:OCaml
+shall_appear	Test/ocamlAllKinds.ml	19;"	kind:var	line:19	language:OCaml
+foo_function	Test/ocamlAllKinds.ml	26;"	kind:var	line:26	language:OCaml
+fooClass	Test/ocamlAllKinds.ml	28;"	kind:class	line:28	language:OCaml
+x	Test/ocamlAllKinds.ml	30;"	kind:var	line:30	language:OCaml	class:fooClass
+fooMethod	Test/ocamlAllKinds.ml	31;"	kind:method	line:31	language:OCaml	class:fooClass
+label_forced_tags	Test/spurious_label_tags.c	4;"	kind:function	line:4	language:C	file:	signature:(void)
+TestClass	Test/keyword_override.cs	4;"	kind:class	line:4	language:C#
+Square	Test/keyword_override.cs	6;"	kind:class	line:6	language:C#	class:TestClass	access:public
+x	Test/keyword_override.cs	8;"	kind:field	line:8	language:C#	class:TestClass.Square	access:public
+Square	Test/keyword_override.cs	11;"	kind:method	line:11	language:C#	class:TestClass.Square	access:public	signature:(double x)
+Area	Test/keyword_override.cs	16;"	kind:method	line:16	language:C#	class:TestClass.Square	access:public	implementation:virtual	signature:()
+Cube	Test/keyword_override.cs	22;"	kind:class	line:22	language:C#	class:TestClass	inherits:Square	access:private
+Cube	Test/keyword_override.cs	25;"	kind:method	line:25	language:C#	class:TestClass.Cube	access:public	signature:(double x)
+Area	Test/keyword_override.cs	30;"	kind:method	line:30	language:C#	class:TestClass.Cube	access:public	signature:()
+Main	Test/keyword_override.cs	36;"	kind:method	line:36	language:C#	class:TestClass	access:public	signature:()
+test	Test/continuation.f90	2;"	kind:module	line:2	language:Fortran
+para_a	Test/continuation.f90	3;"	kind:variable	line:3	language:Fortran	module:test
+para_b	Test/continuation.f90	4;"	kind:variable	line:4	language:Fortran	module:test
+para_c	Test/continuation.f90	5;"	kind:variable	line:5	language:Fortran	module:test
+Foo	Test/bug849591.cpp	21;"	kind:function	line:21	language:C++	class:MainClass	signature:()
+Foo	Test/bug849591.cpp	43;"	kind:function	line:43	language:C++	class:MainClass	signature:()
+testFunc	Test/bug1988130.py	1;"	kind:function	line:1	language:Python	access:public	signature:()
+main	Test/bug1988130.py	4;"	kind:function	line:4	language:Python	access:public	signature:()
+MyNamespace1	Test/general.cs	4;"	kind:namespace	line:4	language:C#
+MyClass1	Test/general.cs	6;"	kind:class	line:6	language:C#	namespace:MyNamespace1
+MyStruct	Test/general.cs	9;"	kind:struct	line:9	language:C#	namespace:MyNamespace1
+IMyInterface	Test/general.cs	12;"	kind:interface	line:12	language:C#	namespace:MyNamespace1
+MyDelegate	Test/general.cs	15;"	kind:method	line:15	language:C#	namespace:MyNamespace1	signature:()
+MyEnum	Test/general.cs	16;"	kind:enum	line:16	language:C#	namespace:MyNamespace1
+MyNamespace2	Test/general.cs	19;"	kind:namespace	line:19	language:C#	namespace:MyNamespace1
+MyClass2	Test/general.cs	22;"	kind:class	line:22	language:C#	namespace:MyNamespace1
+Main	Test/general.cs	24;"	kind:method	line:24	language:C#	class:MyNamespace1.MyClass2	access:public	signature:(string[] args)
+N1	Test/general.cs	32;"	kind:namespace	line:32	language:C#
+C1	Test/general.cs	34;"	kind:class	line:34	language:C#	namespace:N1
+C2	Test/general.cs	36;"	kind:class	line:36	language:C#	class:N1.C1	access:private
+N2	Test/general.cs	40;"	kind:namespace	line:40	language:C#	namespace:N1
+C2	Test/general.cs	42;"	kind:class	line:42	language:C#	namespace:N1.N2
+AAssignmentExp	Test/bug2117073.java	1;"	kind:class	line:1	language:Java
+AAssignmentExp	Test/bug2117073.java	2;"	kind:method	line:2	language:Java	class:AAssignmentExp	access:public	signature:(@uppressWarningsÓ) TAssign _token_, @SuppressWarnings(Ó) PLvalue _lvalue_, @SuppressWarnings(Ó) PExp _exp_)
+removeChild	Test/bug2117073.java	10;"	kind:method	line:10	language:Java	class:AAssignmentExp	access:default	signature:(@uppressWarningsÓ) Node child)
+f	Test/bug1020715.c	43;"	kind:function	line:43	language:C
+Msg	Test/masm.asm	3;"	kind:define	line:3	language:Asm
+QUACK	Test/masm.asm	5;"	kind:label	line:5	language:Asm
+myequ	Test/masm.asm	15;"	kind:define	line:15	language:Asm
+myequal	Test/masm.asm	16;"	kind:define	line:16	language:Asm
+hllequal	Test/masm.asm	19;"	kind:define	line:19	language:Asm
+BYTE_BUFFER	Test/masm.asm	21;"	kind:label	line:21	language:Asm
+WORD_BUFFER	Test/masm.asm	22;"	kind:define	line:22	language:Asm
+LabelMaker1	Test/masm.asm	25;"	kind:label	line:25	language:Asm
+LabelMaker2	Test/masm.asm	27;"	kind:label	line:27	language:Asm
+mymacro	Test/masm.asm	29;"	kind:macro	line:29	language:Asm
+mystruct	Test/masm.asm	32;"	kind:type	line:32	language:Asm
+C	Test/bug1830344.cs	1;"	kind:class	line:1	language:C#
+m	Test/bug1830344.cs	2;"	kind:method	line:2	language:C#	class:C	access:public	signature:()
+D1	Test/secondary_fcn_name.js	12;"	kind:function	line:12	language:JavaScript
+D2	Test/secondary_fcn_name.js	22;"	kind:function	line:22	language:JavaScript
+my_global_var1	Test/secondary_fcn_name.js	28;"	kind:variable	line:28	language:JavaScript
+D2A	Test/secondary_fcn_name.js	35;"	kind:function	line:35	language:JavaScript
+theAdd	Test/secondary_fcn_name.js	35;"	kind:function	line:35	language:JavaScript
+Global_Variables	Test/array_spec.f90	2;"	kind:module	line:2	language:Fortran
+H	Test/array_spec.f90	6;"	kind:variable	line:6	language:Fortran	module:Global_Variables
+H0	Test/array_spec.f90	7;"	kind:variable	line:7	language:Fortran	module:Global_Variables
+H1	Test/array_spec.f90	8;"	kind:variable	line:8	language:Fortran	module:Global_Variables
+H2	Test/array_spec.f90	9;"	kind:variable	line:9	language:Fortran	module:Global_Variables
+H3	Test/array_spec.f90	10;"	kind:variable	line:10	language:Fortran	module:Global_Variables
+H4	Test/array_spec.f90	11;"	kind:variable	line:11	language:Fortran	module:Global_Variables
+H5	Test/array_spec.f90	12;"	kind:variable	line:12	language:Fortran	module:Global_Variables
+C	Test/bug1800065.cs	2;"	kind:class	line:2	language:C#
+window	Test/bug1800065.cs	3;"	kind:field	line:3	language:C#	class:C	file:	access:private
+title	Test/bug1800065.cs	4;"	kind:field	line:4	language:C#	class:C	file:	access:private
+ueberweisen	Test/unicode8.java	1;"	kind:method	line:1	language:Java	signature:( Konto empfänger, int betrag )
+Digit	Test/keyword_implicit.cs	3;"	kind:struct	line:3	language:C#
+value	Test/keyword_implicit.cs	5;"	kind:field	line:5	language:C#	struct:Digit	access:public
+Digit	Test/keyword_implicit.cs	7;"	kind:method	line:7	language:C#	struct:Digit	access:public	signature:(byte value)
+operator byte	Test/keyword_implicit.cs	14;"	kind:method	line:14	language:C#	struct:Digit	access:public	signature:(Digit d)
+Test	Test/keyword_implicit.cs	21;"	kind:class	line:21	language:C#
+Main	Test/keyword_implicit.cs	23;"	kind:method	line:23	language:C#	class:Test	access:public	signature:()
+RE	Test/1878155.js	11;"	kind:class	line:11	language:JavaScript
+foo	Test/1878155.js	15;"	kind:variable	line:15	language:JavaScript
+my_function	Test/1878155.js	18;"	kind:function	line:18	language:JavaScript
+SomeNameSpace	Test/keyword_namespace.cs	3;"	kind:namespace	line:3	language:C#
+MyClass	Test/keyword_namespace.cs	5;"	kind:class	line:5	language:C#	namespace:SomeNameSpace	access:public
+Main	Test/keyword_namespace.cs	7;"	kind:method	line:7	language:C#	class:SomeNameSpace.MyClass	access:public	signature:()
+Nested	Test/keyword_namespace.cs	13;"	kind:namespace	line:13	language:C#	namespace:SomeNameSpace
+NestedNameSpaceClass	Test/keyword_namespace.cs	15;"	kind:class	line:15	language:C#	namespace:SomeNameSpace.Nested	access:public
+SayHello	Test/keyword_namespace.cs	17;"	kind:method	line:17	language:C#	class:SomeNameSpace.Nested.NestedNameSpaceClass	access:public	signature:()
+SomeNameSpace.Nested	Test/keyword_namespace.cs	26;"	kind:namespace	line:26	language:C#
+AlternativeNestedNameSpaceClass	Test/keyword_namespace.cs	28;"	kind:class	line:28	language:C#	namespace:SomeNameSpace.Nested	access:public
+mystruct	Test/bug1466117.c	1;"	kind:struct	line:1	language:C	file:
+a	Test/bug1466117.c	2;"	kind:member	line:2	language:C	struct:mystruct	file:	access:public
+b	Test/bug1466117.c	3;"	kind:member	line:3	language:C	struct:mystruct	file:	access:public
+a	Test/bug1466117.c	7;"	kind:member	line:7	language:C	struct:__anon1	file:	access:public
+b	Test/bug1466117.c	8;"	kind:member	line:8	language:C	struct:__anon1	file:	access:public
+mystruct	Test/bug1466117.c	9;"	kind:typedef	line:9	language:C	typeref:struct:__anon1	file:
+main	Test/test.py	3;"	kind:function	line:3	language:Python	access:public	signature:()
+var	Test/test.py	9;"	kind:variable	line:9	language:Python
+var2	Test/test.py	10;"	kind:variable	line:10	language:Python
+foo	Test/bug639644.h	23;"	kind:member	line:23	language:C++	namespace:__anon2
+pure_func	Test/pure_elem.f95	13;"	kind:function	line:13	language:Fortran
+F	Test/pure_elem.f95	19;"	kind:function	line:19	language:Fortran
+elem_maxabs	Test/pure_elem.f95	26;"	kind:function	line:26	language:Fortran
+pure_maxabs2	Test/pure_elem.f95	32;"	kind:function	line:32	language:Fortran
+backtrack	Test/matlab_backtracking.m	4;"	kind:function	line:4	language:MatLab
+Array.forms	Test/flex_only_mxml.mxml	5;"	kind:mxtag	line:5	language:Flex
+ViewStack.viewstack1	Test/flex_only_mxml.mxml	9;"	kind:mxtag	line:9	language:Flex
+Form.form_login_screen	Test/flex_only_mxml.mxml	10;"	kind:mxtag	line:10	language:Flex
+TextInput.ls_ti_username	Test/flex_only_mxml.mxml	15;"	kind:mxtag	line:15	language:Flex
+TextInput.ls_ti_passwd	Test/flex_only_mxml.mxml	16;"	kind:mxtag	line:16	language:Flex
+Button.ls_bt_log_in_out	Test/flex_only_mxml.mxml	17;"	kind:mxtag	line:17	language:Flex
+Label.ls_lb_welcome	Test/flex_only_mxml.mxml	18;"	kind:mxtag	line:18	language:Flex
+HTTPService.myHTTPService	Test/flex_only_mxml.mxml	25;"	kind:mxtag	line:25	language:Flex
+test	Test/bug1201689.c	22;"	kind:function	line:22	language:C
+test	Test/bug877956.f90	22;"	kind:program	line:22	language:Fortran
+cm1	Test/bug877956.f90	25;"	kind:variable	line:25	language:Fortran	program:test
+c2	Test/bug877956.f90	25;"	kind:variable	line:25	language:Fortran	program:test
+test	Test/bug877956.f90	36;"	kind:program	line:36	language:Fortran
+cm1	Test/bug877956.f90	39;"	kind:variable	line:39	language:Fortran	program:test
+c2	Test/bug877956.f90	39;"	kind:variable	line:39	language:Fortran	program:test
+bit_fields	Test/bit_field.c	1;"	kind:struct	line:1	language:C	file:
+a	Test/bit_field.c	2;"	kind:member	line:2	language:C	struct:bit_fields	file:	access:public
+b	Test/bit_field.c	3;"	kind:member	line:3	language:C	struct:bit_fields	file:	access:public
+c	Test/bit_field.c	4;"	kind:member	line:4	language:C	struct:bit_fields	file:	access:public
+sign	Test/bit_field.c	8;"	kind:member	line:8	language:C	struct:__anon3	file:	access:public
+exp	Test/bit_field.c	9;"	kind:member	line:9	language:C	struct:__anon3	file:	access:public
+frac1	Test/bit_field.c	10;"	kind:member	line:10	language:C	struct:__anon3	file:	access:public
+frac0	Test/bit_field.c	11;"	kind:member	line:11	language:C	struct:__anon3	file:	access:public
+shortname_info	Test/bit_field.c	14;"	kind:struct	line:14	language:C	file:
+lower	Test/bit_field.c	15;"	kind:member	line:15	language:C	struct:shortname_info	file:	access:public
+upper	Test/bit_field.c	16;"	kind:member	line:16	language:C	struct:shortname_info	file:	access:public
+valid	Test/bit_field.c	17;"	kind:member	line:17	language:C	struct:shortname_info	file:	access:public
+public	Test/bit_field.c	23;"	kind:member	line:23	language:C	struct:__anon4	file:	access:public
+bad2	Test/bit_field.c	24;"	kind:member	line:24	language:C	struct:__anon4	file:	access:public
+group	Test/bit_field.c	25;"	kind:member	line:25	language:C	struct:__anon4	file:	access:public
+personal	Test/bit_field.c	26;"	kind:member	line:26	language:C	struct:__anon4	file:	access:public
+bitfield_flags	Test/bit_field.c	27;"	kind:typedef	line:27	language:C	typeref:struct:__anon4	file:
+this	Test/bit_field.c	31;"	kind:member	line:31	language:C	struct:__anon5	file:	access:public
+public	Test/bit_field.c	32;"	kind:member	line:32	language:C	struct:__anon5	file:	access:public
+private	Test/bit_field.c	33;"	kind:member	line:33	language:C	struct:__anon5	file:	access:public
+that	Test/bit_field.c	34;"	kind:member	line:34	language:C	struct:__anon5	file:	access:public
+mystruct	Test/bit_field.c	35;"	kind:typedef	line:35	language:C	typeref:struct:__anon5	file:
+f1	Test/bug1799340.cpp	1;"	kind:function	line:1	language:C++	signature:()
+f2	Test/bug1799340.cpp	2;"	kind:function	line:2	language:C++	signature:()
+f3	Test/bug1799340.cpp	3;"	kind:function	line:3	language:C++	class:std	signature:()
+database.restrict_login	Test/db-trig.sql	10;"	kind:trigger	line:10	language:SQL
+database.startup_db	Test/db-trig.sql	24;"	kind:trigger	line:24	language:SQL
+f1	Test/2023624.js	9;"	kind:function	line:9	language:JavaScript
+f2	Test/2023624.js	13;"	kind:function	line:13	language:JavaScript
+charset2uni	Test/static_array.c	2;"	kind:variable	line:2	language:C	file:
+i	Test/implied_program.f	3;"	kind:variable	line:3	language:Fortran
+MyClass	Test/bug3571233.js	29;"	kind:function	line:29	language:JavaScript
+MyClass	Test/bug3571233.js	32;"	kind:class	line:32	language:JavaScript
+method2	Test/bug3571233.js	32;"	kind:method	line:32	language:JavaScript	class:MyClass
+nestedFunction1	Test/bug3571233.js	34;"	kind:function	line:34	language:JavaScript	function:MyClass.method2
+nestedFunction2	Test/bug3571233.js	38;"	kind:function	line:38	language:JavaScript	function:MyClass.method2
+nestedFunction3	Test/bug3571233.js	45;"	kind:function	line:45	language:JavaScript	function:function1
+function1	Test/bug3571233.js	44;"	kind:function	line:44	language:JavaScript
+nestedFunction4	Test/bug3571233.js	50;"	kind:function	line:50	language:JavaScript	function:function2
+nestedFunction5	Test/bug3571233.js	53;"	kind:function	line:53	language:JavaScript	function:function2
+function2	Test/bug3571233.js	49;"	kind:function	line:49	language:JavaScript
+EnumTest	Test/keyword_enum.cs	5;"	kind:class	line:5	language:C#
+Days	Test/keyword_enum.cs	7;"	kind:enum	line:7	language:C#	class:EnumTest	access:private
+Sat	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Sun	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Mon	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Tue	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Wed	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Thu	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Fri	Test/keyword_enum.cs	7;"	kind:enumerator	line:7	language:C#	enum:EnumTest.Days	file:
+Main	Test/keyword_enum.cs	9;"	kind:method	line:9	language:C#	class:EnumTest	access:public	signature:()
+EnumTest	Test/keyword_enum.cs	21;"	kind:class	line:21	language:C#
+Range	Test/keyword_enum.cs	23;"	kind:enum	line:23	language:C#	class:EnumTest	access:private
+Max	Test/keyword_enum.cs	23;"	kind:enumerator	line:23	language:C#	enum:EnumTest.Range	file:
+Min	Test/keyword_enum.cs	23;"	kind:enumerator	line:23	language:C#	enum:EnumTest.Range	file:
+Main	Test/keyword_enum.cs	24;"	kind:method	line:24	language:C#	class:EnumTest	access:public	signature:()
+PyFunc	Test/bug1764148	2;"	kind:function	line:2	language:Python	access:public	signature:(msg)
+Introduction	Test/intro_orig.tex	35;"	kind:section	line:35	language:Tex	chapter:Part2""chapter2
+Equations	Test/intro_orig.tex	55;"	kind:section	line:55	language:Tex	chapter:Part2""chapter2
+eq:ising	Test/intro_orig.tex	73;"	kind:label	line:73	language:Tex
+eq:fine	Test/intro_orig.tex	102;"	kind:label	line:102	language:Tex
+eq:mdiv	Test/intro_orig.tex	125;"	kind:label	line:125	language:Tex
+Tables	Test/intro_orig.tex	151;"	kind:section	line:151	language:Tex	chapter:Part2""chapter2
+tab:5  tc	Test/intro_orig.tex	176;"	kind:label	line:176	language:Tex
+Lists	Test/intro_orig.tex	181;"	kind:section	line:181	language:Tex	chapter:Part2""chapter2
+Figures	Test/intro_orig.tex	202;"	kind:section	line:202	language:Tex	chapter:Part2""chapter2
+fig:typical	Test/intro_orig.tex	212;"	kind:label	line:212	language:Tex
+fig:lj	Test/intro_orig.tex	219;"	kind:label	line:219	language:Tex
+Literal text	Test/intro_orig.tex	225;"	kind:section	line:225	language:Tex	chapter:Part2""chapter2
+Special Symbols	Test/intro_orig.tex	240;"	kind:section	line:240	language:Tex	chapter:Part2""chapter2
+Common Greek letters	Test/intro_orig.tex	242;"	kind:subsection	line:242	language:Tex	section:Part2""chapter2""Special Symbols
+Special symbols	Test/intro_orig.tex	262;"	kind:subsection	line:262	language:Tex	section:Part2""chapter2""Special Symbols
+color  red	Test/intro_orig.tex	300;"	kind:section	line:300	language:Tex	chapter:Part2""chapter2
+label  morefig	Test/intro_orig.tex	305;"	kind:section	line:305	language:Tex	chapter:Part2""chapter2
+fig:qm  complexfunctions	Test/intro_orig.tex	319;"	kind:label	line:319	language:Tex
+N1	Test/bug665086.cpp	21;"	kind:namespace	line:21	language:C++	file:
+N2	Test/bug665086.cpp	23;"	kind:namespace	line:23	language:C++	namespace:N1	file:
+C12	Test/bug665086.cpp	25;"	kind:class	line:25	language:C++	namespace:N1::N2	file:
+inm_df	Test/array-spec.f90	1;"	kind:module	line:1	language:Fortran
+df_type	Test/array-spec.f90	4;"	kind:type	line:4	language:Fortran	module:inm_df
+df_mb_time	Test/array-spec.f90	5;"	kind:component	line:5	language:Fortran	type:df_type
+df_wb_time	Test/array-spec.f90	6;"	kind:component	line:6	language:Fortran	type:df_type
+df_mb_data	Test/array-spec.f90	7;"	kind:component	line:7	language:Fortran	type:df_type
+df_wb_data	Test/array-spec.f90	8;"	kind:component	line:8	language:Fortran	type:df_type
+objLiteralProperty	Test/1850914.js	18;"	kind:property	line:18	language:JavaScript	class:objectLiteral
+objLiteralMethod	Test/1850914.js	22;"	kind:method	line:22	language:JavaScript	class:objectLiteral
+objectLiteral	Test/1850914.js	14;"	kind:class	line:14	language:JavaScript
+TheNamespace	Test/bug1575055.cpp	1;"	kind:namespace	line:1	language:C++	file:
+MyClass	Test/bug1575055.cpp	2;"	kind:class	line:2	language:C++	namespace:TheNamespace	file:
+variable	Test/bug1575055.cpp	3;"	kind:member	line:3	language:C++	namespace:TheNamespace	file:
+f1	Test/simple.ksh	3;"	kind:function	line:3	language:Sh
+f2	Test/simple.ksh	6;"	kind:function	line:6	language:Sh
+mud	Test/bug1924919.cpp	2;"	kind:namespace	line:2	language:C++	file:
+MajorVersion	Test/bug1924919.cpp	3;"	kind:member	line:3	language:C++	namespace:mud	file:
+MinorVersion	Test/bug1924919.cpp	4;"	kind:member	line:4	language:C++	namespace:mud	file:
+Test::One	Test/Package.pm	8;"	kind:package	line:8	language:Perl
+Test::One::Two	Test/Package.pm	10;"	kind:package	line:10	language:Perl
+Test	Test/Package.pm	12;"	kind:package	line:12	language:Perl
+init	Test/Package.pm	19;"	kind:subroutine	line:19	language:Perl
+CONST	Test/Package.pm	23;"	kind:constant	line:23	language:Perl
+quo	Test/Package.pm	37;"	kind:subroutine	line:37	language:Perl
+END	Test/Package.pm	40;"	kind:label	line:40	language:Perl
+END2	Test/Package.pm	41;"	kind:label	line:41	language:Perl
+dude	Test/Package.pm	52;"	kind:subroutine	line:52	language:Perl
+BaseClass	Test/internal.cs	3;"	kind:class	line:3	language:C#
+IntM	Test/internal.cs	5;"	kind:field	line:5	language:C#	class:BaseClass	access:public
+TestClass	Test/keyword_virtual.cs	4;"	kind:class	line:4	language:C#
+Dimensions	Test/keyword_virtual.cs	6;"	kind:class	line:6	language:C#	class:TestClass	access:public
+pi	Test/keyword_virtual.cs	8;"	kind:field	line:8	language:C#	class:TestClass.Dimensions	access:public
+x	Test/keyword_virtual.cs	9;"	kind:field	line:9	language:C#	class:TestClass.Dimensions	access:protected
+y	Test/keyword_virtual.cs	9;"	kind:field	line:9	language:C#	class:TestClass.Dimensions	access:protected
+Dimensions	Test/keyword_virtual.cs	10;"	kind:method	line:10	language:C#	class:TestClass.Dimensions	access:public	signature:()
+Dimensions	Test/keyword_virtual.cs	13;"	kind:method	line:13	language:C#	class:TestClass.Dimensions	access:public	signature:(double x, double y)
+Area	Test/keyword_virtual.cs	19;"	kind:method	line:19	language:C#	class:TestClass.Dimensions	access:public	implementation:virtual	signature:()
+Circle	Test/keyword_virtual.cs	25;"	kind:class	line:25	language:C#	class:TestClass	inherits:Dimensions	access:public
+Circle	Test/keyword_virtual.cs	27;"	kind:method	line:27	language:C#	class:TestClass.Circle	access:public	signature:(double r)
+Area	Test/keyword_virtual.cs	31;"	kind:method	line:31	language:C#	class:TestClass.Circle	access:public	signature:()
+Sphere	Test/keyword_virtual.cs	37;"	kind:class	line:37	language:C#	class:TestClass	inherits:Dimensions	access:private
+Sphere	Test/keyword_virtual.cs	39;"	kind:method	line:39	language:C#	class:TestClass.Sphere	access:public	signature:(double r)
+Area	Test/keyword_virtual.cs	43;"	kind:method	line:43	language:C#	class:TestClass.Sphere	access:public	signature:()
+Cylinder	Test/keyword_virtual.cs	49;"	kind:class	line:49	language:C#	class:TestClass	inherits:Dimensions	access:private
+Cylinder	Test/keyword_virtual.cs	51;"	kind:method	line:51	language:C#	class:TestClass.Cylinder	access:public	signature:(double r, double h)
+Area	Test/keyword_virtual.cs	55;"	kind:method	line:55	language:C#	class:TestClass.Cylinder	access:public	signature:()
+Main	Test/keyword_virtual.cs	61;"	kind:method	line:61	language:C#	class:TestClass	access:public	signature:()
+bug1777344	Test/bug1777344.java	2;"	kind:class	line:2	language:Java
+map1	Test/bug1777344.java	3;"	kind:field	line:3	language:Java	class:bug1777344	file:	access:private
+map2	Test/bug1777344.java	4;"	kind:field	line:4	language:Java	class:bug1777344	file:	access:private
+map3	Test/bug1777344.java	4;"	kind:field	line:4	language:Java	class:bug1777344	file:	access:private
+b	Test/bug1777344.java	5;"	kind:field	line:5	language:Java	class:bug1777344	file:	access:private
+c	Test/bug1777344.java	5;"	kind:field	line:5	language:Java	class:bug1777344	file:	access:private
+check_parity	Test/bug1085585.c	36;"	kind:prototype	line:36	language:C	file:	signature:(des_cblock (key))
+des_check_key	Test/bug1085585.c	37;"	kind:variable	line:37	language:C
+specs	Test/misc_types.f	10;"	kind:program	line:10	language:Fortran
+INFOOBAR	Test/misc_types.f	24;"	kind:variable	line:24	language:Fortran	program:specs
+M	Test/misc_types.f	27;"	kind:variable	line:27	language:Fortran	program:specs
+MyClass	Test/keyword_params.cs	3;"	kind:class	line:3	language:C#
+UseParams	Test/keyword_params.cs	6;"	kind:method	line:6	language:C#	class:MyClass	access:public	signature:(params int[] list)
+UseParams2	Test/keyword_params.cs	13;"	kind:method	line:13	language:C#	class:MyClass	access:public	signature:(params object[] list)
+Main	Test/keyword_params.cs	20;"	kind:method	line:20	language:C#	class:MyClass	access:public	signature:()
+MyClass	Test/keyword_sealed.cs	4;"	kind:class	line:4	language:C#
+x	Test/keyword_sealed.cs	6;"	kind:field	line:6	language:C#	class:MyClass	access:public
+y	Test/keyword_sealed.cs	7;"	kind:field	line:7	language:C#	class:MyClass	access:public
+MainClass	Test/keyword_sealed.cs	10;"	kind:class	line:10	language:C#
+Main	Test/keyword_sealed.cs	12;"	kind:method	line:12	language:C#	class:MainClass	access:public	signature:()
+testClass	Test/bug1988026.py	2;"	kind:class	line:2	language:Python	inherits:
+my_var	Test/bug1988026.py	3;"	kind:variable	line:3	language:Python	class:testClass
+main	Test/bug1988026.py	4;"	kind:member	line:4	language:Python	class:testClass	access:public	signature:()
+im_a_function	Test/bug1988026.py	8;"	kind:function	line:8	language:Python	access:public	signature:()
+container	Test/bug3036476.js	15;"	kind:variable	line:15	language:JavaScript
+object	Test/bug3036476.js	17;"	kind:function	line:17	language:JavaScript	function:container
+method1	Test/bug3036476.js	18;"	kind:function	line:18	language:JavaScript	function:container.object
+method2	Test/bug3036476.js	19;"	kind:function	line:19	language:JavaScript	function:container.object
+db0001	Test/ingres_procedures.sql	1;"	kind:procedure	line:1	language:SQL
+x	Test/ingres_procedures.sql	6;"	kind:variable	line:6	language:SQL
+n	Test/ingres_procedures.sql	7;"	kind:variable	line:7	language:SQL
+err	Test/ingres_procedures.sql	8;"	kind:variable	line:8	language:SQL
+db0002	Test/ingres_procedures.sql	5;"	kind:procedure	line:5	language:SQL
+db0003	Test/ingres_procedures.sql	35;"	kind:procedure	line:35	language:SQL
+traffic	Test/traffic_signal.v	5;"	kind:module	line:5	language:Verilog
+on	Test/traffic_signal.v	6;"	kind:constant	line:6	language:Verilog
+off	Test/traffic_signal.v	6;"	kind:constant	line:6	language:Verilog
+red_tics	Test/traffic_signal.v	6;"	kind:constant	line:6	language:Verilog
+amber_tics	Test/traffic_signal.v	7;"	kind:constant	line:7	language:Verilog
+green_tics	Test/traffic_signal.v	7;"	kind:constant	line:7	language:Verilog
+clock	Test/traffic_signal.v	8;"	kind:register	line:8	language:Verilog
+red	Test/traffic_signal.v	8;"	kind:register	line:8	language:Verilog
+amber	Test/traffic_signal.v	8;"	kind:register	line:8	language:Verilog
+green	Test/traffic_signal.v	8;"	kind:register	line:8	language:Verilog
+light	Test/traffic_signal.v	24;"	kind:task	line:24	language:Verilog
+color	Test/traffic_signal.v	25;"	kind:port	line:25	language:Verilog
+tics	Test/traffic_signal.v	26;"	kind:port	line:26	language:Verilog
+TestUnion	Test/bug1548443.cpp	1;"	kind:union	line:1	language:C++	file:
+_number	Test/bug1548443.cpp	3;"	kind:member	line:3	language:C++	union:TestUnion	file:	access:public
+TestStruct	Test/bug1548443.cpp	6;"	kind:struct	line:6	language:C++	file:
+_number	Test/bug1548443.cpp	8;"	kind:member	line:8	language:C++	struct:TestStruct	file:	access:public
+m1	Test/bug1907083.cpp	2;"	kind:function	line:2	language:C++	class:C	signature:()
+m2	Test/bug1907083.cpp	3;"	kind:function	line:3	language:C++	class:C::C	signature:()
+m3	Test/bug1907083.cpp	4;"	kind:function	line:4	language:C++	class:C::C	signature:()
+m4	Test/bug1907083.cpp	5;"	kind:function	line:5	language:C++	class:C::C	signature:()
+figure	Test/value.f	2;"	kind:program	line:2	language:Fortran
+aa	Test/value.f	3;"	kind:variable	line:3	language:Fortran	program:figure
+fig	Test/value.f	5;"	kind:variable	line:5	language:Fortran	program:figure
+IPoint	Test/keyword_interface.cs	4;"	kind:interface	line:4	language:C#
+x	Test/keyword_interface.cs	7;"	kind:property	line:7	language:C#	interface:IPoint	access:public
+y	Test/keyword_interface.cs	13;"	kind:property	line:13	language:C#	interface:IPoint	access:public
+MyPoint	Test/keyword_interface.cs	20;"	kind:class	line:20	language:C#	inherits:IPoint
+myX	Test/keyword_interface.cs	23;"	kind:field	line:23	language:C#	class:MyPoint	file:	access:private
+myY	Test/keyword_interface.cs	24;"	kind:field	line:24	language:C#	class:MyPoint	file:	access:private
+MyPoint	Test/keyword_interface.cs	27;"	kind:method	line:27	language:C#	class:MyPoint	access:public	signature:(int x, int y)
+x	Test/keyword_interface.cs	34;"	kind:property	line:34	language:C#	class:MyPoint	access:public
+y	Test/keyword_interface.cs	47;"	kind:property	line:47	language:C#	class:MyPoint	access:public
+MainClass	Test/keyword_interface.cs	60;"	kind:class	line:60	language:C#
+PrintPoint	Test/keyword_interface.cs	62;"	kind:method	line:62	language:C#	class:MainClass	file:	access:private	signature:(IPoint p)
+Main	Test/keyword_interface.cs	67;"	kind:method	line:67	language:C#	class:MainClass	access:public	signature:()
+MyClass	Test/keyword_extern.cs	3;"	kind:class	line:3	language:C#
+MessageBox	Test/keyword_extern.cs	6;"	kind:method	line:6	language:C#	class:MyClass	file:	access:private	signature:(int h, string m, string c, int type)
+Main	Test/keyword_extern.cs	8;"	kind:method	line:8	language:C#	class:MyClass	access:public	signature:()
+foo	Test/angle_bracket.cpp	1;"	kind:function	line:1	language:C++	file:	signature:(int nelem)
+rsize	Test/angle_bracket.cpp	3;"	kind:local	line:3	language:C++
+bar	Test/angle_bracket.cpp	9;"	kind:function	line:9	language:C++	file:	signature:(int value)
+bar2	Test/angle_bracket.cpp	14;"	kind:function	line:14	language:C++	file:	signature:(void)
+SEMI	Test/semicolon.f90	1;"	kind:module	line:1	language:Fortran
+VAR1	Test/semicolon.f90	3;"	kind:variable	line:3	language:Fortran	module:SEMI
+VAR2	Test/semicolon.f90	3;"	kind:variable	line:3	language:Fortran	module:SEMI
+x	Test/bug2777310.js	1;"	kind:variable	line:1	language:JavaScript
+z	Test/bug2777310.js	2;"	kind:variable	line:2	language:JavaScript
+y	Test/bug2777310.js	3;"	kind:variable	line:3	language:JavaScript
+XYZ	Test/format.pl	3;"	kind:format	line:3	language:Perl
+STDOUT	Test/format.pl	8;"	kind:format	line:8	language:Perl
+outer_procedure	Test/labels.sql	1;"	kind:procedure	line:1	language:SQL
+outer_procedure.my_label	Test/labels.sql	3;"	kind:label	line:3	language:SQL
+P	Test/bug1799343-2.cpp	1;"	kind:class	line:1	language:C++	file:
+x	Test/bug1799343-2.cpp	3;"	kind:member	line:3	language:C++	class:P	file:	access:protected
+A	Test/bug1799343-2.cpp	6;"	kind:namespace	line:6	language:C++	file:
+P	Test/bug1799343-2.cpp	7;"	kind:class	line:7	language:C++	namespace:A	file:
+x	Test/bug1799343-2.cpp	9;"	kind:member	line:9	language:C++	class:A::P	file:	access:protected
+Q	Test/bug1799343-2.cpp	11;"	kind:class	line:11	language:C++	namespace:A	file:
+y	Test/bug1799343-2.cpp	12;"	kind:member	line:12	language:C++	class:A::Q	file:	access:private
+C	Test/bug1799343-2.cpp	15;"	kind:namespace	line:15	language:C++	namespace:A	file:
+R	Test/bug1799343-2.cpp	16;"	kind:class	line:16	language:C++	namespace:A::C	file:	inherits:::P,A::Q
+z	Test/bug1799343-2.cpp	17;"	kind:member	line:17	language:C++	class:A::C::R	file:	access:private
+f	Test/bug1799343-2.cpp	18;"	kind:function	line:18	language:C++	class:A::C::R	file:	access:private	signature:(int v)
+B	Test/bug1799343-2.cpp	23;"	kind:namespace	line:23	language:C++	file:
+S	Test/bug1799343-2.cpp	24;"	kind:class	line:24	language:C++	namespace:B	file:	inherits:A::C::R
+t	Test/bug1799343-2.cpp	25;"	kind:member	line:25	language:C++	class:B::S	file:	access:private
+main	Test/bug1770479.cpp	3;"	kind:function	line:3	language:C++	signature:(int argc, char **argv)
+a	Test/bug1770479.cpp	5;"	kind:local	line:5	language:C++
+b	Test/bug1770479.cpp	8;"	kind:local	line:8	language:C++
+foo	Test/bug1770479.cpp	14;"	kind:function	line:14	language:C++	signature:(int i)
+random	Test/random.sql	13;"	kind:package	line:13	language:SQL
+random	Test/random.sql	30;"	kind:package	line:30	language:SQL
+random.multiplier	Test/random.sql	31;"	kind:variable	line:31	language:SQL
+random.increment	Test/random.sql	32;"	kind:variable	line:32	language:SQL
+random.Seed	Test/random.sql	36;"	kind:variable	line:36	language:SQL
+random.smaller	Test/random.sql	39;"	kind:function	line:39	language:SQL
+random.rand_string	Test/random.sql	48;"	kind:function	line:48	language:SQL
+random.srand	Test/random.sql	62;"	kind:procedure	line:62	language:SQL
+random.rand	Test/random.sql	67;"	kind:function	line:67	language:SQL
+random.get_rand	Test/random.sql	73;"	kind:procedure	line:73	language:SQL
+random.rand_max	Test/random.sql	78;"	kind:function	line:78	language:SQL
+random.get_rand_max	Test/random.sql	83;"	kind:procedure	line:83	language:SQL
+ForEachTest	Test/bug1830343.cs	1;"	kind:class	line:1	language:C#
+Main	Test/bug1830343.cs	2;"	kind:method	line:2	language:C#	class:ForEachTest	file:	access:private	signature:(string[] args)
+ALIASES	Test/aliases.e	1;"	kind:class	line:1	language:Eiffel
+attribute_a	Test/aliases.e	5;"	kind:feature	line:5	language:Eiffel	class:ALIASES
+attribute_b	Test/aliases.e	5;"	kind:feature	line:5	language:Eiffel	class:ALIASES
+constant_a	Test/aliases.e	7;"	kind:feature	line:7	language:Eiffel	class:ALIASES
+constant_b	Test/aliases.e	7;"	kind:feature	line:7	language:Eiffel	class:ALIASES
+function1a	Test/aliases.e	11;"	kind:feature	line:11	language:Eiffel	class:ALIASES
+function1b	Test/aliases.e	11;"	kind:feature	line:11	language:Eiffel	class:ALIASES
+procedure1a	Test/aliases.e	17;"	kind:feature	line:17	language:Eiffel	class:ALIASES
+procedure1b	Test/aliases.e	17;"	kind:feature	line:17	language:Eiffel	class:ALIASES
+a	Test/aliases.e	21;"	kind:feature	line:21	language:Eiffel	class:ALIASES
+<	Test/aliases.e	21;"	kind:feature	line:21	language:Eiffel	class:ALIASES
+b	Test/aliases.e	21;"	kind:feature	line:21	language:Eiffel	class:ALIASES
+yor	Test/aliases.e	25;"	kind:feature	line:25	language:Eiffel	class:ALIASES
+^	Test/aliases.e	25;"	kind:feature	line:25	language:Eiffel	class:ALIASES
+zor	Test/aliases.e	25;"	kind:feature	line:25	language:Eiffel	class:ALIASES
+ThisIsValid	Test/bug3032253.vim	5;"	kind:command	line:5	language:Vim
+ENTSEQNO	Test/bug507864.c	1;"	kind:function	line:1	language:C
+MEMTXT	Test/bug507864.c	2;"	kind:prototype	line:2	language:C	file:
+MEMTXT	Test/bug507864.c	2;"	kind:prototype	line:2	language:C	file:
+MEMTXT	Test/bug507864.c	2;"	kind:function	line:2	language:C
+a	Test/line_directives.c	3;"	kind:variable	line:3	language:C
+b	Test/line_directives.c	6;"	kind:variable	line:6	language:C
+c	Test/line_directives.c	9;"	kind:variable	line:9	language:C
+C	Test/bug1799343-1.cpp	2;"	kind:struct	line:2	language:C++	file:
+x	Test/bug1799343-1.cpp	2;"	kind:member	line:2	language:C++	struct:C	file:	access:public
+D	Test/bug1799343-1.cpp	3;"	kind:struct	line:3	language:C++	file:	inherits:::C
+D	Test/bug1799343-1.cpp	4;"	kind:function	line:4	language:C++	struct:D	access:public	signature:()
+~D	Test/bug1799343-1.cpp	5;"	kind:function	line:5	language:C++	struct:D	access:public	signature:()
+endl	Test/bug1799343-1.cpp	5;"	kind:member	line:5	language:C++	class:D::std	file:
+main	Test/bug1799343-1.cpp	7;"	kind:function	line:7	language:C++	signature:(void)
+d	Test/bug1799343-1.cpp	8;"	kind:local	line:8	language:C++
+save	Test/flex_override.mxml	9;"	kind:function	line:9	language:Flex
+myOverride	Test/flex_override.mxml	14;"	kind:function	line:14	language:Flex
+VARIABLE_LIKE	Test/directives.c	2;"	kind:macro	line:2	language:C	file:
+FUNCTION_LIKE	Test/directives.c	3;"	kind:macro	line:3	language:C	file:
+WeakSymbol	Test/directives.c	4;"	kind:macro	line:4	language:C	file:
+with_long_comment	Test/directives.c	6;"	kind:macro	line:6	language:C	file:
+MACRO_TO_SEE1	Test/directives.c	11;"	kind:macro	line:11	language:C	file:
+a	Test/directives.c	12;"	kind:variable	line:12	language:C
+MACRO_TO_SEE2	Test/directives.c	14;"	kind:macro	line:14	language:C	file:
+b	Test/directives.c	15;"	kind:variable	line:15	language:C
+MACRO_TO_SEE3	Test/directives.c	17;"	kind:macro	line:17	language:C	file:
+c	Test/directives.c	18;"	kind:variable	line:18	language:C
+MACRO_TO_SEE4	Test/directives.c	20;"	kind:macro	line:20	language:C	file:
+d	Test/directives.c	21;"	kind:variable	line:21	language:C
+SEE_THIS_MACRO	Test/directives.c	35;"	kind:macro	line:35	language:C	file:
+g	Test/directives.c	36;"	kind:variable	line:36	language:C
+PATH1	Test/directives.c	41;"	kind:macro	line:41	language:C	file:
+foo1	Test/directives.c	42;"	kind:function	line:42	language:C	signature:(void)
+bar1	Test/directives.c	55;"	kind:function	line:55	language:C	signature:(void)
+PATH1b	Test/directives.c	58;"	kind:macro	line:58	language:C	file:
+p1	Test/directives.c	60;"	kind:variable	line:60	language:C
+func1	Test/matlab_test.m	1;"	kind:function	line:1	language:MatLab
+func2	Test/matlab_test.m	2;"	kind:function	line:2	language:MatLab
+func3	Test/matlab_test.m	3;"	kind:function	line:3	language:MatLab
+ctags_bug	Test/bug565813.f90	1;"	kind:module	line:1	language:Fortran
+foo_t	Test/bug565813.f90	7;"	kind:type	line:7	language:Fortran	module:ctags_bug
+bar	Test/bug565813.f90	8;"	kind:component	line:8	language:Fortran	type:foo_t
+N	Test/bug565813.f90	11;"	kind:variable	line:11	language:Fortran	module:ctags_bug
+foo_setbar	Test/bug565813.f90	20;"	kind:subroutine	line:20	language:Fortran	module:ctags_bug
+foo_set_bar	Test/bug565813.f90	28;"	kind:subroutine	line:28	language:Fortran	module:ctags_bug
+foo_getbar	Test/bug565813.f90	36;"	kind:function	line:36	language:Fortran	module:ctags_bug
+Namespace1	Test/bug639639.h	21;"	kind:namespace	line:21	language:C++
+function2	Test/bug639639.h	23;"	kind:prototype	line:23	language:C++	namespace:Namespace1	signature:(char* str)
+anon2	Test/bug639639.h	26;"	kind:enumerator	line:26	language:C++	enum:__anon6
+UBER_CLASS	Test/class.e	5;"	kind:class	line:5	language:Eiffel
+my_generator	Test/class.e	11;"	kind:feature	line:11	language:Eiffel	class:UBER_CLASS
+my_generating_type	Test/class.e	12;"	kind:feature	line:12	language:Eiffel	class:UBER_CLASS
+//	Test/class.e	13;"	kind:feature	line:13	language:Eiffel	class:UBER_CLASS
+make	Test/class.e	40;"	kind:feature	line:40	language:Eiffel	class:UBER_CLASS
+make2	Test/class.e	44;"	kind:feature	line:44	language:Eiffel	class:UBER_CLASS
+make3	Test/class.e	48;"	kind:feature	line:48	language:Eiffel	class:UBER_CLASS
+procedure_full	Test/class.e	54;"	kind:feature	line:54	language:Eiffel	class:UBER_CLASS
+guard	Test/class.e	62;"	kind:feature	line:62	language:Eiffel	class:UBER_CLASS
+C	Test/java_enum.java	1;"	kind:class	line:1	language:Java
+TrivialEnum	Test/java_enum.java	2;"	kind:enum	line:2	language:Java	class:C	access:public
+FIRST_VALUE	Test/java_enum.java	3;"	kind:enum constant	line:3	language:Java	enum:C.TrivialEnum	file:	access:public
+SECOND_VALUE	Test/java_enum.java	4;"	kind:enum constant	line:4	language:Java	enum:C.TrivialEnum	file:	access:public
+FancyEnum	Test/java_enum.java	6;"	kind:enum	line:6	language:Java	class:C	access:public
+A	Test/java_enum.java	7;"	kind:enum constant	line:7	language:Java	enum:C.FancyEnum	file:	access:public
+B	Test/java_enum.java	7;"	kind:enum constant	line:7	language:Java	enum:C.FancyEnum	file:	access:public
+i	Test/java_enum.java	8;"	kind:field	line:8	language:Java	class:C.FancyEnum	file:	access:private
+FancyEnum	Test/java_enum.java	9;"	kind:method	line:9	language:Java	class:C.FancyEnum	access:public	signature:(int i)
+m	Test/java_enum.java	12;"	kind:method	line:12	language:Java	class:C.FancyEnum	access:public	signature:()
+INDX_NIL	Test/bug556646.c	19;"	kind:enumerator	line:19	language:C	enum:__anon7	file:
+INDX_P	Test/bug556646.c	20;"	kind:enumerator	line:20	language:C	enum:__anon7	file:
+INDX_S	Test/bug556646.c	21;"	kind:enumerator	line:21	language:C	enum:__anon7	file:
+INDX_M	Test/bug556646.c	22;"	kind:enumerator	line:22	language:C	enum:__anon7	file:
+INDX_S1	Test/bug556646.c	23;"	kind:enumerator	line:23	language:C	enum:__anon7	file:
+INDX_S2	Test/bug556646.c	24;"	kind:enumerator	line:24	language:C	enum:__anon7	file:
+INDX_S3	Test/bug556646.c	25;"	kind:enumerator	line:25	language:C	enum:__anon7	file:
+INDX_C1	Test/bug556646.c	26;"	kind:enumerator	line:26	language:C	enum:__anon7	file:
+INDX_C2	Test/bug556646.c	27;"	kind:enumerator	line:27	language:C	enum:__anon7	file:
+INDX_S4	Test/bug556646.c	28;"	kind:enumerator	line:28	language:C	enum:__anon7	file:
+INDX_T	Test/bug556646.c	29;"	kind:enumerator	line:29	language:C	enum:__anon7	file:
+INDX_L	Test/bug556646.c	30;"	kind:enumerator	line:30	language:C	enum:__anon7	file:
+INDX_R	Test/bug556646.c	31;"	kind:enumerator	line:31	language:C	enum:__anon7	file:
+INDX_R2	Test/bug556646.c	32;"	kind:enumerator	line:32	language:C	enum:__anon7	file:
+INDX_IM1	Test/bug556646.c	33;"	kind:enumerator	line:33	language:C	enum:__anon7	file:
+INDX_IM2	Test/bug556646.c	34;"	kind:enumerator	line:34	language:C	enum:__anon7	file:
+INDX_L2	Test/bug556646.c	35;"	kind:enumerator	line:35	language:C	enum:__anon7	file:
+INDX_T2	Test/bug556646.c	36;"	kind:enumerator	line:36	language:C	enum:__anon7	file:
+A	Test/bug556646.c	37;"	kind:enumerator	line:37	language:C	enum:__anon7	file:
+task_indx_type	Test/bug556646.c	38;"	kind:typedef	line:38	language:C	typeref:enum:__anon7	file:
+main	Test/local.c	1;"	kind:function	line:1	language:C
+a	Test/local.c	3;"	kind:local	line:3	language:C
+b	Test/local.c	4;"	kind:local	line:4	language:C
+isContextualKeyword	Test/local.c	8;"	kind:function	line:8	language:C	file:	signature:(const tokenInfo *const token)
+result	Test/local.c	10;"	kind:local	line:10	language:C
+RELABS	Test/stdcall.f	5;"	kind:variable	line:5	language:Fortran
+NOUT	Test/stdcall.f	6;"	kind:variable	line:6	language:Fortran
+N	Test/stdcall.f	8;"	kind:variable	line:8	language:Fortran
+IW	Test/stdcall.f	8;"	kind:variable	line:8	language:Fortran
+H	Test/stdcall.f	11;"	kind:variable	line:11	language:Fortran
+XEND	Test/stdcall.f	11;"	kind:variable	line:11	language:Fortran
+K	Test/stdcall.f	12;"	kind:variable	line:12	language:Fortran
+PI	Test/stdcall.f	14;"	kind:variable	line:14	language:Fortran
+TOL	Test/stdcall.f	14;"	kind:variable	line:14	language:Fortran
+X	Test/stdcall.f	14;"	kind:variable	line:14	language:Fortran
+I	Test/stdcall.f	15;"	kind:variable	line:15	language:Fortran
+IFAIL	Test/stdcall.f	15;"	kind:variable	line:15	language:Fortran
+J	Test/stdcall.f	15;"	kind:variable	line:15	language:Fortran
+W	Test/stdcall.f	17;"	kind:variable	line:17	language:Fortran
+Y	Test/stdcall.f	17;"	kind:variable	line:17	language:Fortran
+D02CJW	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
+G	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
+X01AAF	Test/stdcall.f	19;"	kind:variable	line:19	language:Fortran
+20	Test/stdcall.f	51;"	kind:label	line:51	language:Fortran	file:
+40	Test/stdcall.f	70;"	kind:label	line:70	language:Fortran	file:
+60	Test/stdcall.f	89;"	kind:label	line:89	language:Fortran	file:
+80	Test/stdcall.f	112;"	kind:label	line:112	language:Fortran	file:
+99999	Test/stdcall.f	114;"	kind:label	line:114	language:Fortran	file:
+99998	Test/stdcall.f	116;"	kind:label	line:116	language:Fortran	file:
+99997	Test/stdcall.f	117;"	kind:label	line:117	language:Fortran	file:
+99996	Test/stdcall.f	118;"	kind:label	line:118	language:Fortran	file:
+OUT	Test/stdcall.f	122;"	kind:subroutine	line:122	language:Fortran
+99999	Test/stdcall.f	145;"	kind:label	line:145	language:Fortran	subroutine:OUT	file:
+FCN	Test/stdcall.f	150;"	kind:subroutine	line:150	language:Fortran
+G	Test/stdcall.f	167;"	kind:function	line:167	language:Fortran
+maze	Test/maze.erl	1;"	kind:module	line:1	language:Erlang
+build	Test/maze.erl	47;"	kind:function	line:47	language:Erlang	module:maze
+generate	Test/maze.erl	53;"	kind:function	line:53	language:Erlang	module:maze
+generate	Test/maze.erl	60;"	kind:function	line:60	language:Erlang	module:maze
+tot_new	Test/maze.erl	75;"	kind:function	line:75	language:Erlang	module:maze
+tot_get	Test/maze.erl	78;"	kind:function	line:78	language:Erlang	module:maze
+tot_put	Test/maze.erl	81;"	kind:function	line:81	language:Erlang	module:maze
+tot_print	Test/maze.erl	84;"	kind:function	line:84	language:Erlang	module:maze
+tot_print	Test/maze.erl	86;"	kind:function	line:86	language:Erlang	module:maze
+tot_print	Test/maze.erl	90;"	kind:function	line:90	language:Erlang	module:maze
+tot_print_tuple	Test/maze.erl	91;"	kind:function	line:91	language:Erlang	module:maze
+tot_print_tuple	Test/maze.erl	93;"	kind:function	line:93	language:Erlang	module:maze
+tot_print_tuple	Test/maze.erl	96;"	kind:function	line:96	language:Erlang	module:maze
+seed	Test/maze.erl	103;"	kind:function	line:103	language:Erlang	module:maze
+pick	Test/maze.erl	111;"	kind:function	line:111	language:Erlang	module:maze
+pick	Test/maze.erl	113;"	kind:function	line:113	language:Erlang	module:maze
+scramble	Test/maze.erl	118;"	kind:function	line:118	language:Erlang	module:maze
+scramble	Test/maze.erl	120;"	kind:function	line:120	language:Erlang	module:maze
+scramble	Test/maze.erl	122;"	kind:function	line:122	language:Erlang	module:maze
+scramble	Test/maze.erl	123;"	kind:function	line:123	language:Erlang	module:maze
+y	Test/bug2075402.py	1;"	kind:variable	line:1	language:Python
+x	Test/bug2075402.py	2;"	kind:variable	line:2	language:Python
+cash_trade_comment.	Test/bug1944150.sql	1;"	kind:trigger	line:1	language:SQL
+VERBATIM	Test/verbatim.e	7;"	kind:class	line:7	language:Eiffel
+constant	Test/verbatim.e	11;"	kind:feature	line:11	language:Eiffel	class:VERBATIM
+cpp_query	Test/verbatim.e	17;"	kind:feature	line:17	language:Eiffel	class:VERBATIM	file:
+tail_attribute	Test/verbatim.e	25;"	kind:feature	line:25	language:Eiffel	class:VERBATIM	file:
+anon_f	Test/namespace.cpp	2;"	kind:function	line:2	language:C++	namespace:__anon8	signature:()
+a	Test/namespace.cpp	5;"	kind:namespace	line:5	language:C++	file:
+a_f	Test/namespace.cpp	6;"	kind:function	line:6	language:C++	namespace:a	signature:()
+b	Test/namespace.cpp	7;"	kind:namespace	line:7	language:C++	namespace:a	file:
+a_b_f	Test/namespace.cpp	8;"	kind:function	line:8	language:C++	namespace:a::b	signature:()
+HOSTA	Test/bug961001.v	13;"	kind:constant	line:13	language:Verilog
+HOSTB	Test/bug961001.v	14;"	kind:constant	line:14	language:Verilog
+HOSTC	Test/bug961001.v	15;"	kind:constant	line:15	language:Verilog
+HOSTD	Test/bug961001.v	16;"	kind:constant	line:16	language:Verilog
+GUESTA	Test/bug961001.v	18;"	kind:constant	line:18	language:Verilog
+GUESTB	Test/bug961001.v	19;"	kind:constant	line:19	language:Verilog
+GUESTC	Test/bug961001.v	20;"	kind:constant	line:20	language:Verilog
+GUESTD	Test/bug961001.v	21;"	kind:constant	line:21	language:Verilog
+foo	Test/bug722501.sql	6;"	kind:procedure	line:6	language:SQL
+MyDelegate	Test/keyword_delegate.cs	3;"	kind:method	line:3	language:C#	signature:(int i)
+Program	Test/keyword_delegate.cs	5;"	kind:class	line:5	language:C#
+Main	Test/keyword_delegate.cs	7;"	kind:method	line:7	language:C#	class:Program	access:public	signature:()
+TakesADelegate	Test/keyword_delegate.cs	12;"	kind:method	line:12	language:C#	class:Program	access:public	signature:(MyDelegate SomeFunction)
+DelegateFunction	Test/keyword_delegate.cs	17;"	kind:method	line:17	language:C#	class:Program	access:public	signature:(int i)
+MyDelegate	Test/keyword_delegate.cs	28;"	kind:method	line:28	language:C#	signature:()
+MyClass	Test/keyword_delegate.cs	30;"	kind:class	line:30	language:C#
+InstanceMethod	Test/keyword_delegate.cs	32;"	kind:method	line:32	language:C#	class:MyClass	access:public	signature:()
+StaticMethod	Test/keyword_delegate.cs	37;"	kind:method	line:37	language:C#	class:MyClass	access:public	signature:()
+MainClass	Test/keyword_delegate.cs	43;"	kind:class	line:43	language:C#
+Main	Test/keyword_delegate.cs	45;"	kind:method	line:45	language:C#	class:MainClass	access:public	signature:()
+TR_DetectionRecording	Test/invalid_name.f90	2;"	kind:module	line:2	language:Fortran
+DR_Lun	Test/invalid_name.f90	5;"	kind:variable	line:5	language:Fortran	module:TR_DetectionRecording
+DR_Filename	Test/invalid_name.f90	6;"	kind:variable	line:6	language:Fortran	module:TR_DetectionRecording
+Detection_Record	Test/invalid_name.f90	7;"	kind:type	line:7	language:Fortran	module:TR_DetectionRecording
+Activity	Test/invalid_name.f90	8;"	kind:component	line:8	language:Fortran	type:Detection_Record
+Type	Test/invalid_name.f90	9;"	kind:component	line:9	language:Fortran	type:Detection_Record
+Face	Test/invalid_name.f90	10;"	kind:component	line:10	language:Fortran	type:Detection_Record
+badger	Test/test.vhd	1;"	kind:package	line:1	language:VHDL
+badger2	Test/test.vhd	4;"	kind:package	line:4	language:VHDL
+accumulator	Test/test.vhd	13;"	kind:entity	line:13	language:VHDL
+adder	Test/test.vhd	41;"	kind:entity	line:41	language:VHDL
+pAdderAttr	Test/test.vhd	57;"	kind:entity	line:57	language:VHDL
+adder	Test/test.vhd	94;"	kind:entity	line:94	language:VHDL
+AND2	Test/test.vhd	114;"	kind:entity	line:114	language:VHDL
+asyncLoad	Test/test.vhd	131;"	kind:entity	line:131	language:VHDL
+BidirBuf	Test/test.vhd	155;"	kind:entity	line:155	language:VHDL
+BidirCnt	Test/test.vhd	178;"	kind:entity	line:178	language:VHDL
+BIDIR	Test/test.vhd	231;"	kind:entity	line:231	language:VHDL
+bidirbuffer	Test/test.vhd	253;"	kind:entity	line:253	language:VHDL
+clkGen	Test/test.vhd	275;"	kind:entity	line:275	language:VHDL
+numClks	Test/test.vhd	285;"	kind:subtype	line:285	language:VHDL
+numPatterns	Test/test.vhd	286;"	kind:subtype	line:286	language:VHDL
+clkTableType	Test/test.vhd	288;"	kind:type	line:288	language:VHDL
+clkTable	Test/test.vhd	290;"	kind:constant	line:290	language:VHDL
+counter	Test/test.vhd	332;"	kind:entity	line:332	language:VHDL
+count8	Test/test.vhd	362;"	kind:entity	line:362	language:VHDL
+counter	Test/test.vhd	385;"	kind:entity	line:385	language:VHDL
+counter	Test/test.vhd	415;"	kind:entity	line:415	language:VHDL
+counter	Test/test.vhd	445;"	kind:entity	line:445	language:VHDL
+counter	Test/test.vhd	482;"	kind:entity	line:482	language:VHDL
+Cnt4Term	Test/test.vhd	516;"	kind:entity	line:516	language:VHDL
+Counter	Test/test.vhd	543;"	kind:entity	line:543	language:VHDL
+counter	Test/test.vhd	571;"	kind:entity	line:571	language:VHDL
+convertArith	Test/test.vhd	601;"	kind:entity	line:601	language:VHDL
+Const	Test/test.vhd	610;"	kind:constant	line:610	language:VHDL
+FEWGATES	Test/test.vhd	623;"	kind:entity	line:623	language:VHDL
+THREE	Test/test.vhd	631;"	kind:constant	line:631	language:VHDL
+typeConvert	Test/test.vhd	644;"	kind:entity	line:644	language:VHDL
+Const	Test/test.vhd	651;"	kind:constant	line:651	language:VHDL
+counter	Test/test.vhd	664;"	kind:entity	line:664	language:VHDL
+counter	Test/test.vhd	691;"	kind:entity	line:691	language:VHDL
+counter	Test/test.vhd	719;"	kind:entity	line:719	language:VHDL
+counter	Test/test.vhd	749;"	kind:entity	line:749	language:VHDL
+counter	Test/test.vhd	779;"	kind:entity	line:779	language:VHDL
+decoder	Test/test.vhd	808;"	kind:entity	line:808	language:VHDL
+isa_dec	Test/test.vhd	825;"	kind:entity	line:825	language:VHDL
+CtrlRegRange	Test/test.vhd	837;"	kind:constant	line:837	language:VHDL
+SuperIoRange	Test/test.vhd	838;"	kind:constant	line:838	language:VHDL
+IntCtrlReg	Test/test.vhd	840;"	kind:constant	line:840	language:VHDL
+IoIntStatReg	Test/test.vhd	841;"	kind:constant	line:841	language:VHDL
+RstCtrlReg	Test/test.vhd	842;"	kind:constant	line:842	language:VHDL
+AtcStatusReg	Test/test.vhd	843;"	kind:constant	line:843	language:VHDL
+MgmtStatusReg	Test/test.vhd	844;"	kind:constant	line:844	language:VHDL
+isa_dec	Test/test.vhd	909;"	kind:entity	line:909	language:VHDL
+CtrlRegRange	Test/test.vhd	925;"	kind:constant	line:925	language:VHDL
+SuperIoRange	Test/test.vhd	926;"	kind:constant	line:926	language:VHDL
+IntCtrlReg	Test/test.vhd	928;"	kind:constant	line:928	language:VHDL
+IoIntStatReg	Test/test.vhd	929;"	kind:constant	line:929	language:VHDL
+RstCtrlReg	Test/test.vhd	930;"	kind:constant	line:930	language:VHDL
+AtcStatusReg	Test/test.vhd	931;"	kind:constant	line:931	language:VHDL
+MgmtStatusReg	Test/test.vhd	932;"	kind:constant	line:932	language:VHDL
+isa_dec	Test/test.vhd	987;"	kind:entity	line:987	language:VHDL
+CtrlRegRange	Test/test.vhd	1003;"	kind:constant	line:1003	language:VHDL
+SuperIoRange	Test/test.vhd	1004;"	kind:constant	line:1004	language:VHDL
+IntCtrlReg	Test/test.vhd	1006;"	kind:constant	line:1006	language:VHDL
+IoIntStatReg	Test/test.vhd	1007;"	kind:constant	line:1007	language:VHDL
+RstCtrlReg	Test/test.vhd	1008;"	kind:constant	line:1008	language:VHDL
+AtcStatusReg	Test/test.vhd	1009;"	kind:constant	line:1009	language:VHDL
+MgmtStatusReg	Test/test.vhd	1010;"	kind:constant	line:1010	language:VHDL
+isa_dec	Test/test.vhd	1035;"	kind:entity	line:1035	language:VHDL
+CtrlRegRange	Test/test.vhd	1052;"	kind:constant	line:1052	language:VHDL
+SuperIoRange	Test/test.vhd	1053;"	kind:constant	line:1053	language:VHDL
+IntCtrlReg	Test/test.vhd	1055;"	kind:constant	line:1055	language:VHDL
+IoIntStatReg	Test/test.vhd	1056;"	kind:constant	line:1056	language:VHDL
+RstCtrlReg	Test/test.vhd	1057;"	kind:constant	line:1057	language:VHDL
+AtcStatusReg	Test/test.vhd	1058;"	kind:constant	line:1058	language:VHDL
+MgmtStatusReg	Test/test.vhd	1059;"	kind:constant	line:1059	language:VHDL
+isa_dec	Test/test.vhd	1118;"	kind:entity	line:1118	language:VHDL
+CtrlRegRange	Test/test.vhd	1135;"	kind:constant	line:1135	language:VHDL
+SuperIoRange	Test/test.vhd	1136;"	kind:constant	line:1136	language:VHDL
+IntCtrlReg	Test/test.vhd	1138;"	kind:constant	line:1138	language:VHDL
+IoIntStatReg	Test/test.vhd	1139;"	kind:constant	line:1139	language:VHDL
+RstCtrlReg	Test/test.vhd	1140;"	kind:constant	line:1140	language:VHDL
+AtcStatusReg	Test/test.vhd	1141;"	kind:constant	line:1141	language:VHDL
+MgmtStatusReg	Test/test.vhd	1142;"	kind:constant	line:1142	language:VHDL
+isa_dec	Test/test.vhd	1225;"	kind:entity	line:1225	language:VHDL
+CtrlRegRange	Test/test.vhd	1241;"	kind:constant	line:1241	language:VHDL
+SuperIoRange	Test/test.vhd	1242;"	kind:constant	line:1242	language:VHDL
+IntCtrlReg	Test/test.vhd	1244;"	kind:constant	line:1244	language:VHDL
+IoIntStatReg	Test/test.vhd	1245;"	kind:constant	line:1245	language:VHDL
+RstCtrlReg	Test/test.vhd	1246;"	kind:constant	line:1246	language:VHDL
+AtcStatusReg	Test/test.vhd	1247;"	kind:constant	line:1247	language:VHDL
+MgmtStatusReg	Test/test.vhd	1248;"	kind:constant	line:1248	language:VHDL
+decProcs	Test/test.vhd	1307;"	kind:package	line:1307	language:VHDL
+decProcs	Test/test.vhd	1314;"	kind:package	line:1314	language:VHDL
+DEC2x4	Test/test.vhd	1316;"	kind:procedure	line:1316	language:VHDL
+isa_dec	Test/test.vhd	1338;"	kind:entity	line:1338	language:VHDL
+CtrlRegRange	Test/test.vhd	1354;"	kind:constant	line:1354	language:VHDL
+SuperIoRange	Test/test.vhd	1355;"	kind:constant	line:1355	language:VHDL
+IntCtrlReg	Test/test.vhd	1357;"	kind:constant	line:1357	language:VHDL
+IoIntStatReg	Test/test.vhd	1358;"	kind:constant	line:1358	language:VHDL
+RstCtrlReg	Test/test.vhd	1359;"	kind:constant	line:1359	language:VHDL
+AtcStatusReg	Test/test.vhd	1360;"	kind:constant	line:1360	language:VHDL
+MgmtStatusReg	Test/test.vhd	1361;"	kind:constant	line:1361	language:VHDL
+progPulse	Test/test.vhd	1396;"	kind:entity	line:1396	language:VHDL
+DFF	Test/test.vhd	1481;"	kind:entity	line:1481	language:VHDL
+DFF	Test/test.vhd	1505;"	kind:entity	line:1505	language:VHDL
+DFF	Test/test.vhd	1529;"	kind:entity	line:1529	language:VHDL
+DFF	Test/test.vhd	1557;"	kind:entity	line:1557	language:VHDL
+DFF	Test/test.vhd	1581;"	kind:entity	line:1581	language:VHDL
+DFF	Test/test.vhd	1605;"	kind:entity	line:1605	language:VHDL
+DFF	Test/test.vhd	1631;"	kind:entity	line:1631	language:VHDL
+DFFE	Test/test.vhd	1656;"	kind:entity	line:1656	language:VHDL
+DFF	Test/test.vhd	1679;"	kind:entity	line:1679	language:VHDL
+DFF	Test/test.vhd	1703;"	kind:entity	line:1703	language:VHDL
+DFFE_SR	Test/test.vhd	1728;"	kind:entity	line:1728	language:VHDL
+flipFlop	Test/test.vhd	1760;"	kind:entity	line:1760	language:VHDL
+dff	Test/test.vhd	1768;"	kind:procedure	line:1768	language:VHDL
+DFF	Test/test.vhd	1787;"	kind:entity	line:1787	language:VHDL
+DFF	Test/test.vhd	1810;"	kind:entity	line:1810	language:VHDL
+DFFE_SR	Test/test.vhd	1839;"	kind:entity	line:1839	language:VHDL
+DFF	Test/test.vhd	1871;"	kind:entity	line:1871	language:VHDL
+struct_dffe_sr	Test/test.vhd	1896;"	kind:entity	line:1896	language:VHDL
+DFF	Test/test.vhd	1924;"	kind:entity	line:1924	language:VHDL
+struct_dffe	Test/test.vhd	1950;"	kind:entity	line:1950	language:VHDL
+dffTri	Test/test.vhd	1977;"	kind:entity	line:1977	language:VHDL
+tribufType	Test/test.vhd	1990;"	kind:type	line:1990	language:VHDL
+ip	Test/test.vhd	1990;"	kind:record	line:1990	language:VHDL
+oe	Test/test.vhd	1991;"	kind:record	line:1991	language:VHDL
+op	Test/test.vhd	1992;"	kind:record	line:1992	language:VHDL
+tribufArrayType	Test/test.vhd	1996;"	kind:type	line:1996	language:VHDL
+DFF	Test/test.vhd	2016;"	kind:entity	line:2016	language:VHDL
+TRIBUF	Test/test.vhd	2039;"	kind:entity	line:2039	language:VHDL
+DLATCHH	Test/test.vhd	2062;"	kind:entity	line:2062	language:VHDL
+DLATCHH	Test/test.vhd	2083;"	kind:entity	line:2083	language:VHDL
+struct_dlatch	Test/test.vhd	2104;"	kind:entity	line:2104	language:VHDL
+downCounter	Test/test.vhd	2130;"	kind:entity	line:2130	language:VHDL
+compareDC	Test/test.vhd	2170;"	kind:entity	line:2170	language:VHDL
+encoder	Test/test.vhd	2191;"	kind:entity	line:2191	language:VHDL
+encoder	Test/test.vhd	2237;"	kind:entity	line:2237	language:VHDL
+encoder	Test/test.vhd	2279;"	kind:entity	line:2279	language:VHDL
+compare	Test/test.vhd	2304;"	kind:entity	line:2304	language:VHDL
+LogicFcn	Test/test.vhd	2327;"	kind:entity	line:2327	language:VHDL
+LogicFcn	Test/test.vhd	2355;"	kind:entity	line:2355	language:VHDL
+LogicFcn	Test/test.vhd	2376;"	kind:entity	line:2376	language:VHDL
+SimDFF	Test/test.vhd	2408;"	kind:entity	line:2408	language:VHDL
+tCQ	Test/test.vhd	2416;"	kind:constant	line:2416	language:VHDL
+tS	Test/test.vhd	2417;"	kind:constant	line:2417	language:VHDL
+tH	Test/test.vhd	2418;"	kind:constant	line:2418	language:VHDL
+DFF	Test/test.vhd	2449;"	kind:entity	line:2449	language:VHDL
+DFF	Test/test.vhd	2469;"	kind:entity	line:2469	language:VHDL
+FEWGATES	Test/test.vhd	2533;"	kind:entity	line:2533	language:VHDL
+FEWGATES	Test/test.vhd	2590;"	kind:entity	line:2590	language:VHDL
+FEWGATES	Test/test.vhd	2650;"	kind:entity	line:2650	language:VHDL
+FEWGATES	Test/test.vhd	2686;"	kind:entity	line:2686	language:VHDL
+GatesPkg	Test/test.vhd	2709;"	kind:package	line:2709	language:VHDL
+FEWGATES	Test/test.vhd	2737;"	kind:entity	line:2737	language:VHDL
+AND2	Test/test.vhd	2771;"	kind:entity	line:2771	language:VHDL
+OR2	Test/test.vhd	2789;"	kind:entity	line:2789	language:VHDL
+INVERTER	Test/test.vhd	2807;"	kind:entity	line:2807	language:VHDL
+FEWGATES	Test/test.vhd	2824;"	kind:entity	line:2824	language:VHDL
+simHierarchy	Test/test.vhd	2879;"	kind:entity	line:2879	language:VHDL
+INVERTER	Test/test.vhd	2921;"	kind:entity	line:2921	language:VHDL
+io1164	Test/test.vhd	2987;"	kind:package	line:2987	language:VHDL
+io1164	Test/test.vhd	3097;"	kind:package	line:3097	language:VHDL
+char2char_t	Test/test.vhd	3104;"	kind:type	line:3104	language:VHDL
+lowcase	Test/test.vhd	3105;"	kind:constant	line:3105	language:VHDL
+f_logic_to_character_t	Test/test.vhd	3129;"	kind:type	line:3129	language:VHDL
+f_logic_to_character	Test/test.vhd	3131;"	kind:constant	line:3131	language:VHDL
+x_charcode	Test/test.vhd	3146;"	kind:constant	line:3146	language:VHDL
+maxoct_charcode	Test/test.vhd	3147;"	kind:constant	line:3147	language:VHDL
+maxhex_charcode	Test/test.vhd	3148;"	kind:constant	line:3148	language:VHDL
+bad_charcode	Test/test.vhd	3149;"	kind:constant	line:3149	language:VHDL
+digit2int_t	Test/test.vhd	3151;"	kind:type	line:3151	language:VHDL
+octdigit2int	Test/test.vhd	3153;"	kind:constant	line:3153	language:VHDL
+hexdigit2int	Test/test.vhd	3157;"	kind:constant	line:3157	language:VHDL
+oct_bits_per_digit	Test/test.vhd	3164;"	kind:constant	line:3164	language:VHDL
+hex_bits_per_digit	Test/test.vhd	3165;"	kind:constant	line:3165	language:VHDL
+int2octdigit_t	Test/test.vhd	3167;"	kind:type	line:3167	language:VHDL
+int2octdigit	Test/test.vhd	3169;"	kind:constant	line:3169	language:VHDL
+int2hexdigit_t	Test/test.vhd	3173;"	kind:type	line:3173	language:VHDL
+int2hexdigit	Test/test.vhd	3175;"	kind:constant	line:3175	language:VHDL
+oct_logic_vector_t	Test/test.vhd	3181;"	kind:type	line:3181	language:VHDL
+octint2logic_t	Test/test.vhd	3183;"	kind:type	line:3183	language:VHDL
+octint2logic	Test/test.vhd	3185;"	kind:constant	line:3185	language:VHDL
+hex_logic_vector_t	Test/test.vhd	3197;"	kind:type	line:3197	language:VHDL
+hexint2logic_t	Test/test.vhd	3199;"	kind:type	line:3199	language:VHDL
+hexint2logic	Test/test.vhd	3201;"	kind:constant	line:3201	language:VHDL
+read	Test/test.vhd	3236;"	kind:procedure	line:3236	language:VHDL
+read	Test/test.vhd	3308;"	kind:procedure	line:3308	language:VHDL
+read	Test/test.vhd	3322;"	kind:procedure	line:3322	language:VHDL
+read	Test/test.vhd	3393;"	kind:procedure	line:3393	language:VHDL
+write	Test/test.vhd	3411;"	kind:procedure	line:3411	language:VHDL
+write	Test/test.vhd	3442;"	kind:procedure	line:3442	language:VHDL
+read_oct	Test/test.vhd	3488;"	kind:procedure	line:3488	language:VHDL
+read_oct	Test/test.vhd	3589;"	kind:procedure	line:3589	language:VHDL
+write_oct	Test/test.vhd	3599;"	kind:procedure	line:3599	language:VHDL
+read_hex	Test/test.vhd	3694;"	kind:procedure	line:3694	language:VHDL
+read_hex	Test/test.vhd	3795;"	kind:procedure	line:3795	language:VHDL
+write_hex	Test/test.vhd	3805;"	kind:procedure	line:3805	language:VHDL
+read_oct	Test/test.vhd	3905;"	kind:procedure	line:3905	language:VHDL
+read_oct	Test/test.vhd	3961;"	kind:procedure	line:3961	language:VHDL
+read_hex	Test/test.vhd	3978;"	kind:procedure	line:3978	language:VHDL
+read_hex	Test/test.vhd	4034;"	kind:procedure	line:4034	language:VHDL
+asyncLdCnt	Test/test.vhd	4051;"	kind:entity	line:4051	language:VHDL
+LoadCnt	Test/test.vhd	4079;"	kind:entity	line:4079	language:VHDL
+loadCntTB	Test/test.vhd	4118;"	kind:entity	line:4118	language:VHDL
+vectorType	Test/test.vhd	4133;"	kind:type	line:4133	language:VHDL
+data	Test/test.vhd	4133;"	kind:record	line:4133	language:VHDL
+load	Test/test.vhd	4134;"	kind:record	line:4134	language:VHDL
+rst	Test/test.vhd	4135;"	kind:record	line:4135	language:VHDL
+q	Test/test.vhd	4136;"	kind:record	line:4136	language:VHDL
+ClkPeriod	Test/test.vhd	4144;"	kind:constant	line:4144	language:VHDL
+loadCnt	Test/test.vhd	4218;"	kind:entity	line:4218	language:VHDL
+multiplier	Test/test.vhd	4252;"	kind:entity	line:4252	language:VHDL
+mux	Test/test.vhd	4268;"	kind:entity	line:4268	language:VHDL
+tPD_A	Test/test.vhd	4277;"	kind:constant	line:4277	language:VHDL
+tPD_B	Test/test.vhd	4278;"	kind:constant	line:4278	language:VHDL
+tPD_Sel	Test/test.vhd	4279;"	kind:constant	line:4279	language:VHDL
+ForceShare	Test/test.vhd	4314;"	kind:entity	line:4314	language:VHDL
+TRIBUF8	Test/test.vhd	4342;"	kind:entity	line:4342	language:VHDL
+TRIBUF	Test/test.vhd	4359;"	kind:entity	line:4359	language:VHDL
+TRIBUF8	Test/test.vhd	4376;"	kind:entity	line:4376	language:VHDL
+TRIBUF	Test/test.vhd	4399;"	kind:entity	line:4399	language:VHDL
+TRIBUF	Test/test.vhd	4422;"	kind:entity	line:4422	language:VHDL
+tribuffer	Test/test.vhd	4447;"	kind:entity	line:4447	language:VHDL
+oddParityGen	Test/test.vhd	4469;"	kind:entity	line:4469	language:VHDL
+oddParityLoop	Test/test.vhd	4496;"	kind:entity	line:4496	language:VHDL
+OR2	Test/test.vhd	4525;"	kind:entity	line:4525	language:VHDL
+OR2	Test/test.vhd	4543;"	kind:entity	line:4543	language:VHDL
+simPrimitives	Test/test.vhd	4559;"	kind:package	line:4559	language:VHDL
+OR2	Test/test.vhd	4575;"	kind:entity	line:4575	language:VHDL
+adder	Test/test.vhd	4594;"	kind:entity	line:4594	language:VHDL
+paramDFF	Test/test.vhd	4618;"	kind:entity	line:4618	language:VHDL
+oddParityGen	Test/test.vhd	4655;"	kind:entity	line:4655	language:VHDL
+oddParityGen	Test/test.vhd	4694;"	kind:entity	line:4694	language:VHDL
+powerOfFour	Test/test.vhd	4766;"	kind:entity	line:4766	language:VHDL
+Pow	Test/test.vhd	4775;"	kind:function	line:4775	language:VHDL
+PowerPkg	Test/test.vhd	4801;"	kind:package	line:4801	language:VHDL
+Power	Test/test.vhd	4813;"	kind:entity	line:4813	language:VHDL
+Pow	Test/test.vhd	4824;"	kind:function	line:4824	language:VHDL
+RollVal	Test/test.vhd	4836;"	kind:function	line:4836	language:VHDL
+priority_encoder	Test/test.vhd	4855;"	kind:entity	line:4855	language:VHDL
+primitive	Test/test.vhd	4893;"	kind:package	line:4893	language:VHDL
+DFFE	Test/test.vhd	4959;"	kind:entity	line:4959	language:VHDL
+DFFE_SR	Test/test.vhd	4983;"	kind:entity	line:4983	language:VHDL
+DLATCHH	Test/test.vhd	5014;"	kind:entity	line:5014	language:VHDL
+AND2	Test/test.vhd	5037;"	kind:entity	line:5037	language:VHDL
+OR2	Test/test.vhd	5056;"	kind:entity	line:5056	language:VHDL
+INVERTER	Test/test.vhd	5076;"	kind:entity	line:5076	language:VHDL
+TRIBUF	Test/test.vhd	5094;"	kind:entity	line:5094	language:VHDL
+BIDIR	Test/test.vhd	5113;"	kind:entity	line:5113	language:VHDL
+progPulse	Test/test.vhd	5134;"	kind:entity	line:5134	language:VHDL
+fsmType	Test/test.vhd	5149;"	kind:subtype	line:5149	language:VHDL
+loadDelayCnt	Test/test.vhd	5150;"	kind:constant	line:5150	language:VHDL
+waitDelayEnd	Test/test.vhd	5151;"	kind:constant	line:5151	language:VHDL
+loadLengthCnt	Test/test.vhd	5152;"	kind:constant	line:5152	language:VHDL
+waitLengthEnd	Test/test.vhd	5153;"	kind:constant	line:5153	language:VHDL
+pulseErr	Test/test.vhd	5275;"	kind:entity	line:5275	language:VHDL
+progPulse	Test/test.vhd	5298;"	kind:entity	line:5298	language:VHDL
+progPulseFsmType	Test/test.vhd	5313;"	kind:type	line:5313	language:VHDL
+progPulseFsm	Test/test.vhd	5437;"	kind:entity	line:5437	language:VHDL
+progPulseFsmType	Test/test.vhd	5456;"	kind:type	line:5456	language:VHDL
+stateVec	Test/test.vhd	5457;"	kind:type	line:5457	language:VHDL
+stateBits	Test/test.vhd	5458;"	kind:type	line:5458	language:VHDL
+stateTable	Test/test.vhd	5462;"	kind:constant	line:5462	language:VHDL
+progPulseFsm	Test/test.vhd	5536;"	kind:entity	line:5536	language:VHDL
+progPulseFsmType	Test/test.vhd	5555;"	kind:type	line:5555	language:VHDL
+powerOfFour	Test/test.vhd	5652;"	kind:entity	line:5652	language:VHDL
+powerOfFour	Test/test.vhd	5677;"	kind:entity	line:5677	language:VHDL
+Pow	Test/test.vhd	5686;"	kind:function	line:5686	language:VHDL
+powerOfFour	Test/test.vhd	5711;"	kind:entity	line:5711	language:VHDL
+Pow	Test/test.vhd	5720;"	kind:function	line:5720	language:VHDL
+regFile	Test/test.vhd	5743;"	kind:entity	line:5743	language:VHDL
+reg	Test/test.vhd	5754;"	kind:subtype	line:5754	language:VHDL
+regArray	Test/test.vhd	5755;"	kind:type	line:5755	language:VHDL
+DFF	Test/test.vhd	5810;"	kind:entity	line:5810	language:VHDL
+resFcnDemo	Test/test.vhd	5835;"	kind:entity	line:5835	language:VHDL
+scaleDFF	Test/test.vhd	5855;"	kind:entity	line:5855	language:VHDL
+sevenSegment	Test/test.vhd	5878;"	kind:entity	line:5878	language:VHDL
+sevenSegmentTB	Test/test.vhd	5968;"	kind:entity	line:5968	language:VHDL
+vector	Test/test.vhd	5980;"	kind:type	line:5980	language:VHDL
+bcdStimulus	Test/test.vhd	5980;"	kind:record	line:5980	language:VHDL
+sevSegOut	Test/test.vhd	5981;"	kind:record	line:5981	language:VHDL
+NumVectors	Test/test.vhd	5985;"	kind:constant	line:5985	language:VHDL
+PropDelay	Test/test.vhd	5986;"	kind:constant	line:5986	language:VHDL
+SimLoopDelay	Test/test.vhd	5987;"	kind:constant	line:5987	language:VHDL
+vectorArray	Test/test.vhd	5989;"	kind:type	line:5989	language:VHDL
+vectorTable	Test/test.vhd	5990;"	kind:constant	line:5990	language:VHDL
+sevenSegment	Test/test.vhd	6062;"	kind:entity	line:6062	language:VHDL
+ForceShare	Test/test.vhd	6141;"	kind:entity	line:6141	language:VHDL
+shifter	Test/test.vhd	6172;"	kind:entity	line:6172	language:VHDL
+lastAssignment	Test/test.vhd	6204;"	kind:entity	line:6204	language:VHDL
+signalDemo	Test/test.vhd	6233;"	kind:entity	line:6233	language:VHDL
+signalDemo	Test/test.vhd	6261;"	kind:entity	line:6261	language:VHDL
+simPrimitives	Test/test.vhd	6289;"	kind:package	line:6289	language:VHDL
+OR2	Test/test.vhd	6316;"	kind:entity	line:6316	language:VHDL
+SimDFF	Test/test.vhd	6337;"	kind:entity	line:6337	language:VHDL
+SRFF	Test/test.vhd	6379;"	kind:entity	line:6379	language:VHDL
+SRFF	Test/test.vhd	6403;"	kind:entity	line:6403	language:VHDL
+scaleable	Test/test.vhd	6427;"	kind:package	line:6427	language:VHDL
+scaleUpCnt	Test/test.vhd	6441;"	kind:entity	line:6441	language:VHDL
+pci_target	Test/test.vhd	6487;"	kind:entity	line:6487	language:VHDL
+targetFsmType	Test/test.vhd	6515;"	kind:subtype	line:6515	language:VHDL
+Idle	Test/test.vhd	6517;"	kind:constant	line:6517	language:VHDL
+B_Busy	Test/test.vhd	6518;"	kind:constant	line:6518	language:VHDL
+Backoff	Test/test.vhd	6519;"	kind:constant	line:6519	language:VHDL
+S_Data	Test/test.vhd	6520;"	kind:constant	line:6520	language:VHDL
+Turn_Ar	Test/test.vhd	6521;"	kind:constant	line:6521	language:VHDL
+pci_target	Test/test.vhd	6669;"	kind:entity	line:6669	language:VHDL
+targetFsmType	Test/test.vhd	6697;"	kind:subtype	line:6697	language:VHDL
+Idle	Test/test.vhd	6699;"	kind:constant	line:6699	language:VHDL
+B_Busy	Test/test.vhd	6700;"	kind:constant	line:6700	language:VHDL
+Backoff	Test/test.vhd	6701;"	kind:constant	line:6701	language:VHDL
+S_Data	Test/test.vhd	6702;"	kind:constant	line:6702	language:VHDL
+Turn_Ar	Test/test.vhd	6703;"	kind:constant	line:6703	language:VHDL
+pci_target	Test/test.vhd	6851;"	kind:entity	line:6851	language:VHDL
+targetFsmType	Test/test.vhd	6879;"	kind:subtype	line:6879	language:VHDL
+Idle	Test/test.vhd	6881;"	kind:constant	line:6881	language:VHDL
+B_Busy	Test/test.vhd	6882;"	kind:constant	line:6882	language:VHDL
+Backoff	Test/test.vhd	6883;"	kind:constant	line:6883	language:VHDL
+S_Data	Test/test.vhd	6884;"	kind:constant	line:6884	language:VHDL
+Turn_Ar	Test/test.vhd	6885;"	kind:constant	line:6885	language:VHDL
+pci_target	Test/test.vhd	7033;"	kind:entity	line:7033	language:VHDL
+targetFsmType	Test/test.vhd	7061;"	kind:subtype	line:7061	language:VHDL
+Idle	Test/test.vhd	7063;"	kind:constant	line:7063	language:VHDL
+B_Busy	Test/test.vhd	7064;"	kind:constant	line:7064	language:VHDL
+Backoff	Test/test.vhd	7065;"	kind:constant	line:7065	language:VHDL
+S_Data	Test/test.vhd	7066;"	kind:constant	line:7066	language:VHDL
+Turn_Ar	Test/test.vhd	7067;"	kind:constant	line:7067	language:VHDL
+pci_target	Test/test.vhd	7215;"	kind:entity	line:7215	language:VHDL
+targetFsmType	Test/test.vhd	7243;"	kind:subtype	line:7243	language:VHDL
+Idle	Test/test.vhd	7245;"	kind:constant	line:7245	language:VHDL
+B_Busy	Test/test.vhd	7246;"	kind:constant	line:7246	language:VHDL
+Backoff	Test/test.vhd	7247;"	kind:constant	line:7247	language:VHDL
+S_Data	Test/test.vhd	7248;"	kind:constant	line:7248	language:VHDL
+Turn_Ar	Test/test.vhd	7249;"	kind:constant	line:7249	language:VHDL
+Dont_Care	Test/test.vhd	7250;"	kind:constant	line:7250	language:VHDL
+pci_target	Test/test.vhd	7408;"	kind:entity	line:7408	language:VHDL
+targetFsmType	Test/test.vhd	7435;"	kind:type	line:7435	language:VHDL
+pci_target	Test/test.vhd	7595;"	kind:entity	line:7595	language:VHDL
+targetFsmType	Test/test.vhd	7622;"	kind:subtype	line:7622	language:VHDL
+Idle	Test/test.vhd	7624;"	kind:constant	line:7624	language:VHDL
+B_Busy	Test/test.vhd	7625;"	kind:constant	line:7625	language:VHDL
+Backoff	Test/test.vhd	7626;"	kind:constant	line:7626	language:VHDL
+S_Data	Test/test.vhd	7627;"	kind:constant	line:7627	language:VHDL
+Turn_Ar	Test/test.vhd	7628;"	kind:constant	line:7628	language:VHDL
+pci_target	Test/test.vhd	7787;"	kind:entity	line:7787	language:VHDL
+targetFsmType	Test/test.vhd	7815;"	kind:subtype	line:7815	language:VHDL
+Idle	Test/test.vhd	7817;"	kind:constant	line:7817	language:VHDL
+B_Busy	Test/test.vhd	7818;"	kind:constant	line:7818	language:VHDL
+Backoff	Test/test.vhd	7819;"	kind:constant	line:7819	language:VHDL
+S_Data	Test/test.vhd	7820;"	kind:constant	line:7820	language:VHDL
+Turn_Ar	Test/test.vhd	7821;"	kind:constant	line:7821	language:VHDL
+pci_target	Test/test.vhd	7979;"	kind:entity	line:7979	language:VHDL
+targetFsmType	Test/test.vhd	8006;"	kind:subtype	line:8006	language:VHDL
+Idle	Test/test.vhd	8008;"	kind:constant	line:8008	language:VHDL
+B_Busy	Test/test.vhd	8009;"	kind:constant	line:8009	language:VHDL
+Backoff	Test/test.vhd	8010;"	kind:constant	line:8010	language:VHDL
+S_Data	Test/test.vhd	8011;"	kind:constant	line:8011	language:VHDL
+Turn_Ar	Test/test.vhd	8012;"	kind:constant	line:8012	language:VHDL
+test	Test/test.vhd	8161;"	kind:entity	line:8161	language:VHDL
+ramaddr_0	Test/bug2747828.v	1;"	kind:constant	line:1	language:Verilog
+C	Test/infinite_loop.java	1;"	kind:class	line:1	language:Java
+signon	Test/bd32.s	13;"	kind:define	line:13	language:Asm
+CRLF	Test/bd32.s	14;"	kind:define	line:14	language:Asm
+TEST	Test/bd32.s	19;"	kind:label	line:19	language:Asm
+test_1	Test/bd32.s	28;"	kind:label	line:28	language:Asm
+test_error	Test/bd32.s	40;"	kind:label	line:40	language:Asm
+IndexerClass	Test/indexer.cs	3;"	kind:class	line:3	language:C#
+myArray	Test/indexer.cs	5;"	kind:field	line:5	language:C#	class:IndexerClass	file:	access:private
+MainClass	Test/indexer.cs	24;"	kind:class	line:24	language:C#
+Main	Test/indexer.cs	26;"	kind:method	line:26	language:C#	class:MainClass	access:public	signature:()
+top	Test/bug1111214-j-chan.v	4;"	kind:module	line:4	language:Verilog
+outsig	Test/bug1111214-j-chan.v	5;"	kind:port	line:5	language:Verilog
+insig	Test/bug1111214-j-chan.v	6;"	kind:port	line:6	language:Verilog
+no_re1	Test/regexp.js	22;"	kind:variable	line:22	language:JavaScript
+no_re2	Test/regexp.js	23;"	kind:variable	line:23	language:JavaScript
+no_re3	Test/regexp.js	24;"	kind:variable	line:24	language:JavaScript
+no_re4	Test/regexp.js	25;"	kind:variable	line:25	language:JavaScript
+no_re5	Test/regexp.js	26;"	kind:variable	line:26	language:JavaScript
+no_re6	Test/regexp.js	27;"	kind:variable	line:27	language:JavaScript
+re1	Test/regexp.js	29;"	kind:variable	line:29	language:JavaScript
+re2	Test/regexp.js	30;"	kind:variable	line:30	language:JavaScript
+re3	Test/regexp.js	31;"	kind:variable	line:31	language:JavaScript
+re4	Test/regexp.js	32;"	kind:variable	line:32	language:JavaScript
+re5	Test/regexp.js	33;"	kind:variable	line:33	language:JavaScript
+re6	Test/regexp.js	34;"	kind:variable	line:34	language:JavaScript
+str1	Test/regexp.js	36;"	kind:variable	line:36	language:JavaScript
+str2	Test/regexp.js	37;"	kind:variable	line:37	language:JavaScript
+demo_pkg	Test/bug1938565.sql	1;"	kind:package	line:1	language:SQL
+demo_pkg.func1	Test/bug1938565.sql	7;"	kind:function	line:7	language:SQL
+demo_pkg.func2	Test/bug1938565.sql	12;"	kind:function	line:12	language:SQL
+Foo	Test/bug1447756.java	5;"	kind:interface	line:5	language:Java
+bar	Test/bug1447756.java	6;"	kind:method	line:6	language:Java	interface:Foo	access:public	signature:()
+test_enumeration	Test/enum.c	1;"	kind:enum	line:1	language:C	file:
+ENUM_1	Test/enum.c	2;"	kind:enumerator	line:2	language:C	enum:test_enumeration	file:
+ENUM_2	Test/enum.c	3;"	kind:enumerator	line:3	language:C	enum:test_enumeration	file:
+ENUM_3	Test/enum.c	4;"	kind:enumerator	line:4	language:C	enum:test_enumeration	file:
+ModuleExample	Test/simple.rb	3;"	kind:module	line:3	language:Ruby
+ClassExample	Test/simple.rb	4;"	kind:class	line:4	language:Ruby	class:ModuleExample
+class_method	Test/simple.rb	5;"	kind:method	line:5	language:Ruby	class:ModuleExample.ClassExample
+singleton_class_method	Test/simple.rb	8;"	kind:singleton method	line:8	language:Ruby	class:ModuleExample.ClassExample
+class_method_exclamation!	Test/simple.rb	11;"	kind:method	line:11	language:Ruby	class:ModuleExample.ClassExample
+class_method_question?	Test/simple.rb	14;"	kind:method	line:14	language:Ruby	class:ModuleExample.ClassExample
+`	Test/simple.rb	17;"	kind:method	line:17	language:Ruby	class:ModuleExample.ClassExample
+module_method	Test/simple.rb	21;"	kind:method	line:21	language:Ruby	class:ModuleExample
+singleton_module_method	Test/simple.rb	24;"	kind:singleton method	line:24	language:Ruby	class:ModuleExample
+request_id	Test/1795612.js	12;"	kind:property	line:12	language:JavaScript	class:Test.RPC
+asyncRequest	Test/1795612.js	14;"	kind:method	line:14	language:JavaScript	class:Test.RPC
+asyncMethod	Test/1795612.js	21;"	kind:method	line:21	language:JavaScript	class:Test.RPC
+RPC	Test/1795612.js	10;"	kind:class	line:10	language:JavaScript	class:Test
+A	Test/simple.mak	1;"	kind:macro	line:1	language:Make
+B	Test/simple.mak	2;"	kind:macro	line:2	language:Make
+C	Test/simple.mak	3;"	kind:macro	line:3	language:Make
+D	Test/simple.mak	6;"	kind:macro	line:6	language:Make
+E	Test/simple.mak	7;"	kind:macro	line:7	language:Make
+F	Test/simple.mak	10;"	kind:macro	line:10	language:Make
+G	Test/simple.mak	14;"	kind:macro	line:14	language:Make
+H	Test/simple.mak	15;"	kind:macro	line:15	language:Make
+I	Test/simple.mak	16;"	kind:macro	line:16	language:Make
+longtable	Test/readlong.sql	13;"	kind:table	line:13	language:SQL
+longtable.longcol	Test/readlong.sql	13;"	kind:field	line:13	language:SQL
+cur1	Test/readlong.sql	16;"	kind:variable	line:16	language:SQL
+rc	Test/readlong.sql	17;"	kind:variable	line:17	language:SQL
+long_piece	Test/readlong.sql	18;"	kind:variable	line:18	language:SQL
+piece_len	Test/readlong.sql	19;"	kind:variable	line:19	language:SQL
+long_tab	Test/readlong.sql	20;"	kind:variable	line:20	language:SQL
+long_len	Test/readlong.sql	21;"	kind:variable	line:21	language:SQL
+bug1777340	Test/bug1777340.java	1;"	kind:interface	line:1	language:Java
+Ó	Test/bug1777340.java	2;"	kind:field	line:2	language:Java	interface:bug1777340	access:public
+m	Test/bug1777340.java	3;"	kind:method	line:3	language:Java	interface:bug1777340	access:public	signature:()
+MyDelegate	Test/keyword_event.cs	3;"	kind:method	line:3	language:C#	signature:()
+I	Test/keyword_event.cs	5;"	kind:interface	line:5	language:C#
+MyEvent	Test/keyword_event.cs	7;"	kind:event	line:7	language:C#	interface:I	access:public
+FireAway	Test/keyword_event.cs	8;"	kind:method	line:8	language:C#	interface:I	access:public	signature:()
+MyClass	Test/keyword_event.cs	11;"	kind:class	line:11	language:C#	inherits:I
+MyEvent	Test/keyword_event.cs	13;"	kind:event	line:13	language:C#	class:MyClass	access:public
+FireAway	Test/keyword_event.cs	15;"	kind:method	line:15	language:C#	class:MyClass	access:public	signature:()
+MainClass	Test/keyword_event.cs	22;"	kind:class	line:22	language:C#
+f	Test/keyword_event.cs	24;"	kind:method	line:24	language:C#	class:MainClass	file:	access:private	signature:()
+Main	Test/keyword_event.cs	29;"	kind:method	line:29	language:C#	class:MainClass	access:public	signature:()
+MyDelegate1	Test/keyword_event.cs	42;"	kind:method	line:42	language:C#	signature:(int i)
+MyDelegate2	Test/keyword_event.cs	43;"	kind:method	line:43	language:C#	signature:(string s)
+MyDelegate3	Test/keyword_event.cs	44;"	kind:method	line:44	language:C#	signature:(int i, object o)
+MyDelegate4	Test/keyword_event.cs	45;"	kind:method	line:45	language:C#	signature:()
+PropertyEventsSample	Test/keyword_event.cs	47;"	kind:class	line:47	language:C#
+eventTable	Test/keyword_event.cs	49;"	kind:field	line:49	language:C#	class:PropertyEventsSample	file:	access:private
+Event1	Test/keyword_event.cs	51;"	kind:property	line:51	language:C#	class:PropertyEventsSample	access:public
+Event2	Test/keyword_event.cs	63;"	kind:property	line:63	language:C#	class:PropertyEventsSample	access:public
+Event3	Test/keyword_event.cs	75;"	kind:property	line:75	language:C#	class:PropertyEventsSample	access:public
+Event4	Test/keyword_event.cs	87;"	kind:property	line:87	language:C#	class:PropertyEventsSample	access:public
+Event5	Test/keyword_event.cs	99;"	kind:property	line:99	language:C#	class:PropertyEventsSample	access:public
+Event6	Test/keyword_event.cs	111;"	kind:property	line:111	language:C#	class:PropertyEventsSample	access:public
+MyClass	Test/keyword_event.cs	124;"	kind:class	line:124	language:C#
+Main	Test/keyword_event.cs	126;"	kind:method	line:126	language:C#	class:MyClass	access:public	signature:()
+MyDelegate1	Test/keyword_event.cs	134;"	kind:method	line:134	language:C#	signature:()
+I1	Test/keyword_event.cs	136;"	kind:interface	line:136	language:C#
+MyEvent	Test/keyword_event.cs	138;"	kind:event	line:138	language:C#	interface:I1	access:public
+MyDelegate2	Test/keyword_event.cs	141;"	kind:method	line:141	language:C#	signature:(string s)
+I2	Test/keyword_event.cs	143;"	kind:interface	line:143	language:C#
+MyEvent	Test/keyword_event.cs	145;"	kind:event	line:145	language:C#	interface:I2	access:public
+ExplicitEventsSample	Test/keyword_event.cs	148;"	kind:class	line:148	language:C#	inherits:I1,I2
+MyEvent	Test/keyword_event.cs	150;"	kind:event	line:150	language:C#	class:ExplicitEventsSample	access:public
+I2.MyEvent	Test/keyword_event.cs	152;"	kind:property	line:152	language:C#	class:ExplicitEventsSample	access:private
+MyEvent2Storage	Test/keyword_event.cs	164;"	kind:field	line:164	language:C#	class:ExplicitEventsSample	file:	access:private
+FireEvents	Test/keyword_event.cs	166;"	kind:method	line:166	language:C#	class:ExplicitEventsSample	file:	access:private	signature:()
+MyClass	Test/keyword_event.cs	175;"	kind:class	line:175	language:C#
+Main	Test/keyword_event.cs	177;"	kind:method	line:177	language:C#	class:MyClass	access:public	signature:()
+DOPBL2	Test/dopbl2.f	2;"	kind:function	line:2	language:Fortran
+a.l	Test/simple.pb	3;"	kind:variable	line:3	language:Basic
+b.l	Test/simple.pb	4;"	kind:variable	line:4	language:Basic
+test	Test/simple.pb	6;"	kind:type	line:6	language:Basic
+f.l	Test/simple.pb	11;"	kind:function	line:11	language:Basic
+start	Test/simple.pb	15;"	kind:label	line:15	language:Basic
+main	Test/namelist.f	1;"	kind:program	line:1	language:Fortran
+namelist1	Test/namelist.f	2;"	kind:namelist	line:2	language:Fortran	program:main
+namelist2	Test/namelist.f	3;"	kind:namelist	line:3	language:Fortran	program:main
+namelist3	Test/namelist.f	3;"	kind:namelist	line:3	language:Fortran	program:main
+loaded_hgcommand	Test/3214129.vim	35;"	kind:variable	line:35	language:Vim
+HGCommand	Test/3214129.vim	44;"	kind:augroup	line:44	language:Vim
+s:HGCommandEditFileRunning	Test/3214129.vim	52;"	kind:variable	line:52	language:Vim
+HGResolveLink	Test/3214129.vim	63;"	kind:function	line:63	language:Vim
+HGChangeToCurrentFileDir	Test/3214129.vim	75;"	kind:function	line:75	language:Vim
+HGGetOption	Test/3214129.vim	89;"	kind:function	line:89	language:Vim
+HGEditFile	Test/3214129.vim	109;"	kind:function	line:109	language:Vim
+HGCreateCommandBuffer	Test/3214129.vim	152;"	kind:function	line:152	language:Vim
+HGBufferCheck	Test/3214129.vim	239;"	kind:function	line:239	language:Vim
+HGCurrentBufferCheck	Test/3214129.vim	258;"	kind:function	line:258	language:Vim
+HGToggleDeleteOnHide	Test/3214129.vim	265;"	kind:function	line:265	language:Vim
+HGDoCommand	Test/3214129.vim	277;"	kind:function	line:277	language:Vim
+HGGetStatusVars	Test/3214129.vim	316;"	kind:function	line:316	language:Vim
+HGSetupBuffer	Test/3214129.vim	378;"	kind:function	line:378	language:Vim
+HGMarkOrigBufferForSetup	Test/3214129.vim	427;"	kind:function	line:427	language:Vim
+HGOverrideOption	Test/3214129.vim	443;"	kind:function	line:443	language:Vim
+HGWipeoutCommandBuffers	Test/3214129.vim	454;"	kind:function	line:454	language:Vim
+HGInstallDocumentation	Test/3214129.vim	477;"	kind:function	line:477	language:Vim
+HGGetRevision	Test/3214129.vim	589;"	kind:function	line:589	language:Vim
+HGDisableBufferSetup	Test/3214129.vim	598;"	kind:function	line:598	language:Vim
+HGEnableBufferSetup	Test/3214129.vim	606;"	kind:function	line:606	language:Vim
+HGGetStatusLine	Test/3214129.vim	625;"	kind:function	line:625	language:Vim
+HGAdd	Test/3214129.vim	653;"	kind:function	line:653	language:Vim
+HGAnnotate	Test/3214129.vim	658;"	kind:function	line:658	language:Vim
+HGCommit	Test/3214129.vim	693;"	kind:function	line:693	language:Vim
+HGDiff	Test/3214129.vim	777;"	kind:function	line:777	language:Vim
+HGGotoOriginal	Test/3214129.vim	806;"	kind:function	line:806	language:Vim
+HGFinishCommit	Test/3214129.vim	831;"	kind:function	line:831	language:Vim
+HGLog	Test/3214129.vim	849;"	kind:function	line:849	language:Vim
+HGRevert	Test/3214129.vim	866;"	kind:function	line:866	language:Vim
+HGReview	Test/3214129.vim	871;"	kind:function	line:871	language:Vim
+HGStatus	Test/3214129.vim	897;"	kind:function	line:897	language:Vim
+HGUpdate	Test/3214129.vim	903;"	kind:function	line:903	language:Vim
+HGVimDiff	Test/3214129.vim	908;"	kind:function	line:908	language:Vim
+HGAdd	Test/3214129.vim	1019;"	kind:command	line:1019	language:Vim
+HGAnnotate	Test/3214129.vim	1020;"	kind:command	line:1020	language:Vim
+HGCommit	Test/3214129.vim	1021;"	kind:command	line:1021	language:Vim
+HGDiff	Test/3214129.vim	1022;"	kind:command	line:1022	language:Vim
+HGGotoOriginal	Test/3214129.vim	1023;"	kind:command	line:1023	language:Vim
+HGLog	Test/3214129.vim	1024;"	kind:command	line:1024	language:Vim
+HGRevert	Test/3214129.vim	1025;"	kind:command	line:1025	language:Vim
+HGReview	Test/3214129.vim	1026;"	kind:command	line:1026	language:Vim
+HGStatus	Test/3214129.vim	1027;"	kind:command	line:1027	language:Vim
+HGUpdate	Test/3214129.vim	1028;"	kind:command	line:1028	language:Vim
+HGVimDiff	Test/3214129.vim	1029;"	kind:command	line:1029	language:Vim
+HGDisableBufferSetup	Test/3214129.vim	1032;"	kind:command	line:1032	language:Vim
+HGEnableBufferSetup	Test/3214129.vim	1033;"	kind:command	line:1033	language:Vim
+HGReload	Test/3214129.vim	1036;"	kind:command	line:1036	language:Vim
+<Plug>HGAdd	Test/3214129.vim	1039;"	kind:map	line:1039	language:Vim
+<Plug>HGAnnotate	Test/3214129.vim	1040;"	kind:map	line:1040	language:Vim
+<Plug>HGCommit	Test/3214129.vim	1041;"	kind:map	line:1041	language:Vim
+<Plug>HGDiff	Test/3214129.vim	1042;"	kind:map	line:1042	language:Vim
+<Plug>HGGotoOriginal	Test/3214129.vim	1043;"	kind:map	line:1043	language:Vim
+<Plug>HGClearAndGotoOriginal	Test/3214129.vim	1044;"	kind:map	line:1044	language:Vim
+<Plug>HGLog	Test/3214129.vim	1045;"	kind:map	line:1045	language:Vim
+<Plug>HGRevert	Test/3214129.vim	1046;"	kind:map	line:1046	language:Vim
+<Plug>HGReview	Test/3214129.vim	1047;"	kind:map	line:1047	language:Vim
+<Plug>HGStatus	Test/3214129.vim	1048;"	kind:map	line:1048	language:Vim
+<Plug>HGUpdate	Test/3214129.vim	1049;"	kind:map	line:1049	language:Vim
+<Plug>HGVimDiff	Test/3214129.vim	1050;"	kind:map	line:1050	language:Vim
+<Plug>HGWatchers	Test/3214129.vim	1051;"	kind:map	line:1051	language:Vim
+<Plug>HGWatchAdd	Test/3214129.vim	1052;"	kind:map	line:1052	language:Vim
+<Plug>HGWatchOn	Test/3214129.vim	1053;"	kind:map	line:1053	language:Vim
+<Plug>HGWatchOff	Test/3214129.vim	1054;"	kind:map	line:1054	language:Vim
+<Plug>HGWatchRemove	Test/3214129.vim	1055;"	kind:map	line:1055	language:Vim
+<Leader>hga	Test/3214129.vim	1059;"	kind:map	line:1059	language:Vim
+<Leader>hgn	Test/3214129.vim	1062;"	kind:map	line:1062	language:Vim
+<Leader>hgG	Test/3214129.vim	1065;"	kind:map	line:1065	language:Vim
+<Leader>hgc	Test/3214129.vim	1068;"	kind:map	line:1068	language:Vim
+<Leader>hgd	Test/3214129.vim	1071;"	kind:map	line:1071	language:Vim
+<Leader>hgg	Test/3214129.vim	1074;"	kind:map	line:1074	language:Vim
+<Leader>hgl	Test/3214129.vim	1077;"	kind:map	line:1077	language:Vim
+<Leader>hgq	Test/3214129.vim	1080;"	kind:map	line:1080	language:Vim
+<Leader>hgr	Test/3214129.vim	1083;"	kind:map	line:1083	language:Vim
+<Leader>hgs	Test/3214129.vim	1086;"	kind:map	line:1086	language:Vim
+<Leader>hgu	Test/3214129.vim	1089;"	kind:map	line:1089	language:Vim
+<Leader>hgv	Test/3214129.vim	1092;"	kind:map	line:1092	language:Vim
+HGVimDiffRestore	Test/3214129.vim	1114;"	kind:function	line:1114	language:Vim
+HGVimDiffRestore	Test/3214129.vim	1173;"	kind:augroup	line:1173	language:Vim
+s:revision	Test/3214129.vim	1186;"	kind:variable	line:1186	language:Vim
+loaded_hgcommand	Test/3214129.vim	1197;"	kind:variable	line:1197	language:Vim
+before	Test/3214129.vim	1268;"	kind:map	line:1268	language:Vim
+commit	Test/3214129.vim	1297;"	kind:map	line:1297	language:Vim
+\add	Test/3214129.vim	1438;"	kind:map	line:1438	language:Vim
+to	Test/3214129.vim	1573;"	kind:map	line:1573	language:Vim
+HGCommand	Test/3214129.vim	1575;"	kind:augroup	line:1575	language:Vim
+buffer	Test/3214129.vim	1586;"	kind:command	line:1586	language:Vim
+ts_resortTable	Test/no_terminator.js	1;"	kind:function	line:1	language:JavaScript
+getParent	Test/no_terminator.js	8;"	kind:function	line:8	language:JavaScript
+ts_sort_currency	Test/no_terminator.js	15;"	kind:function	line:15	language:JavaScript
+checkForUpdate	Test/no_terminator.js	20;"	kind:function	line:20	language:JavaScript
+checkForUpdate2	Test/no_terminator.js	26;"	kind:function	line:26	language:JavaScript
+s:global_command	Test/3548393.vim	185;"	kind:variable	line:185	language:Vim
+s:global_command	Test/3548393.vim	187;"	kind:variable	line:187	language:Vim
+g:Gtags_OpenQuickfixWindow	Test/3548393.vim	194;"	kind:variable	line:194	language:Vim
+g:Gtags_VerticalWindow	Test/3548393.vim	198;"	kind:variable	line:198	language:Vim
+Gtags_Auto_Map	Test/3548393.vim	202;"	kind:variable	line:202	language:Vim
+Gtags_Auto_Update	Test/3548393.vim	206;"	kind:variable	line:206	language:Vim
+g:Gtags_Result	Test/3548393.vim	219;"	kind:variable	line:219	language:Vim
+g:Gtags_Efm	Test/3548393.vim	220;"	kind:variable	line:220	language:Vim
+g:Gtags_Result	Test/3548393.vim	223;"	kind:variable	line:223	language:Vim
+g:Gtags_Efm	Test/3548393.vim	226;"	kind:variable	line:226	language:Vim
+g:Gtags_Shell_Quote_Char	Test/3548393.vim	232;"	kind:variable	line:232	language:Vim
+g:Gtags_Shell_Quote_Char	Test/3548393.vim	234;"	kind:variable	line:234	language:Vim
+g:Gtags_Single_Quote_Char	Test/3548393.vim	239;"	kind:variable	line:239	language:Vim
+g:Gtags_Double_Quote_Char	Test/3548393.vim	240;"	kind:variable	line:240	language:Vim
+s:sq	Test/3548393.vim	242;"	kind:variable	line:242	language:Vim
+s:dq	Test/3548393.vim	243;"	kind:variable	line:243	language:Vim
+g:Gtags_Single_Quote_Char	Test/3548393.vim	244;"	kind:variable	line:244	language:Vim
+g:Gtags_Double_Quote_Char	Test/3548393.vim	245;"	kind:variable	line:245	language:Vim
+Error	Test/3548393.vim	252;"	kind:function	line:252	language:Vim
+Extract	Test/3548393.vim	260;"	kind:function	line:260	language:Vim
+TrimOption	Test/3548393.vim	323;"	kind:function	line:323	language:Vim
+ExecLoad	Test/3548393.vim	341;"	kind:function	line:341	language:Vim
+RunGlobal	Test/3548393.vim	409;"	kind:function	line:409	language:Vim
+GtagsCursor	Test/3548393.vim	438;"	kind:function	line:438	language:Vim
+Gozilla	Test/3548393.vim	448;"	kind:function	line:448	language:Vim
+GtagsAutoUpdate	Test/3548393.vim	456;"	kind:function	line:456	language:Vim
+GtagsCandidate	Test/3548393.vim	463;"	kind:function	line:463	language:Vim
+GtagsCandidateCore	Test/3548393.vim	468;"	kind:function	line:468	language:Vim
+Gtags	Test/3548393.vim	488;"	kind:command	line:488	language:Vim
+GtagsCursor	Test/3548393.vim	489;"	kind:command	line:489	language:Vim
+Gozilla	Test/3548393.vim	490;"	kind:command	line:490	language:Vim
+GtagsUpdate	Test/3548393.vim	491;"	kind:command	line:491	language:Vim
+loaded_gtags	Test/3548393.vim	507;"	kind:variable	line:507	language:Vim
+employees	Test/bug1570779.sql	8;"	kind:table	line:8	language:SQL
+employees.id	Test/bug1570779.sql	8;"	kind:field	line:8	language:SQL
+employees.name	Test/bug1570779.sql	9;"	kind:field	line:9	language:SQL
+employees.address	Test/bug1570779.sql	10;"	kind:field	line:10	language:SQL
+MyCollections	Test/events.cs	3;"	kind:namespace	line:3	language:C#
+ChangedEventHandler	Test/events.cs	8;"	kind:method	line:8	language:C#	namespace:MyCollections	access:public	signature:(object sender, EventArgs e)
+ListWithChangedEvent	Test/events.cs	12;"	kind:class	line:12	language:C#	namespace:MyCollections	inherits:ArrayList	access:public
+Changed	Test/events.cs	16;"	kind:event	line:16	language:C#	class:MyCollections.ListWithChangedEvent	access:public
+OnChanged	Test/events.cs	19;"	kind:method	line:19	language:C#	class:MyCollections.ListWithChangedEvent	access:protected	implementation:virtual	signature:(EventArgs e)
+Add	Test/events.cs	27;"	kind:method	line:27	language:C#	class:MyCollections.ListWithChangedEvent	access:public	signature:(object value)
+Clear	Test/events.cs	34;"	kind:method	line:34	language:C#	class:MyCollections.ListWithChangedEvent	access:public	signature:()
+TestEvents	Test/events.cs	51;"	kind:namespace	line:51	language:C#
+EventListener	Test/events.cs	55;"	kind:class	line:55	language:C#	namespace:TestEvents
+List	Test/events.cs	57;"	kind:field	line:57	language:C#	class:TestEvents.EventListener	file:	access:private
+EventListener	Test/events.cs	59;"	kind:method	line:59	language:C#	class:TestEvents.EventListener	access:public	signature:(ListWithChangedEvent list)
+ListChanged	Test/events.cs	67;"	kind:method	line:67	language:C#	class:TestEvents.EventListener	file:	access:private	signature:(object sender, EventArgs e)
+Detach	Test/events.cs	72;"	kind:method	line:72	language:C#	class:TestEvents.EventListener	access:public	signature:()
+Test	Test/events.cs	80;"	kind:class	line:80	language:C#	namespace:TestEvents
+Main	Test/events.cs	83;"	kind:method	line:83	language:C#	class:TestEvents.Test	access:public	signature:()
+MyCollections	Test/events.cs	101;"	kind:namespace	line:101	language:C#
+ListWithChangedEvent	Test/events.cs	107;"	kind:class	line:107	language:C#	namespace:MyCollections	inherits:ArrayList	access:public
+Changed	Test/events.cs	111;"	kind:event	line:111	language:C#	class:MyCollections.ListWithChangedEvent	access:public
+OnChanged	Test/events.cs	114;"	kind:method	line:114	language:C#	class:MyCollections.ListWithChangedEvent	access:protected	implementation:virtual	signature:(EventArgs e)
+Add	Test/events.cs	122;"	kind:method	line:122	language:C#	class:MyCollections.ListWithChangedEvent	access:public	signature:(object value)
+Clear	Test/events.cs	129;"	kind:method	line:129	language:C#	class:MyCollections.ListWithChangedEvent	access:public	signature:()
+TestEvents	Test/events.cs	146;"	kind:namespace	line:146	language:C#
+EventListener	Test/events.cs	150;"	kind:class	line:150	language:C#	namespace:TestEvents
+List	Test/events.cs	152;"	kind:field	line:152	language:C#	class:TestEvents.EventListener	file:	access:private
+EventListener	Test/events.cs	154;"	kind:method	line:154	language:C#	class:TestEvents.EventListener	access:public	signature:(ListWithChangedEvent list)
+ListChanged	Test/events.cs	162;"	kind:method	line:162	language:C#	class:TestEvents.EventListener	file:	access:private	signature:(object sender, EventArgs e)
+Detach	Test/events.cs	167;"	kind:method	line:167	language:C#	class:TestEvents.EventListener	access:public	signature:()
+Test	Test/events.cs	175;"	kind:class	line:175	language:C#	namespace:TestEvents
+Main	Test/events.cs	178;"	kind:method	line:178	language:C#	class:TestEvents.Test	access:public	signature:()
+onsubmit	Test/bug2888482.js	8;"	kind:function	line:8	language:JavaScript	function:editFormEl
+scrollEditBox	Test/bug2888482.js	1;"	kind:function	line:1	language:JavaScript
+numerical_libraries	Test/numlib.f90	2;"	kind:module	line:2	language:Fortran
+MyClass1	Test/keyword_public.cs	4;"	kind:class	line:4	language:C#
+x	Test/keyword_public.cs	6;"	kind:field	line:6	language:C#	class:MyClass1	access:public
+y	Test/keyword_public.cs	7;"	kind:field	line:7	language:C#	class:MyClass1	access:public
+MyClass2	Test/keyword_public.cs	10;"	kind:class	line:10	language:C#
+Main	Test/keyword_public.cs	12;"	kind:method	line:12	language:C#	class:MyClass2	access:public	signature:()
+test	Test/bug842077.pl	27;"	kind:subroutine	line:27	language:Perl
+func2	Test/bug1086609.c	31;"	kind:function	line:31	language:C	signature:(int a)
+myProgram	Test/jbrown.vr	7;"	kind:program	line:7	language:Vera
+Transaction	Test/jbrown.vr	20;"	kind:class	line:20	language:Vera
+address	Test/jbrown.vr	22;"	kind:member	line:22	language:Vera	class:Transaction	file:	access:private
+data	Test/jbrown.vr	23;"	kind:member	line:23	language:Vera	class:Transaction	file:	access:private
+new	Test/jbrown.vr	32;"	kind:task	line:32	language:Vera	class:Transaction	file:	access:private
+writeBus	Test/jbrown.vr	38;"	kind:task	line:38	language:Vera	class:Transaction	file:	access:private
+foobar	Test/bug670433.f90	23;"	kind:module	line:23	language:Fortran
+foo	Test/bug670433.f90	27;"	kind:function	line:27	language:Fortran	module:foobar
+f	Test/bug670433.f90	31;"	kind:function	line:31	language:Fortran	function:foo
+bar	Test/bug670433.f90	37;"	kind:subroutine	line:37	language:Fortran	module:foobar
+a	Test/1880687.js	41;"	kind:function	line:41	language:JavaScript
+b	Test/1880687.js	48;"	kind:function	line:48	language:JavaScript
+c	Test/1880687.js	52;"	kind:function	line:52	language:JavaScript
+d	Test/1880687.js	57;"	kind:function	line:57	language:JavaScript
+e	Test/1880687.js	61;"	kind:function	line:61	language:JavaScript
+baz	Test/1880687.js	72;"	kind:function	line:72	language:JavaScript	function:f
+f	Test/1880687.js	66;"	kind:function	line:66	language:JavaScript
+g	Test/1880687.js	76;"	kind:function	line:76	language:JavaScript
+h	Test/1880687.js	82;"	kind:function	line:82	language:JavaScript
+i	Test/1880687.js	86;"	kind:function	line:86	language:JavaScript
+j	Test/1880687.js	92;"	kind:function	line:92	language:JavaScript
+k	Test/1880687.js	96;"	kind:function	line:96	language:JavaScript
+l	Test/1880687.js	104;"	kind:function	line:104	language:JavaScript
+m	Test/1880687.js	108;"	kind:function	line:108	language:JavaScript
+n	Test/1880687.js	117;"	kind:function	line:117	language:JavaScript
+o	Test/1880687.js	123;"	kind:function	line:123	language:JavaScript
+p	Test/1880687.js	130;"	kind:function	line:130	language:JavaScript
+q	Test/1880687.js	138;"	kind:function	line:138	language:JavaScript
+r	Test/1880687.js	142;"	kind:function	line:142	language:JavaScript
+s	Test/1880687.js	148;"	kind:function	line:148	language:JavaScript
+t	Test/1880687.js	152;"	kind:function	line:152	language:JavaScript
+u	Test/1880687.js	158;"	kind:function	line:158	language:JavaScript
+v	Test/1880687.js	164;"	kind:function	line:164	language:JavaScript
+w_sub1	Test/1880687.js	171;"	kind:function	line:171	language:JavaScript	function:w
+w_sub2	Test/1880687.js	177;"	kind:function	line:177	language:JavaScript	function:w
+w	Test/1880687.js	170;"	kind:function	line:170	language:JavaScript
+MyClass_sub1	Test/1880687.js	182;"	kind:method	line:182	language:JavaScript	class:MyClass
+MyClass_sub2	Test/1880687.js	188;"	kind:method	line:188	language:JavaScript	class:MyClass
+MyClass	Test/1880687.js	181;"	kind:class	line:181	language:JavaScript
+p_test	Test/3184782.sql	1;"	kind:package	line:1	language:SQL
+p_test.do_this_stuff	Test/3184782.sql	3;"	kind:procedure	line:3	language:SQL
+p_test.process_this	Test/3184782.sql	20;"	kind:procedure	line:20	language:SQL
+p_test.myfn1	Test/3184782.sql	27;"	kind:procedure	line:27	language:SQL
+p_test.myfn2	Test/3184782.sql	34;"	kind:procedure	line:34	language:SQL
+foo	Test/bug852368.cpp	25;"	kind:prototype	line:25	language:C++	file:	signature:(std::vector<float> &)
+FEC010	Test/lanus.for	35;"	kind:variable	line:35	language:Fortran
+URE010	Test/lanus.for	36;"	kind:variable	line:36	language:Fortran
+REM010	Test/lanus.for	37;"	kind:variable	line:37	language:Fortran
+FAC010	Test/lanus.for	38;"	kind:variable	line:38	language:Fortran
+PER010	Test/lanus.for	40;"	kind:variable	line:40	language:Fortran
+lob_table	Test/readlob.sql	12;"	kind:table	line:12	language:SQL
+lob_table.id	Test/readlob.sql	12;"	kind:field	line:12	language:SQL
+lob_table.b_lob	Test/readlob.sql	13;"	kind:field	line:13	language:SQL
+lob_table.c_lob	Test/readlob.sql	14;"	kind:field	line:14	language:SQL
+lob_table.b_file	Test/readlob.sql	15;"	kind:field	line:15	language:SQL
+clob_locator	Test/readlob.sql	21;"	kind:variable	line:21	language:SQL
+charbuf	Test/readlob.sql	22;"	kind:variable	line:22	language:SQL
+read_offset	Test/readlob.sql	23;"	kind:variable	line:23	language:SQL
+read_amount	Test/readlob.sql	24;"	kind:variable	line:24	language:SQL
+TemplClass	Test/bug872494.cpp	29;"	kind:class	line:29	language:C++	file:
+i	Test/bug872494.cpp	29;"	kind:member	line:29	language:C++	class:TemplClass	file:	access:private
+TemplClass	Test/bug872494.cpp	31;"	kind:class	line:31	language:C++	file:
+i	Test/bug872494.cpp	31;"	kind:member	line:31	language:C++	class:TemplClass	file:	access:private
+FooClass2	Test/bug872494.cpp	33;"	kind:class	line:33	language:C++	file:
+coma	Test/bug726875.f90	19;"	kind:common	line:19	language:Fortran
+comb	Test/bug726875.f90	22;"	kind:common	line:22	language:Fortran
+comc	Test/bug726875.f90	24;"	kind:common	line:24	language:Fortran
+e	Test/enum.java	1;"	kind:enum	line:1	language:Java
+A	Test/enum.java	2;"	kind:enum constant	line:2	language:Java	enum:e	file:	access:public
+B	Test/enum.java	3;"	kind:enum constant	line:3	language:Java	enum:e	file:	access:public
+C	Test/enum.java	4;"	kind:enum constant	line:4	language:Java	enum:e	file:	access:public
+D	Test/enum.java	5;"	kind:enum constant	line:5	language:Java	enum:e	file:	access:public
+E	Test/enum.java	6;"	kind:enum constant	line:6	language:Java	enum:e	file:	access:public
+F	Test/enum.java	7;"	kind:enum constant	line:7	language:Java	enum:e	file:	access:public
+string	Test/enum.java	10;"	kind:field	line:10	language:Java	class:e	access:public
+shape	Test/enum.java	11;"	kind:field	line:11	language:Java	class:e	access:public
+twoKeywordsInARow	Test/enum.java	12;"	kind:field	line:12	language:Java	class:e	access:public
+getString	Test/enum.java	14;"	kind:method	line:14	language:Java	class:e	access:public	signature:()
+getShape	Test/enum.java	17;"	kind:method	line:17	language:Java	class:e	access:public	signature:()
+MyDllimportClass	Test/attributes.cs	1;"	kind:class	line:1	language:C#
+TraceMethod	Test/attributes.cs	7;"	kind:method	line:7	language:C#	signature:()
+Author	Test/attributes.cs	11;"	kind:class	line:11	language:C#	inherits:Attribute
+Author	Test/attributes.cs	13;"	kind:method	line:13	language:C#	class:Author	access:public	signature:(string name)
+version	Test/attributes.cs	14;"	kind:field	line:14	language:C#	class:Author	access:public
+name	Test/attributes.cs	15;"	kind:field	line:15	language:C#	class:Author	file:	access:private
+Author	Test/attributes.cs	20;"	kind:class	line:20	language:C#	inherits:Attribute
+funcon	Test/initialization.f90	2;"	kind:module	line:2	language:Fortran
+imat	Test/initialization.f90	4;"	kind:variable	line:4	language:Fortran	module:funcon
+imat6	Test/initialization.f90	8;"	kind:variable	line:8	language:Fortran	module:funcon
+HEADER_TEMPLATE	Test/bug699171.py	4;"	kind:variable	line:4	language:Python
+Quit	Test/bug699171.py	8;"	kind:function	line:8	language:Python	access:public	signature:(msg, exitcode=0)
+x	Test/bug1491666.c	3;"	kind:member	line:3	language:C	struct:__anon9	file:	access:public
+y	Test/bug1491666.c	6;"	kind:member	line:6	language:C	struct:__anon9	file:	access:public
+my_struct	Test/bug1491666.c	7;"	kind:typedef	line:7	language:C	typeref:struct:__anon9	file:
+main	Test/bug1491666.c	9;"	kind:function	line:9	language:C	signature:(void)
+var1	Test/bug1491666.c	10;"	kind:local	line:10	language:C
+var2	Test/bug1491666.c	12;"	kind:local	line:12	language:C
+MyClass	Test/keyword_protected.cs	3;"	kind:class	line:3	language:C#
+x	Test/keyword_protected.cs	5;"	kind:field	line:5	language:C#	class:MyClass	access:protected
+y	Test/keyword_protected.cs	6;"	kind:field	line:6	language:C#	class:MyClass	access:protected
+MyDerivedC	Test/keyword_protected.cs	9;"	kind:class	line:9	language:C#	inherits:MyClass
+Main	Test/keyword_protected.cs	11;"	kind:method	line:11	language:C#	class:MyDerivedC	access:public	signature:()
+A1	Test/bug556645.c	27;"	kind:macro	line:27	language:C	file:
