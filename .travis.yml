@@ -1,7 +1,8 @@
 language: c
 compiler:
-  - clang
   - gcc
+before_install:
+  - sudo pip install cpp-coveralls --use-mirrors
 script:
   - autoheader
   - autoconf
@@ -9,3 +10,7 @@ script:
   - make
   - cp ./dctags ctags.ref
   - make test CTAGS_TEST=./dctags
+  - make ctags.cov
+  - make test CTAGS_TEST=./ctags.cov
+after_success:
+  - coveralls --exclude Test
